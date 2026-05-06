@@ -5,7 +5,8 @@
 
 ## 如何套用?
 將zh-TW資料夾下載下來，並放到你的遊戲路徑<br>
-例如：`C:\Users\你的使用者名稱\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language`<br>
+例如：<br>
+`C:\Users\你的使用者名稱\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language`<br>
 即可看到遊戲已成功被翻譯
 
 ## 常見問題

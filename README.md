@@ -9,7 +9,7 @@
 `C:\Users\你的使用者名稱\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language`<br>
 即可看到遊戲已成功被翻譯<br>
 
-請記得登入Guthub以及開啟通知以便追蹤更新進度
+請記得登入Github以及開啟通知以便追蹤更新進度
 
 ## 常見問題
 Q：有些翻譯沒有被翻到<br>

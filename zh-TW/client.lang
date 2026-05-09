@@ -381,8 +381,8 @@ assetEditor.deletePackModal.confirmButton = 刪除資源包
 
 assetEditor.newAssetButton.readOnlyPackTooltip = 您無法建立新資源，因為所選的資源包唯讀。
 # === auth ===
-auth.sessionExpired.title = 工作階段已過期
-auth.sessionExpired.message = 無法重新整理您的工作階段。您已切換至離線模式。\n\n您可以繼續遊玩，但在重新啟動遊戲之前，您將無法加入伺服器或建立新世界。
+auth.sessionExpired.title = 登入階段已過期
+auth.sessionExpired.message = 無法重新整理您的登入階段。您已切換至離線模式。\n\n您可以繼續遊玩，但在重新啟動遊戲之前，您將無法加入伺服器或建立新世界。
 # === bench ===
 bench.Furniture_Bench = 家具工作台
 bench.Builders = 建築師工作台
@@ -1566,7 +1566,7 @@ general.worldLoad.loadingAsset = 正在載入資源 {assetName}
 general.disconnect.accountAlreadyConnecting = 此帳號的連線已在進行中
 general.disconnect.alreadyLoggedIn = 您已經登入該帳號！
 general.disconnect.authError = 驗證錯誤
-general.disconnect.authGrantFailed = 無法從工作階段服務取得授權
+general.disconnect.authGrantFailed = 無法從登入階段服務取得授權
 general.disconnect.banned.permanent = 您已被永久封鎖！
 general.disconnect.banned.permanent.withReason = 您已被永久封鎖！原因：{reason}
 general.disconnect.banned.timed = 您已被暫時封鎖 {days}天 {hours}小時 {mins}分鐘！
@@ -1647,7 +1647,7 @@ hud.networkQuality.packetLoss.poor = 高封包遺失 (1-3%) - 某些動作或更
 hud.networkQuality.packetLoss.bad = 極高封包遺失 (>=3%) - 可能會發生嚴重的不同步或斷線。
 
 hud.networkQuality.worldSaving = 正在儲存世界
-hud.networkQuality.offlineMode = 離線模式 - 您的工作階段已過期。請重新啟動遊戲以返回線上模式。
+hud.networkQuality.offlineMode = 離線模式 - 您的登入階段已過期。請重新啟動遊戲以返回線上模式。
 
 hud.sleep.awaiting = {asleep}/{total} 名玩家已入睡...
 hud.sleep.waitingOn = 正在等待 {who}

@@ -1,0 +1,3242 @@
+# === assetEditor ===
+assetEditor.launching = 正在啟動資源編輯器
+assetEditor.mainMenu.connection.connecting = 正在連線至伺服器...
+assetEditor.mainMenu.connection.authenticating = 正在驗證...
+assetEditor.mainMenu.title = 開啟編輯器
+assetEditor.mainMenu.cosmeticsEditor = 外觀
+assetEditor.mainMenu.servers = 伺服器
+assetEditor.mainMenu.disconnectionContainer.title = 已從伺服器中斷連線！
+assetEditor.mainMenu.disconnectionContainer.reconnect = 重新連線
+assetEditor.mainMenu.connection.error.failedAuthentication = 無法與伺服器進行驗證
+assetEditor.mainMenu.connection.error.failedToEstablishConnection = 無法建立與伺服器的連線
+assetEditor.mainMenu.settingsButton = 設定
+nodeEditor.launching = 正在啟動節點編輯器
+
+assetEditor.settings.title = 設定
+
+assetEditor.settings.setting.diagnosticMode = 診斷模式
+assetEditor.settings.setting.useSystemLanguage = 使用系統語言
+assetEditor.settings.setting.language = 語言
+assetEditor.settings.setting.fullscreen = 全螢幕
+assetEditor.settings.setting.exportPath = 匯出資料夾
+assetEditor.settings.setting.exportPath.dialogTitle = 選擇匯出資料夾
+assetEditor.settings.setting.exportPath.dialogConfirmationButton = 選擇為匯出資料夾
+
+assetEditor.mainMenu.errors.failedToSaveServerList = 無法儲存伺服器清單
+
+assetEditor.mainMenu.serverModal.titleAdd = 新增伺服器
+assetEditor.mainMenu.serverModal.titleEdit = 編輯伺服器
+assetEditor.mainMenu.serverModal.titleRemove = 移除伺服器
+assetEditor.mainMenu.serverModal.errors.enterName = 請輸入名稱
+assetEditor.mainMenu.serverModal.errors.enterHostname = 請輸入主機名稱
+assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = 這個名稱已被使用。
+assetEditor.mainMenu.serverModal.errors.enterPort = 請輸入通訊埠
+assetEditor.mainMenu.serverModal.errors.invalidPort = 無效的通訊埠
+
+assetEditor.mainMenu.removeServerModal.title = 要從清單中移除伺服器 "{serverName}" 嗎？
+
+assetEditor.ipcServerConfirmation.title = 連線至伺服器？
+assetEditor.ipcServerConfirmation.description = 您想要從此伺服器中斷連線並連線至 "{serverName}" 嗎？
+
+assetEditor.assetBrowser.searchAssetsPlaceholder = 搜尋資源
+assetEditor.assetBrowser.findAsset = 尋找資源
+assetEditor.assetBrowser.delete = 刪除
+assetEditor.assetBrowser.rename = 重新命名
+assetEditor.assetBrowser.duplicate = 複製
+assetEditor.assetBrowser.findInFolder = 在資料夾中尋找
+assetEditor.assetBrowser.copyPath = 複製路徑
+assetEditor.assetBrowser.showInFinder = 在 Finder 中顯示
+assetEditor.assetBrowser.showInExplorer = 在檔案總管中顯示
+assetEditor.assetBrowser.createInFolder = 在資料夾中建立 {assetType}
+assetEditor.assetBrowser.createAssetInFolder = 在資料夾中建立資源
+assetEditor.assetBrowser.createFolder = 建立資料夾
+assetEditor.assetBrowser.create = 建立 {assetType}
+assetEditor.assetBrowser.tabs.cosmetics = 外觀
+assetEditor.assetBrowser.tabs.server = 伺服器
+assetEditor.assetBrowser.tabs.common = 通用
+assetEditor.assetBrowser.tooltips.collapseAll = 收合所有目錄
+assetEditor.assetBrowser.tooltips.createNewAsset = 建立新資源
+assetEditor.assetBrowser.tooltips.filter = 篩選
+assetEditor.assetBrowser.export = 匯出資源
+assetEditor.assetBrowser.exportAndDiscard = 匯出資源並捨棄
+assetEditor.assetBrowser.discard = 捨棄變更
+
+assetEditor.changeConfirmationModal.title = 需要確認
+assetEditor.changeConfirmationModal.text = 變更此數值將會移除部分現有屬性。
+
+assetEditor.assetReferenceOrInlineEditor.useExisting = 參照現有項目
+assetEditor.assetReferenceOrInlineEditor.createEmbedded = 建立嵌入項目
+assetEditor.assetReferenceOrInlineEditor.reference = 參照至 {assetType}
+
+assetEditor.assetDropdownEditor.openAssetTooltip = 在新分籤開啟資源
+assetEditor.assetDropdownEditor.createAssetTooltip = 建立並指派新的 {assetType}
+
+assetEditor.listEditor.empty = 此清單是空的
+assetEditor.listEditor.header = {count} 個清單項目
+assetEditor.mapEditor.empty = 此對應表是空的
+assetEditor.mapEditor.header = {count} 個對應表項目
+
+assetEditor.jsonObjectEditor.json = JSON
+assetEditor.jsonObjectEditor.jsonParseError = JSON：解析失敗
+
+assetEditor.changelogModal.newVersion = 全新
+assetEditor.changelogModal.title = 最新消息
+
+assetEditor.backends.local = 編輯中：本機資源
+assetEditor.backends.server = 編輯中：伺服器資源
+assetEditor.backends.tooltip = 點擊以開啟匯出目錄
+
+assetEditor.mode.editor = 編輯器
+assetEditor.mode.source = 原始碼
+
+assetEditor.editor.searchProperties = 搜尋屬性
+
+assetEditor.property.title = 屬性 "{name}"
+assetEditor.property.remove = 移除
+assetEditor.property.renameKey = 重新命名鍵值
+assetEditor.property.moveDown = 往下移
+assetEditor.property.moveUp = 往上移
+assetEditor.property.createEmbeddedAsset = 轉換為嵌入資源
+assetEditor.property.createDedicatedAsset = 轉換為獨立資源
+assetEditor.property.collapseAllEntries = 收合所有項目
+assetEditor.property.uncollapseAllEntries = 展開所有項目
+assetEditor.property.openAssetInNewTab = 在新分籤開啟資源
+assetEditor.property.copyAndReferenceAsset = 複製並參照資源
+assetEditor.property.createAndReferenceAsset = 建立並參照資源
+assetEditor.property.insertSiblingBefore = 在上方插入同層項目
+assetEditor.property.insertSiblingAfter = 在下方插入同層項目
+assetEditor.property.list = 清單
+assetEditor.property.map = 對應表
+assetEditor.property.copyValue = 複製數值
+assetEditor.property.pasteValue = 貼上數值
+assetEditor.property.map.insertLabel = 插入
+assetEditor.property.errors.keyAlreadyExists = 此鍵值已被使用
+
+assetEditor.property.tooltip.arrayItem = 索引：{index}
+assetEditor.property.tooltip.mapItem = 鍵值：{key}
+assetEditor.property.tooltip.inheritedProperty = 繼承自 {asset} => {value}
+assetEditor.property.tooltip.listEntries = {count} 個清單項目
+assetEditor.property.tooltip.objectEntries = {count} 個物件項目
+
+assetEditor.configEditor.button.collapseAll = 全部收合
+assetEditor.configEditor.button.expandAll = 全部展開
+assetEditor.configEditor.button.showDefinedProperties = 切換：僅顯示已定義的屬性
+assetEditor.configEditor.button.quickInspect = 快速檢查
+
+assetEditor.sourceEditor.apply = 套用變更
+assetEditor.sourceEditor.discard = 捨棄變更
+assetEditor.sourceEditor.unsavedChangesModal.title = 未儲存的變更
+assetEditor.sourceEditor.unsavedChangesModal.text = 程式碼編輯器中有未儲存的變更。您確定要繼續嗎？
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = 捨棄變更
+
+assetEditor.assetSelector.findAsset = 尋找資源...
+
+assetEditor.fileSelector.placeholder = 選擇一個檔案
+assetEditor.fileSelector.filesSelected = 已選擇 {count} 個檔案
+assetEditor.fileSelector.findFile = 尋找檔案...
+assetEditor.fileSelector.createDirectory = 建立資料夾
+assetEditor.fileSelector.newDirectoryNamePlaceholder = 新資料夾名稱...
+
+assetEditor.timelineEditor.insertAt = 在 {hour} 時插入數值
+assetEditor.timelineEditor.updateAt = 小時：{hour}\n\
+\n\
+右鍵點擊以移除
+
+assetEditor.modal.applyChangesLocally = 同時將變更套用至本機
+
+assetEditor.deleteAssetModal.title = 刪除資源？
+assetEditor.deleteAssetModal.text = 您確定要刪除 "{assetId}" 嗎？
+assetEditor.deleteAssetModal.confirmButton = 刪除
+
+assetEditor.deleteDirectoryModal.title = 刪除資料夾？
+assetEditor.deleteDirectoryModal.text = 您確定要刪除 "{path}" 嗎？
+assetEditor.deleteDirectoryModal.confirmButton = 刪除
+
+assetEditor.keyModal.renameTitle = 重新命名鍵值
+assetEditor.keyModal.insertTitle = 插入鍵值
+assetEditor.keyModal.renameButton = 重新命名
+assetEditor.keyModal.insertButton = 插入
+assetEditor.keyModal.errors.existingKey = 使用此鍵值的項目已存在！
+assetEditor.keyModal.errors.invalidProperty = 無效的屬性
+assetEditor.keyModal.errors.fieldEmpty = 請輸入新的鍵值！
+
+assetEditor.iconExporterModal.export = 儲存圖示
+assetEditor.iconExporterModal.reset = 恢復預設值
+assetEditor.iconExporterModal.previewZoom = 預覽縮放
+assetEditor.iconExporterModal.rotationX = X 軸旋轉
+assetEditor.iconExporterModal.rotationY = Y 軸旋轉
+assetEditor.iconExporterModal.rotationZ = Z 軸旋轉
+assetEditor.iconExporterModal.translationX = X 軸位置
+assetEditor.iconExporterModal.translationY = Y 軸位置
+assetEditor.iconExporterModal.scale = 縮放比例
+assetEditor.iconExporterModal.errors.invalidConfig = 此項目未正確設定，無法渲染預覽
+
+assetEditor.renameModal.titleAsset = 重新命名資源
+assetEditor.renameModal.titleFolder = 重新命名資料夾
+assetEditor.renameModal.renameButton = 重新命名
+assetEditor.renameModal.newId = 新 ID
+assetEditor.renameModal.newName = 新名稱
+assetEditor.renameModal.errors.invalidId = 請輸入有效的 ID。ID 只能包含字母與數字，以及用於標記特定 ID 類別的底線 _。
+assetEditor.renameModal.warning = 警告：重新命名資源不會改變其他 JSON 檔案中對其的參照。此動作可能會破壞其他資源。
+
+assetEditor.idValidation.empty = ID 欄位不能為空
+assetEditor.idValidation.minLength = ID 至少需要包含 {count} 個字元
+assetEditor.idValidation.maxLength = ID 不能超過 {count} 個字元
+assetEditor.idValidation.onlyLettersAndDigits = ID 只能包含字母和數字
+assetEditor.idValidation.firstUppercase = ID 的第一個字母或底線後的字母必須是大寫
+assetEditor.idValidation.firstLetter = ID 的第一個字元或底線後的字元必須是字母
+assetEditor.idValidation.underscoreEmpty = ID 不能以底線開頭或結尾，且底線後不能緊接另一個底線
+
+assetEditor.createAssetModal.title = 建立新的 {assetType} 資源
+assetEditor.createAssetModal.assetPack = 資源包
+assetEditor.createAssetModal.assetType = 資源類型
+assetEditor.createAssetModal.folder = 資料夾
+assetEditor.createAssetModal.assetId = 唯一資源 ID
+assetEditor.createAssetModal.assetIdHelp = 允許字元：A-Z 0-9 _\n範例：Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+assetEditor.createAssetModal.copyAsset = 複製資源
+assetEditor.createAssetModal.tab.properties = 屬性
+assetEditor.createAssetModal.tab.source = 原始碼
+assetEditor.createAssetModal.createButton = 建立
+assetEditor.createAssetModal.assetPackDropdown.noEntries = 請先建立新的資源包
+assetEditor.createAssetModal.errors.existingId = 使用此 ID 的資源已存在！
+assetEditor.createAssetModal.errors.invalidAssetType = 無效的資源類型
+assetEditor.createAssetModal.errors.noAssetPackSelected = 必須選擇要在其中建立資源的資源包
+
+assetEditor.exportModal.title = 最近編輯的資源
+assetEditor.exportModal.deselectAllButton = 取消全選
+assetEditor.exportModal.selectAllButton = 全選
+assetEditor.exportModal.exportButton = 匯出所選項目
+assetEditor.exportModal.launcherAssetsWarning = 使用啟動器提供的資源時無法匯出資源！
+assetEditor.exportModal.discardChangesModal.title = 捨棄變更？
+assetEditor.exportModal.discardChangesModal.text = 捨棄 {assetId} ({assetType}) 的變更
+assetEditor.exportModal.discardChangesModal.confirmButton = 捨棄變更
+assetEditor.exportModal.discardChangesCheckBox = 匯出後捨棄伺服器上的變更
+assetEditor.exportModal.discardChangesCheckBoxDescription = 若啟用此選項，伺服器上將會重新從 resources 資料夾載入這些資源以恢復其原始狀態。當某些資源的作業已完成且準備好推送至儲存庫時非常有用，因為這些檔案將從此清單中移除。如果伺服器和用戶端共用同一個資源目錄 (例如單人遊戲)，那麼此選項僅會從上方清單中移除這些項目。
+assetEditor.exportModal.discardButtonTooltip = 捨棄變更
+assetEditor.exportModal.columns.file = 檔案
+assetEditor.exportModal.columns.lastChangeDate = 最後變更時間
+assetEditor.exportModal.columns.lastChangeUsername = 編輯者
+assetEditor.exportModal.tooltips.deleted = 資源已刪除
+assetEditor.exportModal.tooltips.new = 資源已建立
+assetEditor.exportModal.tooltips.renamed = 資源已從 {oldPath} 重新命名
+assetEditor.exportModal.tooltips.changed = 資源已變更
+
+assetEditor.filterModal.title = 依資源類型篩選
+assetEditor.filterModal.searchPlaceholder = 搜尋資源類型
+
+assetEditor.iconMassExportModal.title = 物品圖示大量匯出
+assetEditor.iconMassExportModal.startButton = 開始匯出
+assetEditor.iconMassExportModal.statusLabel = 狀態：
+assetEditor.iconMassExportModal.iconSize = 圖示尺寸
+assetEditor.iconMassExportModal.starting = 正在開始...
+assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - {failedCount} 失敗 - {skippedCount} 略過
+
+assetEditor.errors.invalidAssetsDirectory = 有效的資源目錄必須包含 Server 與 Common 資料夾
+assetEditor.errors.failedToFetchAsset = 無法擷取資源 "{path}"
+assetEditor.errors.failedToFetchParent = 擷取資源父項目時發生錯誤
+assetEditor.errors.recursiveParent = 無法載入資源，因為部分父項目之間互相參照 (循環依賴)
+assetEditor.errors.errorOccurredFetching = 擷取此資源時發生錯誤
+assetEditor.errors.assetNotFound = 此資源不存在
+assetEditor.errors.unknownAssetType = 未知的資源類型 "{assetType}"
+assetEditor.errors.fileFormatNotSupported = 不支援此檔案格式
+assetEditor.errors.invalidJson = 無效的 JSON
+assetEditor.errors.invalidAssetType = 無效的資源類型
+assetEditor.errors.missingId = 請輸入 ID
+assetEditor.errors.failedExportErrors = 無法匯出資源，因為部分資源包含驗證錯誤
+assetEditor.errors.failedToSetupAssetTypes = 無法設定資源類型
+assetEditor.errors.failedToLoadAssetFiles = 無法載入資源檔
+assetEditor.errors.failedToLoadCommonAssetFiles = 無法載入通用資源檔
+assetEditor.errors.failedToRenameAsset = 無法重新命名資源
+assetEditor.errors.failedToDeleteAsset = 無法刪除資源
+assetEditor.errors.failedToCreateAsset = 無法建立資源
+assetEditor.errors.assetTypeNotSetupForEditor = 此資源類型未設定為可從編輯器介面進行編輯
+assetEditor.errors.createDirectoryInvalidPath = 無法建立資料夾，因為它不在資源目錄內
+assetEditor.errors.createDirectoryExists = 無法建立資料夾，因為它已經存在
+assetEditor.errors.createDirectoryOther = 無法建立資料夾
+assetEditor.errors.renameDirectoryInvalidPath = 無法重新命名資料夾，因為它不在資源目錄內
+assetEditor.errors.renameDirectoryExists = 無法重新命名資料夾，因為同名資料夾已存在
+assetEditor.errors.renameDirectoryMissing = 無法重新命名資料夾，因為要重新命名的資料夾不存在
+assetEditor.errors.renameDirectoryOther = 無法重新命名資料夾
+assetEditor.errors.deleteDirectoryInvalidPath = 無法刪除資料夾，因為它不在資源目錄內
+assetEditor.errors.deleteDirectoryMissing = 無法刪除資料夾，因為該資料夾不存在
+assetEditor.errors.deleteDirectoryOther = 無法刪除資料夾
+assetEditor.errors.directoryInvalidCharacters = 資料夾名稱不能包含 {backslash} 或 {slash} 等字元
+assetEditor.errors.exportInProgress = 匯出作業仍在進行中
+assetEditor.errors.cannotRevealUnexportedAsset = 無法在檔案總管/Finder中顯示檔案，因為該檔案尚未匯出。
+assetEditor.errors.cannotPasteWrongType = 無法貼上數值：無效的類型
+
+assetEditor.messages.assetExport.success = {count} 個資源已儲存
+assetEditor.messages.assetExport.none = 沒有儲存任何資源
+assetEditor.messages.assetExport.errors = 無法儲存資源，因為部分資源包含錯誤
+assetEditor.messages.assetExport.failedSaving = 無法儲存資源
+assetEditor.messages.undoStackEmpty = 沒有可復原的操作
+assetEditor.messages.redoStackEmpty = 沒有可重做的操作
+assetEditor.messages.directoryDeleted = 資料夾已成功刪除
+assetEditor.messages.directoryCreated = 資料夾已成功建立
+
+assetEditor.unexportedAssetsModal.quitTitle = 退出用戶端？
+assetEditor.unexportedAssetsModal.continueTitle = 繼續？
+assetEditor.unexportedAssetsModal.text = 資源編輯器中有未匯出的變更。
+assetEditor.unexportedAssetsModal.quitButton = 仍要退出
+assetEditor.unexportedAssetsModal.continueButton = 仍要繼續
+
+assetEditor.diagnosticsTooltip.errors = 錯誤：
+assetEditor.diagnosticsTooltip.warnings = 警告：
+assetEditor.diagnosticsTooltip.hasChildErrors = 部分子屬性包含錯誤。
+assetEditor.diagnosticsTooltip.hasChildWarnings = 部分子屬性包含警告。
+
+assetEditor.configEditor.errors.failedToLoad = 編輯器載入失敗。請查看日誌以獲取更多詳細資訊
+assetEditor.configEditor.showAllProperties = 顯示所有屬性
+
+assetEditor.tabs.popup.close = 關閉
+assetEditor.tabs.popup.closeAll = 全部關閉
+assetEditor.tabs.popup.copyId = 複製 ID
+
+assetEditor.weatherDaytimeBar.togglePauseTime = 暫停/繼續時間
+assetEditor.weatherDaytimeBar.previousDay = 設為前一天
+assetEditor.weatherDaytimeBar.nextDay = 設為後一天
+assetEditor.weatherDaytimeBar.lockTimeAndWeather = 點擊以切換是否在離開資源編輯器後保持目前天氣和時間
+assetEditor.weatherDaytimeBar.currentDay = 第 {day, number} 天
+
+assetEditor.initializeButton.inactive = 初始化物件
+assetEditor.initializeButton.active = 移除物件
+
+assetEditor.fileSaveStatus.Saved = 變更已儲存
+assetEditor.fileSaveStatus.Saving = 正在儲存變更...
+assetEditor.fileSaveStatus.Unsaved = 未儲存的變更
+
+assetEditor.options.title = 選項
+assetEditor.options.disconnect = 從伺服器中斷連線
+assetEditor.options.exportItemIcons = 匯出物品圖示
+assetEditor.options.settings = 設定
+
+assetEditor.tabs.tooltip = {type} 資源\n\
+\n\
+資源包：{pack}
+
+assetEditor.packModal.title.edit = 編輯資源包
+assetEditor.packModal.title.add = 新增資源包
+assetEditor.packModal.readOnlyMessage = 此資源包唯讀，無法編輯。
+assetEditor.packModal.editModeNote = 變更資源包的名稱或群組需要重新啟動伺服器後才會生效。
+assetEditor.packModal.identifierChangeWarning = 警告：您正在變更資源包識別碼 (名稱或群組)。此變更將立即生效，但在執行時可能會導致非預期的行為。參照此資源包的資源可能會損壞，直到伺服器重新啟動。
+assetEditor.packModal.field.name = 名稱
+assetEditor.packModal.field.name.placeholder = 資源包名稱 (資源包的唯一識別碼)
+assetEditor.packModal.field.group = 群組
+assetEditor.packModal.field.group.placeholder = 資源包群組 (例如您的名字)
+assetEditor.packModal.field.version = 版本
+assetEditor.packModal.field.version.placeholder = 1.0.0 (語意化版本)
+assetEditor.packModal.field.serverVersion = 伺服器版本
+assetEditor.packModal.field.serverVersion.setCurrent = 目前版本
+assetEditor.packModal.field.website = 網站
+assetEditor.packModal.field.website.placeholder = 網站 URL (選填)
+assetEditor.packModal.field.description = 描述
+assetEditor.packModal.field.description.placeholder = 資源包描述 (選填)
+assetEditor.packModal.field.authors = 作者
+assetEditor.packModal.authors.add = + 新增
+assetEditor.packModal.authors.empty = 未新增作者
+assetEditor.packModal.authors.entry = 作者
+assetEditor.packModal.authors.name.placeholder = 名字
+assetEditor.packModal.authors.email.placeholder = 電子郵件 (選填)
+assetEditor.packModal.authors.url.placeholder = URL (選填)
+assetEditor.packModal.button.save = 儲存
+assetEditor.packModal.errors.nameRequired = 必須填寫資源包名稱
+assetEditor.packModal.errors.groupRequired = 必須填寫資源包群組
+assetEditor.packModal.errors.versionRequired = 必須填寫版本
+assetEditor.packModal.errors.versionInvalid = 版本格式無效。請使用語意化版本 (例如：1.0.0, 2.1.3-beta, 1.0.0+build123)
+assetEditor.packModal.errors.serverVersionRequired = 必須填寫伺服器版本
+assetEditor.packModal.field.targetDirectory = 目標目錄
+assetEditor.packModal.targetDirectory.worldMods = 世界 Mods 資料夾 ({path})
+assetEditor.packModal.targetDirectory.globalMods = 全域 Mods 資料夾 ({path})
+
+assetEditor.readOnlyAssetBar.message = 此資源為唯讀，因為其所屬的資源包為唯讀狀態，無法編輯。
+assetEditor.readOnlyAssetBar.overrideButton = 覆寫資源
+assetEditor.readOnlyAssetBar.tooltip = 無法編輯此資源，因為其所在的資源包為唯讀狀態。\n\
+您可以透過自訂資源包來覆寫資源。
+assetEditor.readOnlyAssetBar.tooltipAdditionalInfo = \n\n您可以透過在自訂資源包的 Common 資料夾中手動建立檔案來新增或覆寫資源。\n\
+請注意，您需要符合原始檔案的檔名與資料夾結構才能進行覆寫。
+
+assetEditor.inheritanceWarning.message = 警告：此資源具有父項目 (Parent)，且屬性編輯器尚不支援繼承功能。
+assetEditor.inheritanceWarning.tooltip = 此資源正在繼承其他資源的屬性 (定義在 "Parent" 屬性中)。\n\n\
+屬性編輯器目前無法完全支援繼承，且只會顯示此資源中定義的屬性。\n\n\
+使用父資源數值的屬性會以 * 標記。
+
+assetEditor.managePacksMenu.editPack = 編輯資源包
+assetEditor.managePacksMenu.addPack = 新增資源包
+assetEditor.managePacksMenu.removePack = 移除資源包
+
+assetEditor.confirmationModal.typeToConfirm = 輸入 "{value}" 以確認：
+
+assetEditor.deletePackModal.title = 刪除資源包？
+assetEditor.deletePackModal.text = 您確定要刪除資源包 "{packId}" 嗎？\n\
+\n\
+警告：這是一個危險的操作！\n\
+\n\
+• 此資源包內的所有資源將被永久刪除\n\
+• 在執行時刪除資源包可能會導致非預期的行為、當機或資料損毀\n\
+• 從其他資源包參照此資源包內的資源將會損壞\n\
+• 此動作無法復原\n\
+\n\
+請在充分了解後果的情況下繼續。
+assetEditor.deletePackModal.confirmButton = 刪除資源包
+
+assetEditor.newAssetButton.readOnlyPackTooltip = 您無法建立新資源，因為所選的資源包唯讀。
+# === auth ===
+auth.sessionExpired.title = 登入階段已過期
+auth.sessionExpired.message = 無法重新整理您的登入階段。您已切換至離線模式。\n\n您可以繼續遊玩，但在重新啟動遊戲之前，您將無法加入伺服器或建立新世界。
+# === bench ===
+bench.Furniture_Bench = 家具工作台
+bench.Builders = 建築師工作台
+bench.Armor_Bench = 盔甲匠工作台
+bench.Weapon_Bench = 鐵匠鐵砧
+bench.Workbench = 工作台
+bench.Farmingbench = 農夫工作台
+bench.Farmingbench_old = 農夫工作台 (舊)
+bench.Cookingbench = 廚師火爐
+bench.Loombench = 織布機
+bench.Armory = 鍛造爐
+bench.Fieldcraft = 野外製作
+bench.Arcanebench = 秘法師工作台
+bench.Alchemybench = 鍊金術師工作台
+bench.Template = 模板
+bench.ArmorBench = 盔甲匠工作台
+bench.Architectsbench = 建築師工作台
+bench.Fieldcraft_Old = 野外製作 (舊)
+
+# === benchCategories ===
+benchCategories.Furniture_Beds = 床鋪
+benchCategories.Furniture_Misc = 雜項
+benchCategories.Furniture_Gothic = 哥德式
+benchCategories.Furniture_Lighting = 照明
+benchCategories.Furniture_Pottery = 陶器
+benchCategories.Furniture_Textiles = 紡織品
+benchCategories.Furniture_Storage = 儲存
+benchCategories.Furniture_Statues = 雕像
+benchCategories.Furniture_Seasonal = 季節性
+benchCategories.Stairs = 樓梯
+benchCategories.Ornate = 華麗
+benchCategories.Sign = 標誌
+benchCategories.Roof = 屋頂
+benchCategories.Decorative = 裝飾
+benchCategories.Wardrobe = 衣櫥
+benchCategories.Wall = 牆壁
+benchCategories.Pillar = 柱子
+benchCategories.Shelf = 架子
+benchCategories.Bricks = 磚塊
+benchCategories.Trapdoor = 活板門
+benchCategories.Gate = 大門
+benchCategories.Smooth = 平滑
+benchCategories.Structural-Rock = 結構岩石
+benchCategories.Platform = 平台
+benchCategories.Window = 窗戶
+benchCategories.Beam = 樑
+benchCategories.SmoothHalfSlab = 平滑半磚
+benchCategories.HalfSlab = 半磚
+benchCategories.Table = 桌子
+benchCategories.Stool = 凳子
+benchCategories.Chair = 椅子
+benchCategories.Door = 門
+benchCategories.Ladder = 梯子
+benchCategories.Armor_Hands = 手部
+benchCategories.Armor_Legs = 腿部
+benchCategories.Armor_Head = 頭部
+benchCategories.Armor_Chest = 胸部
+benchCategories.Weapon_Shield = 盾牌
+benchCategories.Weapon_Daggers = 匕首
+benchCategories.Weapon_Sword = 劍
+benchCategories.Weapon_Bow = 弓
+benchCategories.Weapon_Club = 棍棒
+benchCategories.Weapon_Axe = 斧頭
+benchCategories.Weapon_Mace = 釘頭錘
+benchCategories.Weapon_Battleaxe = 戰斧
+benchCategories.Weapon_Longsword = 長劍
+benchCategories.Workbench_Tools = 工具
+benchCategories.Workbench_Weapons = 武器
+benchCategories.Workbench_Tinkering = 改造
+benchCategories.Workbench_Crafting = 製作
+benchCategories.Workbench_Farming = 農業
+benchCategories.Seeds = 種子
+benchCategories.Other = 其他
+benchCategories.Saplings = 樹苗
+benchCategories.All = 全部
+benchCategories.Prepared = 已處理
+benchCategories.Baked = 烘焙
+benchCategories.Weapons = 武器
+benchCategories.Tools = 工具
+benchCategories.Arcane_Misc = 雜項
+benchCategories.Arcane_Portals = 傳送門
+benchCategories.Alchemy_Potions = 藥水
+benchCategories.Alchemy_Bombs = 炸彈
+benchCategories.Template = 模板
+# === builderTools ===
+builderTools.name = 建築工具
+builderTools.selectTool = 選擇工具
+builderTools.useTool = 使用工具
+builderTools.canNotUse = 無法在創造模式之外使用建築工具！
+
+builderTools.selectATool = 在物品欄或快捷列中左鍵點擊建築工具以進行設定。
+builderTools.noToolSettings = 此工具不需要設定。
+
+builderTools.favorites.nameTitle = 收藏工具名稱
+builderTools.favorites.nameDescription = 請為此收藏工具輸入名稱
+
+builderTools.settings.ToolReachDistance.name = 觸及距離
+builderTools.settings.ToolReachDistance.description = 指定工具使用的最大（或鎖定）觸及距離
+builderTools.settings.ToolDelayMin.name = 工具最小延遲
+builderTools.settings.ToolDelayMin.description = 指定每次使用工具之間允許的最小延遲（毫秒）
+builderTools.settings.UndoGroupSize.description = 將多少次的筆刷執行分組為單一復原項目。數值越低復原控制越精細，數值越高可減少長筆畫的復原步驟。
+builderTools.settings.GizmoScale.description = 控制螢幕上旋轉和平移操控小工具 (Gizmo) 的大小
+builderTools.settings.BrushOpacity.name = 筆刷不透明度
+builderTools.settings.BrushOpacity.description = 控制渲染筆刷工具的不透明度
+builderTools.settings.SelectionOpacity.name = 選擇框不透明度
+builderTools.settings.SelectionOpacity.description = 控制選擇框的不透明度。
+builderTools.settings.SelectionPanelOpacity.name = 選擇面板不透明度
+builderTools.settings.SelectionPanelOpacity.description = 控制選擇框上可拖曳面板的不透明度。
+builderTools.settings.FlightInertia.name = 飛行慣性
+builderTools.settings.FlightInertia.description = 為創造模式飛行增加動量與逐漸減速效果（0 = 立即停止，100 = 最大慣性）
+builderTools.settings.FlightMode.name = 飛行模式
+builderTools.settings.FlightMode.description = 選擇在原地懸停或朝攝影機方向飛行
+builderTools.settings.DisplayLegend.name = 顯示圖例
+builderTools.settings.DisplayLegend.description = 顯示或隱藏帶有控制提示的建築工具圖例面板
+builderTools.settings.NoClip.name = 無碰撞 (穿牆)
+builderTools.settings.NoClip.description = 飛行時停用碰撞偵測，允許您穿過方塊
+builderTools.settings.AirPlacement.name = 空氣放置
+builderTools.settings.AirPlacement.description = 允許在一定距離的空氣中放置方塊而不需要支撐。使用滑鼠滾輪調整放置距離
+builderTools.settings.QuickReplace.name = 快速替換
+builderTools.settings.QuickReplace.description = 允許右鍵點擊方塊，將其替換為目前手持的方塊。
+builderTools.settings.AllowNPCDetection.name = 對 NPC 可見
+builderTools.settings.AllowNPCDetection.description = 啟用後，NPC 可以在您處於創造模式時偵測到您並做出反應
+builderTools.settings.RespondToHit.name = 回應擊打
+builderTools.settings.RespondToHit.description = 啟用後，您在創造模式無敵狀態下仍可承受擊退及其他受擊效果
+builderTools.settings.BrushShapeRendering.name = 筆刷方塊渲染
+builderTools.settings.BrushShapeRendering.description = 切換筆刷預覽的渲染樣式（線框或方塊樣式）
+builderTools.settings.FlightSpeedMultiplier.description = 調整飛行與移動速度
+builderTools.settings.BrushSoundVolume.description = 調整筆刷工具音效的音量
+builderTools.settings.HideHud.description = 隱藏所有 HUD 介面元素
+builderTools.settings.HideHotbar.description = 在創造模式中隱藏快捷列
+builderTools.settings.HideCompass.description = 在創造模式中隱藏指南針
+builderTools.settings.HideNotifications.description = 在創造模式中隱藏通知
+builderTools.settings.HideChat.description = 在創造模式中隱藏聊天視窗
+builderTools.settings.HideHeldItem.description = 在創造模式中隱藏手中的物品
+builderTools.settings.ShowEntityMarkers.description = 在創造模式中顯示實體標記
+builderTools.settings.Fullbright.description = 啟用全亮模式，使所有方塊完全照亮，無視光照等級
+
+builderTools.panel.settings = 設定
+builderTools.panel.brushes = 筆刷
+builderTools.panel.brushSettings = 筆刷
+builderTools.panel.generalSettings = 一般設定
+builderTools.panel.maskSettings = 遮罩設定
+builderTools.panel.quickSettings = 設定
+builderTools.quickSettings.title = 創造模式快速設定
+builderTools.panel.clearSelection = 清除選擇
+builderTools.panel.enableEmptyFilter = 啟用「空」篩選器
+builderTools.panel.invertEntireMask = 反轉整個遮罩
+builderTools.panel.useCustomMaskCommandEntry = 使用自訂遮罩指令輸入
+
+builderTools.replace.materialsToReplace = 要被替換的材質：
+builderTools.replace.replaceWith = 替換為：
+
+builderTools.legend.title = 圖例
+builderTools.legend.pickMaterial = 挑選材質
+builderTools.legend.setMask = 設為遮罩
+builderTools.legend.addMask = 加入至遮罩
+builderTools.legend.changeHeight = 改變形狀高度
+builderTools.legend.changeWidth = 改變形狀寬度
+builderTools.legend.changeRotation = 改變旋轉方向
+builderTools.legend.favoriteMaterials = 收藏的材質
+builderTools.legend.selectedMaterial = 所選的材質
+builderTools.legend.shiftFasterChange = 按住 Shift 鍵以加快改變速度
+builderTools.legend.undo = 復原
+builderTools.legend.redo = 重做
+builderTools.legend.addRemoveFavorite = 加入/移除收藏材質
+builderTools.legend.alt = Alt +
+builderTools.legend.shiftalt = Shift + Alt +
+builderTools.legend.shift = Shift +
+
+builderTools.legend.ScriptedBrushPage.Title = [TMP] 腳本筆刷
+builderTools.legend.ScriptedBrushPage.Description = [TMP] 這是一個在節點編輯器中製作、無需撰寫任何程式碼的筆刷。如果您想製作類似的專屬筆刷，您可以：
+builderTools.legend.ScriptedBrushPage.ToolSettings = [TMP] 開啟工具設定。
+builderTools.legend.ScriptedBrushPage.ExampleScriptedBrush.Title = [TMP] 開啟腳本筆刷的節點編輯器：
+builderTools.legend.ScriptedBrushPage.ExampleScriptedBrush.Description = [TMP] 1. 進入 資源 (Assets) > 資源節點編輯器 (Asset Node Editor)。\n\
+2. 節點編輯器工具將會彈出。\n\
+3. 在節點編輯器中，點擊「根節點：展示工作區 (Demo Workspace)」，並選擇「腳本筆刷 (Scriptable Brush)」。如果系統詢問是否繼續，請按「確定 (OK)」。\n\
+4. 您現在已進入腳本筆刷工作區，可以開始製作筆刷了！
+builderTools.legend.ScriptedBrushPage.NodeEditorBasics.Title = [TMP] 腳本筆刷節點編輯器基礎：
+builderTools.legend.ScriptedBrushPage.NodeEditorBasics.Description = [TMP] 現在您已進入工作區，您可以透過以下方式製作您的筆刷：\n\
+- 使用滑鼠右鍵來建立節點\n\
+- 在建立的節點上按住左鍵點擊泡泡，並將其拖曳到根節點的泡泡上以連接它們。\n\
+4. 您現在可以開始在工作區中製作腳本筆刷了！
+builderTools.legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Title = [TMP] 儲存與測試：
+builderTools.legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = [TMP] 1. 進入「檔案 (File) > 儲存 (Save)」或「另存新檔 (Save As)」，將其儲存到一個資源包 (Asset Pack) 中。\n\
+2. 返回遊戲，並在手中裝備「彩繪筆刷工具」。\n\
+4. 在聊天室輸入 /sb load，然後選擇您製作的筆刷。\n\
+5. 現在您可以開始使用您的筆刷了！
+
+builderTools.legend.SelectTargetMaterial = [TMP] 選擇目標材質
+builderTools.legend.AddTargetMaterial = [TMP] 將目標材質新增為多重材質
+builderTools.legend.UndoLastBrush = [TMP] 復原上一次筆刷動作
+builderTools.legend.RedoLastUndo = [TMP] 重做上一次復原的動作
+builderTools.legend.TipsAndTricks.Title = [TMP] 提示與技巧
+builderTools.legend.TipsAndTricks.Description = [TMP] 以下是有關如何使用此筆刷的一些提示與技巧：
+builderTools.legend.EditInventoryProperties = [TMP] 從物品欄編輯筆刷的設定
+builderTools.legend.SettingDescription = [TMP] 以下是此筆刷各項設定功能的說明：
+builderTools.legend.BlockMasking = [TMP] 方塊遮罩
+builderTools.legend.BlockMaskingDescription = [TMP] 允許您為筆刷設定材質，限制只對符合這些材質的方塊進行變更
+builderTools.legend.BlockMaskingMenuDescription = [TMP] 若要查看所有遮罩選項及其功能，您可以：
+builderTools.legend.BrushMenuMaskingTab = [TMP] 開啟筆刷設定
+builderTools.legend.BlockMaskingMenuTabDescription = [TMP] 開啟筆刷遮罩分頁（靠近右上角）
+builderTools.legend.BlockMaskTarget.Title = [TMP] 遮罩 (Mask)：
+builderTools.legend.BlockMaskTarget.Description = [TMP] 僅替換此清單中的方塊
+builderTools.legend.BlockMaskAbove.Title = [TMP] > 上方 (Above)：
+builderTools.legend.BlockMaskAbove.Description = [TMP] 僅替換位於此清單方塊上方的方塊
+builderTools.legend.BlockMaskNot.Title = [TMP] ! 反向 (Not)：
+builderTools.legend.BlockMaskNot.Description = [TMP] 不要替換此清單中的方塊
+builderTools.legend.BlockMaskBelow.Title = [TMP] < 下方 (Below)：
+builderTools.legend.BlockMaskBelow.Description = [TMP] 僅替換位於此清單方塊下方的方塊
+builderTools.legend.BlockMaskAdjacent.Title = [TMP] ~ 相鄰 (Adjacent)：
+builderTools.legend.BlockMaskAdjacent.Description = [TMP] 僅替換緊鄰此清單方塊的方塊
+builderTools.legend.BlockMaskNeighbor.Title = [TMP] ^ 鄰居 (Neighbor)：
+builderTools.legend.BlockMaskNeighbor.Description = [TMP] 僅替換接觸此清單方塊的方塊
+
+builderTools.legend.PaintBrush.Page1.Title = [TMP] 彩繪筆刷
+builderTools.legend.PaintBrush.Page1.Description = [TMP] 彩繪筆刷工具允許您以不同的形狀、大小和材質放置及移除方塊
+builderTools.legend.PaintBrush.Page1.DestroyBlocks = 破壞您瞄準處的方塊
+builderTools.legend.PaintBrush.Page1.PlaceBlocks = 根據您設定的材質，在您瞄準處放置方塊
+builderTools.legend.PaintBrush.Page1.SelectTargetMaterial = 選擇目標材質
+builderTools.legend.PaintBrush.Page1.AddTargetMaterial = 將目標材質新增為多重材質
+builderTools.legend.PaintBrush.Page1.UndoLastBrush = 復原上一次筆刷動作
+builderTools.legend.PaintBrush.Page1.RedoLastUndo = 重做上一次復原的動作
+builderTools.legend.PaintBrush.Page1.EditInventoryProperties = 從物品欄編輯材質、大小、形狀與其他屬性
+builderTools.legend.PaintBrush.Page1.AirPlacementTitle = 空氣放置
+builderTools.legend.PaintBrush.Page1.AirPlacementHotkey = 切換空氣放置瞄準模式
+builderTools.legend.PaintBrush.Page1.AirPlacementDistanceChange = 改變空氣放置的距離
+builderTools.legend.PaintBrush.Page2.AxisLock = 軸鎖定
+builderTools.legend.PaintBrush.Page2.AxisLockDescription = 允許您將筆刷貼附在平坦、可移動、可旋轉的表面上。以下快捷鍵可讓您顯示、編輯及退出表面模式。
+builderTools.legend.PaintBrush.Page2.ShowSurfaceMoveTool = 顯示表面移動工具
+builderTools.legend.PaintBrush.Page2.ShowSurfaceRotationTool = 顯示表面旋轉工具
+builderTools.legend.PaintBrush.Page2.UseBrush = 使用筆刷
+builderTools.legend.PaintBrush.Page2.ExitAxisLockMode = 退出軸鎖定模式
+
+builderTools.legend.CaveBrush.Page1.Title = [TMP] 洞穴筆刷
+builderTools.legend.CaveBrush.Page1.Description = [TMP] 洞穴筆刷工具允許您製作洞穴與峽谷。
+builderTools.legend.CaveBrush.Page1.DecorateArea = [TMP] 在您瞄準處新增洞穴裝飾
+builderTools.legend.CaveBrush.Page1.ShapeArea = [TMP] 雕刻您瞄準處的洞穴區域
+builderTools.legend.CaveBrush.Page2.BlockTip.Title = [TMP] 自訂洞穴：
+builderTools.legend.CaveBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成洞穴的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.CaveBrush.Page2.Example1.Title = [TMP] 製作與裝飾洞穴：
+builderTools.legend.CaveBrush.Page2.Example1.Description = [TMP] 1. 看向地面、山壁或堅固的陸地塊。\n\
+2. 按住雕刻鍵（通常為右鍵）開始雕刻洞穴的形狀。\n\
+3. 在雕刻好的洞穴中，看向地板並按住裝飾鍵（通常為左鍵）來加入裝飾。\n\
+4. 在雕刻好的洞穴中，看向天花板並按住裝飾鍵（通常為左鍵）來加入裝飾。\n\
+5. 您現在擁有一個帶有裝飾的洞穴了！
+builderTools.legend.CaveBrush.Page3.Title = [TMP] 設定 (1/2)
+builderTools.legend.CaveBrush.Page3.CaveBlocks.Title = [TMP] 洞穴方塊：
+builderTools.legend.CaveBrush.Page3.CaveBlocks.Description = [TMP] - 用來構成洞穴的方塊。
+builderTools.legend.CaveBrush.Page3.CaveBlockDecorations.Title = [TMP] 洞穴方塊裝飾：
+builderTools.legend.CaveBrush.Page3.CaveBlockDecorations.Description = [TMP] - 在地板方塊兩側用來裝飾洞穴的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.CaveBrush.Page3.TopDecorations.Title = [TMP] 頂部裝飾：
+builderTools.legend.CaveBrush.Page3.TopDecorations.Description = [TMP] - 用來裝飾洞穴天花板的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.CaveBrush.Page3.FloorBlocks.Title = [TMP] 地板方塊：
+builderTools.legend.CaveBrush.Page3.FloorBlocks.Description = [TMP] - 用來裝飾洞穴地板的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.CaveBrush.Page3.FloorDecorations.Title = [TMP] 地板裝飾：
+builderTools.legend.CaveBrush.Page3.FloorDecorations.Description = [TMP] - 放置在地板方塊上作為裝飾的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.CaveBrush.Page3.OreBlocks.Title = [TMP] 礦石方塊：
+builderTools.legend.CaveBrush.Page3.OreBlocks.Description = [TMP] - 放置在洞穴周圍的礦石方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.CaveBrush.Page4.Title = [TMP] 設定 (2/2)
+builderTools.legend.CaveBrush.Page4.Randomize.Title = [TMP] 隨機化：
+builderTools.legend.CaveBrush.Page4.Randomize.Description = [TMP] - 勾選後，在塑造洞穴時會隨機縮小或放大形狀。
+builderTools.legend.CaveBrush.Page4.MeltStrength.Title = [TMP] 融化強度：
+builderTools.legend.CaveBrush.Page4.MeltStrength.Description = [TMP] - 控制筆刷的雕刻強度。較高 = 移除更多方塊，較低 = 移除較少方塊。
+builderTools.legend.CaveBrush.Page4.SmoothStrength.Title = [TMP] 平滑強度：
+builderTools.legend.CaveBrush.Page4.SmoothStrength.Description = [TMP] - 控制筆刷的平滑強度。較高 = 更平滑，較低 = 較不平滑。
+
+builderTools.legend.BoulderBrush.Page1.Title = [TMP] 巨石筆刷
+builderTools.legend.BoulderBrush.Page1.Description = [TMP] 巨石筆刷工具允許您製作巨石與岩層。
+builderTools.legend.BoulderBrush.Page1.DecorateArea = [TMP] 裝飾您瞄準處的巨石
+builderTools.legend.BoulderBrush.Page1.ShapeArea = [TMP] 在您瞄準處放置巨石
+builderTools.legend.BoulderBrush.Page2.BlockTip.Title = [TMP] 自訂巨石：
+builderTools.legend.BoulderBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成巨石的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.BoulderBrush.Page2.Example1.Title = [TMP] 製作與裝飾巨石：
+builderTools.legend.BoulderBrush.Page2.Example1.Description = [TMP] 1. 看向地面。\n\
+2. 按下放置鍵（通常為右鍵）來放置巨石。\n\
+3. 將原點 (Origin) 改為中心 (Center)。\n\
+4. 看向巨石並按下裝飾鍵（通常為左鍵）來加入裝飾。\n\
+5. 您現在擁有一顆帶有裝飾的巨石了！
+builderTools.legend.BoulderBrush.Page3.Title = [TMP] 設定 (1/2)
+builderTools.legend.BoulderBrush.Page3.RockBlocks.Title = [TMP] 岩石方塊：
+builderTools.legend.BoulderBrush.Page3.RockBlocks.Description = [TMP] - 用來構成巨石的方塊。
+builderTools.legend.BoulderBrush.Page3.TopBlocks.Title = [TMP] 頂部方塊：
+builderTools.legend.BoulderBrush.Page3.TopBlocks.Description = [TMP] - 用來裝飾巨石頂部的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.BoulderBrush.Page3.TopDecor.Title = [TMP] 頂部裝飾：
+builderTools.legend.BoulderBrush.Page3.TopDecor.Description = [TMP] - 放置在頂部方塊上的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.BoulderBrush.Page3.RockDecor.Title = [TMP] 岩石裝飾：
+builderTools.legend.BoulderBrush.Page3.RockDecor.Description = [TMP] - 放置在岩石方塊上的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.BoulderBrush.Page3.BoulderPoints.Title = [TMP] 巨石點數量：
+builderTools.legend.BoulderBrush.Page3.BoulderPoints.Description = [TMP] - 用來構成巨石的子巨石數量。這些子巨石可以透過「巨石半徑」來調整間距，以形成單一顆巨石或一群巨石。
+builderTools.legend.BoulderBrush.Page3.BoulderRadius.Title = [TMP] 巨石半徑：
+builderTools.legend.BoulderBrush.Page3.BoulderRadius.Description = [TMP] - 控制巨石點之間的間距。可以用來讓巨石變寬，或形成一群巨石。
+builderTools.legend.BoulderBrush.Page4.Title = [TMP] 設定 (2/2)
+builderTools.legend.BoulderBrush.Page4.Randomization.Title = [TMP] 隨機化：
+builderTools.legend.BoulderBrush.Page4.Randomization.Description = [TMP] - 控制巨石外觀的隨機程度。較高 = 更隨機，較低 = 較不隨機。
+builderTools.legend.BoulderBrush.Page4.Smoothness.Title = [TMP] 平滑度：
+builderTools.legend.BoulderBrush.Page4.Smoothness.Description = [TMP] - 控制巨石的平滑程度。較高 = 更平滑，較低 = 較不平滑。
+builderTools.legend.BoulderBrush.Page4.StackSize.Title = [TMP] 堆疊大小 (進階)：
+builderTools.legend.BoulderBrush.Page4.StackSize.Description = [TMP] - 控制使用巨石寬度來堆疊的次數。這是一種不同的巨石成形方式。巨石將會放置目前的形狀，依據高度向上移動，縮小寬度，然後再次放置並持續重複。
+builderTools.legend.BoulderBrush.Page4.StackRandomization.Title = [TMP] 堆疊隨機化 (進階)：
+builderTools.legend.BoulderBrush.Page4.StackRandomization.Description = [TMP] - 巨石高度層之間的隨機化程度。較高 = 更隨機，較低 = 較不隨機。
+builderTools.legend.BoulderBrush.Page4.StackTip.Title = [TMP] 進階設定提示：
+builderTools.legend.BoulderBrush.Page4.StackTip.Description = [TMP] - 若要了解「堆疊大小」和「堆疊隨機化」的作用，請將平滑度設為 0，形狀設為立方體，堆疊大小設為大於 0，並嘗試使用不同的寬度和高度。
+
+builderTools.legend.BuildingBrush.Page1.Title = [TMP] 建築筆刷
+builderTools.legend.BuildingBrush.Page1.Description = [TMP] 建築筆刷工具允許您製作建築物並形成結構。
+builderTools.legend.BuildingBrush.Page1.ShapeArea = [TMP] 在您瞄準處放置一棟建築
+builderTools.legend.BuildingBrush.Page2.BlockTip.Title = [TMP] 自訂建築：
+builderTools.legend.BuildingBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成建築的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.BuildingBrush.Page2.Example1.Title = [TMP] 製作有窗戶的塔樓：
+builderTools.legend.BuildingBrush.Page2.Example1.Description = [TMP] 1. 使用設定將寬度和高度調整為您想要的大小。\n\
+2. 更改樓層數，決定您希望塔樓有多少層。\n\
+3. 更改窗戶數量，並調整窗戶半徑，讓窗戶能夠正確放置在牆壁上。窗戶的正確放置目前需要一些嘗試與調整。\n\
+4. 將屋頂設定更改為您想要的樣式。\n\
+5. 按下放置鍵（通常為右鍵）來放置建築。\n\
+6. 您現在擁有一座塔樓了！
+builderTools.legend.BuildingBrush.Page3.Title = [TMP] 設定
+builderTools.legend.BuildingBrush.Page3.MainBlock.Title = [TMP] 主要方塊：
+builderTools.legend.BuildingBrush.Page3.MainBlock.Description = [TMP] - 構成建築的主要方塊。
+builderTools.legend.BuildingBrush.Page3.SecondaryBlock.Title = [TMP] 次要方塊：
+builderTools.legend.BuildingBrush.Page3.SecondaryBlock.Description = [TMP] - 橫跨建築牆壁中心用作裝飾的方塊。
+builderTools.legend.BuildingBrush.Page3.FloorBlock.Title = [TMP] 地板方塊：
+builderTools.legend.BuildingBrush.Page3.FloorBlock.Description = [TMP] - 建築內部用作地板的方塊。
+builderTools.legend.BuildingBrush.Page3.EnableWindows.Title = [TMP] 啟用窗戶：
+builderTools.legend.BuildingBrush.Page3.EnableWindows.Description = [TMP] - 允許在建築上放置窗戶。
+builderTools.legend.BuildingBrush.Page3.WindowRadius.Title = [TMP] 窗戶半徑：
+builderTools.legend.BuildingBrush.Page3.WindowRadius.Description = [TMP] - 放置窗戶的半徑位置。這個設定可能需要稍微調整才能達到最佳效果。
+builderTools.legend.BuildingBrush.Page3.EnableRoof.Title = [TMP] 啟用屋頂：
+builderTools.legend.BuildingBrush.Page3.EnableRoof.Description = [TMP] - 允許在建築上放置屋頂。關閉屋頂功能適合用來製作牆面。
+
+builderTools.legend.DecorationBrush.Page1.Title = [TMP] 裝飾筆刷
+builderTools.legend.DecorationBrush.Page1.Description = [TMP] 裝飾筆刷工具允許您繪製裝飾。
+builderTools.legend.DecorationBrush.Page1.DecorateArea = [TMP] 清除與「要清除的方塊」相符的方塊。
+builderTools.legend.DecorationBrush.Page1.ShapeArea = [TMP] 在您瞄準處繪製裝飾
+builderTools.legend.DecorationBrush.Page2.BlockTip.Title = [TMP] 自訂裝飾：
+builderTools.legend.DecorationBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂用於裝飾的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.DecorationBrush.Page2.Example1.Title = [TMP] 清除區域並加入地面裝飾：
+builderTools.legend.DecorationBrush.Page2.Example1.Description = [TMP] 1. 尋找一個您想要加入裝飾的區域。\n\
+2. 按住清除鍵（通常為左鍵），從該區域移除方塊。\n\
+3. 開啟設定，並將任何您想要的裝飾加入至設定中。\n\
+4. 按住繪製鍵（通常為右鍵），在該區域上繪製裝飾。\n\
+5. 您現在已經裝飾好這個區域了！
+builderTools.legend.DecorationBrush.Page3.Title = [TMP] 設定
+builderTools.legend.DecorationBrush.Page3.BlocksToClear.Title = [TMP] 要清除的方塊：
+builderTools.legend.DecorationBrush.Page3.BlocksToClear.Description = [TMP] - 當使用清除方塊鍵（通常為左鍵）時要清除的方塊。
+builderTools.legend.DecorationBrush.Page3.FloorBlocks.Title = [TMP] 地板方塊：
+builderTools.legend.DecorationBrush.Page3.FloorBlocks.Description = [TMP] - 用來裝飾的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.DecorationBrush.Page3.DecorationBlocks.Title = [TMP] 裝飾方塊：
+builderTools.legend.DecorationBrush.Page3.DecorationBlocks.Description = [TMP] - 放置在地板方塊頂部的方塊。附帶密度滑桿以控制放置數量。
+
+builderTools.legend.ForestBrush.Page1.Title = [TMP] 森林筆刷
+builderTools.legend.ForestBrush.Page1.Description = [TMP] 森林筆刷工具允許您製作森林與枝葉。
+builderTools.legend.ForestBrush.Page1.DecorateArea = [TMP] 在您瞄準處新增所選類型的裝飾
+builderTools.legend.ForestBrush.Page1.ShapeArea = [TMP] 繪製您瞄準處的地面
+builderTools.legend.ForestBrush.Page2.BlockTip.Title = [TMP] 自訂森林：
+builderTools.legend.ForestBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成森林的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.ForestBrush.Page2.Example1.Title = [TMP] 製作與裝飾森林：
+builderTools.legend.ForestBrush.Page2.Example1.Description = [TMP] 1. 看向您想要建造森林的區域。\n\
+2. 按住繪製地面鍵（通常為右鍵），開始繪製森林地面。\n\
+3. 將裝飾類型更改為「植物 (Foliage)」來新增地面裝飾，並在植物方塊中加入您想使用的植物方塊。\n\
+4. 按住裝飾鍵（通常為左鍵），放置植物裝飾。\n\
+5. 將裝飾類型更改為「樹木 (Trees)」來新增樹木。\n\
+6. 按住裝飾鍵（通常為左鍵），放置樹木。\n\
+5. 您現在擁有一座森林了！
+builderTools.legend.ForestBrush.Page3.Title = [TMP] 設定
+builderTools.legend.ForestBrush.Page3.NumDecorations.Title = [TMP] 裝飾數量：
+builderTools.legend.ForestBrush.Page3.NumDecorations.Description = [TMP] - 要放置的裝飾數量。僅在裝飾類型設為「樹木」或「巨石」時生效。
+builderTools.legend.ForestBrush.Page3.DecorationSpacing.Title = [TMP] 裝飾間距：
+builderTools.legend.ForestBrush.Page3.DecorationSpacing.Description = [TMP] - 要放置的裝飾之間的間距。僅在裝飾類型設為「樹木」或「巨石」時生效。
+builderTools.legend.ForestBrush.Page3.FloorBlocks.Title = [TMP] 地板方塊：
+builderTools.legend.ForestBrush.Page3.FloorBlocks.Description = [TMP] - 用來裝飾森林地面的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.ForestBrush.Page3.FloorOutlineBlocks.Title = [TMP] 地板外框方塊：
+builderTools.legend.ForestBrush.Page3.FloorOutlineBlocks.Description = [TMP] - 用來裝飾森林地面外框的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.ForestBrush.Page3.FloorPatchBlocks.Title = [TMP] 地板斑塊方塊：
+builderTools.legend.ForestBrush.Page3.FloorPatchBlocks.Description = [TMP] - 隨機放置在整個森林地面作為裝飾的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.ForestBrush.Page3.FoliageBlocks.Title = [TMP] 植物方塊：
+builderTools.legend.ForestBrush.Page3.FoliageBlocks.Description = [TMP] - 在森林地面上用作植物的方塊。附帶密度滑桿以控制放置數量。僅在裝飾類型設為「植物」時生效。
+
+builderTools.legend.MountainBrush.Page1.Title = [TMP] 高山筆刷
+builderTools.legend.MountainBrush.Page1.Description = [TMP] 高山筆刷工具允許您雕刻山脈與地形。
+builderTools.legend.MountainBrush.Page1.ShapeArea = [TMP] 在您瞄準處雕刻一座山
+builderTools.legend.MountainBrush.Page2.BlockTip.Title = [TMP] 自訂山脈：
+builderTools.legend.MountainBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成山脈的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.MountainBrush.Page2.Example1.Title = [TMP] 製作山脈：
+builderTools.legend.MountainBrush.Page2.Example1.Description = [TMP] 1. 看向地面。\n\
+2. 在圖層設定中放置方塊，來自訂用於山脈的方塊。\n\
+3. 按住雕刻鍵（通常為右鍵），開始雕刻山脈的形狀。\n\
+4. 您現在可以雕刻山脈了！
+builderTools.legend.MountainBrush.Page2.Example2.Title = [TMP] 製作峽谷：
+builderTools.legend.MountainBrush.Page2.Example2.Description = [TMP] 1. 看向地面。\n\
+2. 將點的數量改為 1，並將點間距改為 40 以上。\n\
+3. 按住雕刻鍵（通常為右鍵）開始雕刻。請注意，您現在有 2 個正在形成地形的地方。\n\
+4. 沿著直線上下移動進行雕刻，在兩側建立起懸崖。\n\
+5. 您現在可以雕刻峽谷了！此功能也可用於同時製作多座山脈或山脈細節。
+builderTools.legend.MountainBrush.Page3.Title = [TMP] 設定
+builderTools.legend.MountainBrush.Page3.TopLayer.Title = [TMP] 頂層：
+builderTools.legend.MountainBrush.Page3.TopLayer.Description = [TMP] - 位於地形頂部的方塊。
+builderTools.legend.MountainBrush.Page3.MiddleLayer.Title = [TMP] 中層：
+builderTools.legend.MountainBrush.Page3.MiddleLayer.Description = [TMP] - 位於地形中間的方塊。
+builderTools.legend.MountainBrush.Page3.BottomLayer.Title = [TMP] 底層：
+builderTools.legend.MountainBrush.Page3.BottomLayer.Description = [TMP] - 位於地形底部的方塊。
+builderTools.legend.MountainBrush.Page3.NumberOfPoints.Title = [TMP] 點的數量：
+builderTools.legend.MountainBrush.Page3.NumberOfPoints.Description = [TMP] - 用來雕刻山脈的點數量。
+builderTools.legend.MountainBrush.Page3.PointSpacing.Title = [TMP] 點間距：
+builderTools.legend.MountainBrush.Page3.PointSpacing.Description = [TMP] - 雕刻山脈所使用的點之間的間距。
+builderTools.legend.MountainBrush.Page3.Smoothness.Title = [TMP] 平滑度：
+builderTools.legend.MountainBrush.Page3.Smoothness.Description = [TMP] - 控制雕刻地形的平滑程度。較高 = 更平滑，較低 = 較不平滑
+
+builderTools.legend.PathBrush.Page1.Title = [TMP] 道路筆刷
+builderTools.legend.PathBrush.Page1.Description = [TMP] 道路筆刷工具允許您製作道路。
+builderTools.legend.PathBrush.Page1.DecorateArea = [TMP] 在高低差附近加入半磚以使道路更平滑
+builderTools.legend.PathBrush.Page1.ShapeArea = [TMP] 在您瞄準處繪製道路
+builderTools.legend.PathBrush.Page2.BlockTip.Title = [TMP] 自訂道路：
+builderTools.legend.PathBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成道路的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.PathBrush.Page2.Example1.Title = [TMP] 製作道路：
+builderTools.legend.PathBrush.Page2.Example1.Description = [TMP] 1. 看向地面。\n\
+2. 在設定中放置方塊，來自訂用於道路的方塊。\n\
+3. 按住繪製鍵（通常為右鍵），開始繪製道路。\n\
+4. 按住半磚鍵（通常為左鍵），在不平坦的區域附近放置半磚以使其更平滑。\n\
+6. 您現在擁有一條帶有裝飾的道路了！
+builderTools.legend.PathBrush.Page3.Title = [TMP] 設定
+builderTools.legend.PathBrush.Page3.PathBlocks.Title = [TMP] 道路方塊：
+builderTools.legend.PathBrush.Page3.PathBlocks.Description = [TMP] - 道路構成的主要方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.PathBrush.Page3.OutlineBlocks.Title = [TMP] 外框方塊：
+builderTools.legend.PathBrush.Page3.OutlineBlocks.Description = [TMP] - 放置在道路外框的方塊。附帶密度滑桿以控制放置數量。附帶寬度滑桿以控制外框的寬度。
+builderTools.legend.PathBrush.Page3.DecorationBlocks.Title = [TMP] 裝飾方塊：
+builderTools.legend.PathBrush.Page3.DecorationBlocks.Description = [TMP] - 沿著道路加入作為裝飾的方塊。附帶密度滑桿以控制放置數量。附帶寬度滑桿以控制分佈的寬度。
+builderTools.legend.PathBrush.Page3.HalfBlocks.Title = [TMP] 道路半磚：
+builderTools.legend.PathBrush.Page3.HalfBlocks.Description = [TMP] - 放置在不平坦區域附近使其更平滑的半磚。
+
+builderTools.legend.RiverBrush.Page1.Title = [TMP] 河流筆刷
+builderTools.legend.RiverBrush.Page1.Description = [TMP] 河流筆刷工具允許您製作河流與海洋。
+builderTools.legend.RiverBrush.Page1.DecorateArea = [TMP] 在您瞄準處新增裝飾
+builderTools.legend.RiverBrush.Page1.ShapeArea = [TMP] 在您瞄準處繪製河流
+builderTools.legend.RiverBrush.Page2.BlockTip.Title = [TMP] 自訂河流：
+builderTools.legend.RiverBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成河流的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.RiverBrush.Page2.Example1.Title = [TMP] 製作河流/瀑布：
+builderTools.legend.RiverBrush.Page2.Example1.Description = [TMP] 1. 看向一個表面。\n\
+2. 在設定中放置方塊，來自訂用於河流的方塊。\n\
+3. 按住繪製鍵（通常為右鍵），開始繪製河流。\n\
+4. 按住裝飾鍵（通常為左鍵），在河流兩側、水面下及水面上放置裝飾。\n\
+5. 您現在擁有一條河流，甚至瀑布了！
+builderTools.legend.RiverBrush.Page3.Title = [TMP] 設定
+builderTools.legend.RiverBrush.Page3.FluidMaterial.Title = [TMP] 流體材質：
+builderTools.legend.RiverBrush.Page3.FluidMaterial.Description = [TMP] - 構成河流的流體材質。
+builderTools.legend.RiverBrush.Page3.SurfaceBlocks.Title = [TMP] 流體上方的方塊：
+builderTools.legend.RiverBrush.Page3.SurfaceBlocks.Description = [TMP] - 放置在河流兩側與流體下方的方塊。附帶密度滑桿以控制放置數量。附帶寬度滑桿以控制寬度。
+builderTools.legend.RiverBrush.Page3.SubsurfaceBlocks.Title = [TMP] 流體下方的方塊：
+builderTools.legend.RiverBrush.Page3.SubsurfaceBlocks.Description = [TMP] - 放置在河流流體下方的方塊。附帶密度滑桿以控制放置數量。
+builderTools.legend.RiverBrush.Page3.UnderDecorations.Title = [TMP] 流體下方的裝飾：
+builderTools.legend.RiverBrush.Page3.UnderDecorations.Description = [TMP] - 流體下方的裝飾。附帶密度滑桿以控制放置數量。
+builderTools.legend.RiverBrush.Page3.SideDecorations.Title = [TMP] 流體兩側的裝飾：
+builderTools.legend.RiverBrush.Page3.SideDecorations.Description = [TMP] - 沿著河流兩側加入的裝飾。附帶密度滑桿以控制放置數量。
+builderTools.legend.RiverBrush.Page3.TopDecorations.Title = [TMP] 流體頂部的裝飾：
+builderTools.legend.RiverBrush.Page3.TopDecorations.Description = [TMP] - 加入在河流頂部的裝飾。附帶密度滑桿以控制放置數量。
+
+builderTools.legend.SpiralBrush.Page1.Title = [TMP] 螺旋筆刷
+builderTools.legend.SpiralBrush.Page1.Description = [TMP] 螺旋筆刷工具允許您製作螺旋與圓形圖案。
+builderTools.legend.SpiralBrush.Page1.ShapeArea = [TMP] 在您瞄準處放置螺旋
+builderTools.legend.SpiralBrush.Page2.BlockTip.Title = [TMP] 自訂螺旋：
+builderTools.legend.SpiralBrush.Page2.BlockTip.Description = [TMP] 您可以將方塊從物品欄拖曳到設定中，來自訂構成螺旋的方塊。\n\n您也可以雙擊設定中的方塊來移除它們。
+builderTools.legend.SpiralBrush.Page2.Example1.Title = [TMP] 製作自訂螺旋：
+builderTools.legend.SpiralBrush.Page2.Example1.Description = [TMP] 1. 看向一個表面。\n\
+2. 在設定中放置方塊，來自訂用於螺旋的方塊。\n\
+3. 將點的數量改為您需要的數值。較高 = 螺旋上的點越多，較低 = 螺旋上的點越少。\n\
+4. 將半徑設為 15。這會讓它夠寬，方便觀察工具的效果。\n\
+5. 如果您想要一個向上延伸的螺旋，請將垂直間距改為大於 0 的數值。\n\
+6. 勾選「翻轉 (Flip)」、「旋轉方向 (Rotate Direction)」或「反轉方向 (Invert Direction)」核取方塊，來改變螺旋繪製的方向。\n\
+7. 您也可以將平滑度改為大於 0 的數值，為螺旋加入平滑效果。\n\
+8. 您還可以選擇「空心中心 (Hollow Center)」，讓螺旋的中心成為空氣。\n\
+9. 您現在擁有一個螺旋圖案了！
+builderTools.legend.SpiralBrush.Page3.Title = [TMP] 設定
+builderTools.legend.SpiralBrush.Page3.NumberPoints.Title = [TMP] 點的數量：
+builderTools.legend.SpiralBrush.Page3.NumberPoints.Description = [TMP] - 螺旋上的點數量。
+builderTools.legend.SpiralBrush.Page3.Radius.Title = [TMP] 半徑：
+builderTools.legend.SpiralBrush.Page3.Radius.Description = [TMP] - 螺旋的半徑，即螺旋的寬度。
+builderTools.legend.SpiralBrush.Page3.VerticalSpacing.Title = [TMP] 垂直間距：
+builderTools.legend.SpiralBrush.Page3.VerticalSpacing.Description = [TMP] - 螺旋中每個點彼此相距多遠，即它的高度。
+builderTools.legend.SpiralBrush.Page3.Flip.Title = [TMP] 翻轉
+builderTools.legend.SpiralBrush.Page3.Flip.Description = [TMP] - 翻轉螺旋繪製的順序。
+builderTools.legend.SpiralBrush.Page3.RotateDirection.Title = [TMP] 旋轉方向
+builderTools.legend.SpiralBrush.Page3.RotateDirection.Description = [TMP] - 將螺旋旋轉 180 度。
+builderTools.legend.SpiralBrush.Page3.InvertDirection.Title = [TMP] 反轉方向
+builderTools.legend.SpiralBrush.Page3.InvertDirection.Description = [TMP] - 反轉螺旋繪製的方向。
+builderTools.legend.SpiralBrush.Page3.Smoothness.Title = [TMP] 平滑度
+builderTools.legend.SpiralBrush.Page3.Smoothness.Description = [TMP] - 控制螺旋的平滑程度。較高 = 更平滑，較低 = 較不平滑。
+builderTools.legend.SpiralBrush.Page3.HollowCenter.Title = [TMP] 空心中心
+builderTools.legend.SpiralBrush.Page3.HollowCenter.Description = [TMP] - 若啟用，會將您點擊處的螺旋中心替換為空氣。
+
+builderTools.legend.RevolveTool.Page1.Title = [TMP] 旋轉工具
+builderTools.legend.RevolveTool.Page1.Description = [TMP] 旋轉工具允許您旋轉並貼上選取的範圍。此工具僅在有選取範圍時才會生效。
+builderTools.legend.RevolveTool.Page1.ShapeArea = [TMP] 執行旋轉。根據您使用的設定，將會圍繞您瞄準的地方或您自己進行旋轉。
+builderTools.legend.RevolveTool.Page2.Example1.Title = [TMP] 使用筆刷旋轉：
+builderTools.legend.RevolveTool.Page2.Example1.Description = [TMP] 1. 建立您想要旋轉的選取範圍。\n\
+2. 裝備旋轉工具。\n\
+3. 根據您的需求調整設定。\n\
+4. 將筆刷瞄準您希望選取範圍圍繞旋轉的位置。\n\
+5. 按下旋轉鍵（通常為右鍵）。\n\
+6. 您現在已經將選取範圍旋轉了！
+builderTools.legend.RevolveTool.Page2.Example2.Title = [TMP] 圍繞自己畫一個完整的圓：
+builderTools.legend.RevolveTool.Page2.Example2.Description = [TMP] 1. 建立您想要旋轉的選取範圍。\n\
+2. 裝備旋轉工具。\n\
+3. 將「完全旋轉 (Fully Revolve)」設定勾選，並將目標改為「玩家自身 (Player (Self))」。\n\
+4. 移動您的位置，使您與選取範圍保持一段距離。\n\
+5. 按下旋轉鍵（通常為右鍵）。\n\
+6. 您現在已經將選取範圍完全圍繞您自己旋轉了一圈！
+builderTools.legend.RevolveTool.Page3.Title = [TMP] 設定
+builderTools.legend.RevolveTool.Page3.Sampling.Title = [TMP] 填充策略：
+builderTools.legend.RevolveTool.Page3.Sampling.Description = [TMP] - 用來填補旋轉時產生孔洞的策略。旋轉時有時會留下孔洞，此功能將嘗試填補這些孔洞。
+builderTools.legend.RevolveTool.Page3.FullyRevolve.Title = [TMP] 完全旋轉：
+builderTools.legend.RevolveTool.Page3.FullyRevolve.Description = [TMP] - 將選取範圍完整地繞圈旋轉。這將忽略「貼上數量 (Paste Count)」並完整旋轉選取範圍。
+builderTools.legend.RevolveTool.Page3.PlaceCount.Title = [TMP] 貼上數量：
+builderTools.legend.RevolveTool.Page3.PlaceCount.Description = [TMP] - 控制在旋轉中貼上選取範圍的次數。例如，如果設為 5，選取範圍將會被貼上 5 次。
+builderTools.legend.RevolveTool.Page3.CenterAround.Title = [TMP] 圍繞中心：
+builderTools.legend.RevolveTool.Page3.CenterAround.Description = [TMP] - 控制旋轉圍繞的目標。「筆刷目標」= 圍繞筆刷瞄準的位置，「玩家自身」= 圍繞您所在的位置。
+builderTools.legend.RevolveTool.Page3.UseCustomDistance.Title = [TMP] 使用自訂半徑：
+builderTools.legend.RevolveTool.Page3.UseCustomDistance.Description = [TMP] - 在瞄準的位置貼上並旋轉選取範圍，並使用「自訂半徑」來控制與中心之間的間距。
+builderTools.legend.RevolveTool.Page3.PlaceDistance.Title = [TMP] 自訂半徑：
+builderTools.legend.RevolveTool.Page3.PlaceDistance.Description = [TMP] - 用來控制中心與旋轉點之間間距的半徑。較高 = 更寬，較低 = 較窄。
+builderTools.legend.RevolveTool.Page4.Title = [TMP] 設定 (2/2)
+
+builderTools.legend.LineBrush.Page1.Title = 直線筆刷
+builderTools.legend.LineBrush.Page1.Description = 允許您建造直線方塊
+builderTools.legend.LineBrush.Page1.StartOrAddPoint = 開始或新增點到直線上
+builderTools.legend.LineBrush.Page1.CancelLine = 取消直線
+builderTools.legend.LineBrush.Page1.SnapToAngles = 按住以啟用吸附至不同的 45° 角
+builderTools.legend.LineBrush.Page1.EditInventoryProperties = 從物品欄編輯材質、大小與其他屬性
+
+builderTools.legend.MachinimaTool.Page1.Title = 快速入門
+builderTools.legend.MachinimaTool.Page1.Description = 使用演員 (actors)、攝影機、粒子、音效及更多元素製作關鍵影格動畫！非常適合製作電影運鏡與過場動畫。
+builderTools.legend.MachinimaTool.Page1.OpensMenu = 開啟 Machinima 工具編輯器 UI
+builderTools.legend.MachinimaTool.Page1.BaseCommand = 適用於所有 Machinima 操作的基礎指令
+builderTools.legend.MachinimaTool.Page1.Scenes = 場景 (Scenes)\n\
+場景是您 Machinima 影片的容器，用來儲存所有演員、關鍵影格和設定。
+builderTools.legend.MachinimaTool.Page1.CreatingFirstScene = 建立您的第一個場景\n\
+1. 為您的 Machinima 影片找一個好地方\n\
+2. 開啟 Machinima 選單\n\
+3. 點擊 + 圖示建立新場景\n\
+4. 新增您的第一位演員！
+builderTools.legend.MachinimaTool.Page1.Actors = 演員 (Actors)\n\
+演員是一個可透過關鍵影格製作動畫的物件。請參閱下一頁以了解演員類型。
+builderTools.legend.MachinimaTool.Page1.AddingCameraActor = 新增攝影機演員\n\
+1. 將自己定位在您想要放置攝影機的位置\n\
+2. 開啟 Machinima 選單\n\
+3. 點擊場景清單下方的 + 圖示\n\
+4. 從下拉選單中選擇「攝影機 (Camera)」\n\
+5. 您現在可以點擊攝影機來重新定位，並按 C 鍵切換攝影機視角！
+
+builderTools.legend.MachinimaTool.Page2.Title = 演員類型
+builderTools.legend.MachinimaTool.Page2.Description = 不同的演員類型在您的 Machinima 中有不同的用途。它們都是可製作動畫的物件，允許您控制位置、旋轉與其他數值。演員是透過 Machinima 選單新增的。
+builderTools.legend.MachinimaTool.Page2.CameraHeader = 攝影機 (Camera)
+builderTools.legend.MachinimaTool.Page2.CameraDesc = 允許您沿著路徑移動攝影機，並對視角 (FOV) 與速度等設定製作動畫。
+builderTools.legend.MachinimaTool.Page2.EntityHeader = 實體 (Entity)
+builderTools.legend.MachinimaTool.Page2.EntityDesc = 帶有模型的動畫角色。支援身體/頭部旋轉與動畫事件。
+builderTools.legend.MachinimaTool.Page2.PlayerHeader = 玩家 (Player)
+builderTools.legend.MachinimaTool.Page2.PlayerDesc = 類似於實體，參照本機玩家。
+builderTools.legend.MachinimaTool.Page2.ReferenceHeader = 參照點 (Reference)
+builderTools.legend.MachinimaTool.Page2.ReferenceDesc = 隱形的標記點。對目標鎖定和參照位置非常有用。允許您將攝影機目標設定為追蹤這些點。
+builderTools.legend.MachinimaTool.Page2.ItemHeader = 物品 (Item)
+builderTools.legend.MachinimaTool.Page2.ItemDesc = 在世界中顯示物品。可以定位並製作動畫。
+builderTools.legend.MachinimaTool.Page2.AddActorCommand = 指令: .mach actor add [type] [name]\n\
+類型 (Types): camera, entity, player, ref, item
+
+builderTools.legend.MachinimaTool.Page3.Title = 播放控制
+builderTools.legend.MachinimaTool.Page3.Description = 播放控制可讓您透過沿著關鍵影格路徑動畫化所有演員來預覽場景。使用這些功能可拖曳時間軸、在關鍵影格之間跳轉，以及測試動畫。每個影格都會更新所有沿著關鍵影格路徑的演員，並播放動畫。
+builderTools.legend.MachinimaTool.Page3.TogglePause = 切換 播放 / 暫停
+builderTools.legend.MachinimaTool.Page3.ContinuousPlayback = 切換連續播放（循環）
+builderTools.legend.MachinimaTool.Page3.AutoRestart = 切換場景結束時自動重新啟動
+builderTools.legend.MachinimaTool.Page3.RestartScene = 從頭重新啟動場景
+builderTools.legend.MachinimaTool.Page3.EndScene = 跳到最終影格
+builderTools.legend.MachinimaTool.Page3.NavigationTitle = 影格導航：
+builderTools.legend.MachinimaTool.Page3.FrameScrub = 在影格間拖曳（按住可連續拖曳）
+builderTools.legend.MachinimaTool.Page3.JumpKeyframe = 跳到上一個 / 下一個關鍵影格點
+builderTools.legend.MachinimaTool.Page3.SpeedModifiers = 按住 SHIFT 為 2 倍速，ALT 為 0.5 倍速
+
+builderTools.legend.MachinimaTool.Page4.Title = 關鍵影格編輯
+builderTools.legend.MachinimaTool.Page4.Description = 關鍵影格定義演員在特定時間點的位置、旋轉與設定。系統會在關鍵影格之間進行內插以建立平滑的動畫路徑。新增關鍵影格來建立動作，編輯它們來微調時間點與位置。
+builderTools.legend.MachinimaTool.Page4.AddKeyframe = 在演員軌道的末端新增關鍵影格，延長動畫
+builderTools.legend.MachinimaTool.Page4.AddAtCurrentFrame = 在目前的播放位置插入關鍵影格
+builderTools.legend.MachinimaTool.Page4.CopyKeyframe = 複製選取的關鍵影格設定，貼到另一個演員或影格上
+builderTools.legend.MachinimaTool.Page4.DeleteKeyframe = 移除您正懸停的關鍵影格
+builderTools.legend.MachinimaTool.Page4.EditKeyframe = 開啟操控小工具來調整關鍵影格的位置與旋轉
+builderTools.legend.MachinimaTool.Page4.MoveActor = 將演員的整條路徑整體重新定位
+builderTools.legend.MachinimaTool.Page4.EditFrameTime = 更改這個關鍵影格在時間軸上發生的時間
+builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = 微調關鍵影格時間往前或往後
+
+builderTools.legend.MachinimaTool.Page5.Title = 滑鼠互動
+builderTools.legend.MachinimaTool.Page5.Description = 點擊世界中的關鍵影格節點進行互動：
+builderTools.legend.MachinimaTool.Page5.SelectKeyframe = 選擇關鍵影格（進入自由移動模式）
+builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = 設為活動狀態並跳轉至影格
+builderTools.legend.MachinimaTool.Page5.GizmoTitle = 操控小工具控制：
+builderTools.legend.MachinimaTool.Page5.TranslationGizmo = 開啟平移小工具（鎖定軸向）
+builderTools.legend.MachinimaTool.Page5.RotationGizmo = 開啟旋轉小工具（頭部/身體）
+builderTools.legend.MachinimaTool.Page5.FreeMoveTitle = 自由移動模式：
+builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = 左鍵確認位置，右鍵取消。\n\
+按住 SHIFT 鍵可在遠處吸附至表面。\n\
+按住 ALT 鍵可忽略表面吸附。
+
+builderTools.legend.MachinimaTool.Page6.Title = 選擇模式
+builderTools.legend.MachinimaTool.Page6.Description = 選擇模式決定當您使用變形工具時什麼會被移動。請根據您想要重新定位的對象選擇正確的模式。
+builderTools.legend.MachinimaTool.Page6.CycleMode = 在選擇模式之間切換
+builderTools.legend.MachinimaTool.Page6.KeyframeModeTitle = 關鍵影格模式（預設）
+builderTools.legend.MachinimaTool.Page6.KeyframeModeDesc = 僅移動選定的關鍵影格。當需對演員路徑上的各個點進行精確調整而不影響其他關鍵影格時，請使用此模式。
+builderTools.legend.MachinimaTool.Page6.ActorModeTitle = 演員模式
+builderTools.legend.MachinimaTool.Page6.ActorModeDesc = 同時移動所選演員的所有關鍵影格。整條路徑將作為一個整體平移，保留動畫的形狀。
+builderTools.legend.MachinimaTool.Page6.SceneModeTitle = 場景模式
+builderTools.legend.MachinimaTool.Page6.SceneModeDesc = 移動整個場景原點，同時平移所有演員及其路徑。對於將整個 Machinima 重新定位到不同區域時非常有用。
+
+builderTools.legend.MachinimaTool.Page7.Title = 顯示與原點
+builderTools.legend.MachinimaTool.Page7.DisplayTitle = 顯示切換：
+builderTools.legend.MachinimaTool.Page7.ToggleDisplay = 切換編輯器覆疊顯示
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = 切換路徑節點可見度
+builderTools.legend.MachinimaTool.Page7.ToggleCamera = 切換攝影機演員開/關
+builderTools.legend.MachinimaTool.Page7.ToggleFrustum = 切換攝影機視錐體顯示
+builderTools.legend.MachinimaTool.Page7.OriginTitle = 場景原點控制：
+builderTools.legend.MachinimaTool.Page7.GoToOrigin = 傳送至場景原點
+builderTools.legend.MachinimaTool.Page7.SetOrigin = 將場景原點設定為玩家位置
+builderTools.legend.MachinimaTool.Page7.OffsetToOrigin = 將整個場景偏移至玩家位置
+
+builderTools.legend.MachinimaTool.Page8.Title = 路徑與曲線
+builderTools.legend.MachinimaTool.Page8.Description = 選擇關鍵影格的內插方式：
+builderTools.legend.MachinimaTool.Page8.LinearHeader = 線性 (預設)
+builderTools.legend.MachinimaTool.Page8.LinearDesc = 關鍵影格之間的直線。簡單且可預測的移動。
+builderTools.legend.MachinimaTool.Page8.BezierHeader = 貝茲曲線 (Bezier)
+builderTools.legend.MachinimaTool.Page8.BezierDesc = 帶有控制把手的平滑曲線，您可以拖曳把手來塑造路徑形狀。
+builderTools.legend.MachinimaTool.Page8.SplineHeader = 樣條曲線 (Spline)
+builderTools.legend.MachinimaTool.Page8.SplineDesc = 自動通過所有關鍵影格的平滑曲線。
+builderTools.legend.MachinimaTool.Page8.BezierCommands = 路徑指令：
+builderTools.legend.MachinimaTool.Page8.EnableBezier = 啟用貝茲曲線
+builderTools.legend.MachinimaTool.Page8.SmoothBezier = 平滑把手
+builderTools.legend.MachinimaTool.Page8.EnableSpline = 啟用樣條曲線
+
+builderTools.legend.MachinimaTool.Page9.Title = 控制台指令
+builderTools.legend.MachinimaTool.Page9.SceneCommands = 場景: .mach scene [load | copy | rename]
+builderTools.legend.MachinimaTool.Page9.ActorCommands = 演員: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
+builderTools.legend.MachinimaTool.Page9.EventCommands = 事件: .mach event [list | add | remove]\n\
+事件類型 (Event types): animation, camera, command, particle, target
+builderTools.legend.MachinimaTool.Page9.FileCommands = 檔案: .mach save | load | files | autosave [seconds]
+builderTools.legend.MachinimaTool.Page9.UtilityCommands = 實用功能: .mach tool | speed [value] | align | restart
+
+builderTools.legend.PasteTool.Page1.Title = 預製物件貼上筆刷
+builderTools.legend.PasteTool.Page1.Description = 允許您像使用筆刷一樣快速貼上預製物件 (prefab)。支援彩繪筆刷的大多數功能。
+builderTools.legend.PasteTool.Page1.LoadPrefabOrCopy = 載入預製物件或複製選擇範圍
+builderTools.legend.PasteTool.Page1.UseSelectionContents = 若要使用選取範圍的內容，請使用選取工具進行選擇並輸入 '/copy'，然後回到貼上工具來使用您的複製內容
+builderTools.legend.PasteTool.Page1.OpensPrefabList = 開啟預製物件清單；點擊預製物件來載入
+builderTools.legend.PasteTool.Page1.PastePrefab = 貼上預製物件；按住可刷出預製物件
+builderTools.legend.PasteTool.Page1.StickPrefab = 將預製物件附著到目標，如果已附著則解除附著
+builderTools.legend.PasteTool.Page1.RotatePrefabY = 繞 Y 軸旋轉
+builderTools.legend.PasteTool.Page1.RotatePrefabX = 繞 X 軸旋轉
+builderTools.legend.PasteTool.Page1.RotatePrefabZ = 繞 Z 軸旋轉
+builderTools.legend.PasteTool.Page1.ShowTexture = 切換方塊材質紋理
+builderTools.legend.PasteTool.Page1.CycleOrigin = 循環切換原點 (底部/中心/頂部)
+builderTools.legend.PasteTool.Page2.Title = 輔助鍵
+builderTools.legend.PasteTool.Page2.ShiftPrefabLeftRight = 將預製物件向左或向右平移
+builderTools.legend.PasteTool.Page2.ShiftPrefabForwardBackward = 將預製物件向前或向後平移
+builderTools.legend.PasteTool.Page2.ShiftPrefabUp = 將預製物件向上平移
+builderTools.legend.PasteTool.Page2.ShiftPrefabDown = 將預製物件向下平移
+builderTools.legend.PasteTool.Page2.RotatePrefabLeftRight = 將預製物件向左或向右旋轉
+builderTools.legend.PasteTool.Page2.RollPrefabLeftRight = 將預製物件向左或向右翻滾
+builderTools.legend.PasteTool.Page2.RollPrefabForwardBackward = 將預製物件向前或向後翻滾
+builderTools.legend.PasteTool.Page2.ResetShifting = 重設平移
+builderTools.legend.PasteTool.Page2.ResetRotation = 重設旋轉
+
+builderTools.legend.TintBrush.Page1.Title = 上色筆刷
+builderTools.legend.TintBrush.Page1.Description = 允許您在方塊上繪製或混合顏色 (tints)。
+builderTools.legend.TintBrush.Page1.BlendTints = 混合您瞄準處的顏色
+builderTools.legend.TintBrush.Page1.PaintTints = 在您瞄準處繪製您的顏色
+builderTools.legend.TintBrush.Page1.PickColor = 從目標複製顏色
+builderTools.legend.TintBrush.Page1.UndoLastBrush = 復原上一次筆刷動作
+builderTools.legend.TintBrush.Page1.RedoLastUndo = 重做上一次復原的動作
+builderTools.legend.TintBrush.Page1.EditInventoryProperties = 從物品欄編輯顏色、不透明度、大小及形狀
+
+builderTools.legend.SculptBrush.Page1.Title = 雕刻筆刷
+builderTools.legend.SculptBrush.Page1.Description = 允許您升高及降低地形，以更準確地雕刻和融合形狀。支援彩繪筆刷的大多數功能。
+builderTools.legend.SculptBrush.Page1.MeltAwayBlocks = 在您瞄準處逐層融化消除方塊
+builderTools.legend.SculptBrush.Page1.RaiseLayer = 在您瞄準處升高一層方塊
+builderTools.legend.SculptBrush.Page1.Smooth = 平滑崎嶇地形
+builderTools.legend.SculptBrush.Page1.MaterialSelectedDescription = 當選取某個材質時，在您瞄準處放置一層該材質
+builderTools.legend.SculptBrush.Page1.SelectTargetMaterial = 選擇目標材質
+builderTools.legend.SculptBrush.Page1.UndoLastBrush = 復原上一次筆刷動作
+builderTools.legend.SculptBrush.Page1.RedoLastUndo = 重做上一次復原的動作
+builderTools.legend.SculptBrush.Page1.EditInventoryProperties = 從物品欄編輯材質、大小、形狀與其他屬性
+
+builderTools.legend.SelectionTool.Page1.Title = 基本選擇
+builderTools.legend.SelectionTool.Page1.CreatingSelection = 建立選擇範圍：
+builderTools.legend.SelectionTool.Page1.HoldAndDrag = 1. 按住並拖曳選擇第一個軸向，然後放開
+builderTools.legend.SelectionTool.Page1.AdjustAndClick = 2. 調整您的滑鼠，然後再次點擊以設定第三個維度
+builderTools.legend.SelectionTool.Page1.ClearSelection = 清除選擇
+builderTools.legend.SelectionTool.Page1.ClickDragPanels = 點擊並拖曳選擇面板
+builderTools.legend.SelectionTool.Page1.ChangeSelectionSize = 改變選擇範圍大小
+builderTools.legend.SelectionTool.Page1.MoveSelection = 移動選擇範圍
+builderTools.legend.SelectionTool.Page1.ExtrudeFace = 擠出表面 (Extrude)
+builderTools.legend.SelectionTool.Page1.MultipleSelections = 多重選擇：
+builderTools.legend.SelectionTool.Page1.NextSelection = 下一個選擇範圍
+builderTools.legend.SelectionTool.Page1.PreviousSelection = 上一個選擇範圍
+builderTools.legend.SelectionTool.Page1.SetRedPoint = 將紅點設定到目標位置
+builderTools.legend.SelectionTool.Page1.SetGreenPoint = 將綠點設定到目標位置
+builderTools.legend.SelectionTool.Page2.Title = 複製 / 移動 / 旋轉
+builderTools.legend.SelectionTool.Page2.WithSelectionCreated = 建立選擇範圍後：
+builderTools.legend.SelectionTool.Page2.ShowMoveTool = 顯示移動工具
+builderTools.legend.SelectionTool.Page2.AttachToCursor = 將選擇範圍附著於游標
+builderTools.legend.SelectionTool.Page2.ShowRotationTool = 顯示旋轉工具
+builderTools.legend.SelectionTool.Page2.PasteAndExit = 貼上並離開
+builderTools.legend.SelectionTool.Page2.DuplicatePasteContinue = 複製、貼上並繼續
+builderTools.legend.SelectionTool.Page2.CancelMovement = 取消移動與旋轉
+builderTools.legend.SelectionTool.Page2.DuplicateSelection = 複製選擇範圍，然後進入 移動 / 旋轉 模式
+builderTools.legend.SelectionTool.Page2.UsingYourSelection = 使用您的選擇範圍：
+builderTools.legend.SelectionTool.Page2.CopySelection = 複製選擇範圍
+builderTools.legend.SelectionTool.Page2.CopyUsageOptions = 然後使用貼上工具（筆刷 + 預覽）或 '/paste' 指令
+builderTools.legend.SelectionTool.Page2.SavingPrefabs = 儲存預製物件 (Prefabs)：
+builderTools.legend.SelectionTool.Page2.SavePrefabCommand = 使用聊天指令將選取範圍儲存為預製物件
+builderTools.legend.SelectionTool.Page2.LoadPrefabReference = 請參閱貼上工具圖例，了解如何透過 UI 載入預製物件
+builderTools.legend.SelectionTool.Page3.Title = 選擇指令
+builderTools.legend.SelectionTool.Page3.BasicCommands = 基本指令：\n\
+- /set [將選取範圍填滿指定方塊]\n\
+- /clear [清除選取範圍內的所有方塊]\n\
+- /walls [在選取範圍內加入牆壁]\n\
+- /move [朝您面向的方向移動選取範圍內的內容]\n\
+- /undo 和 /redo [復原及重做 X 次]\n\
+- /copy [複製選取範圍到剪貼簿]\n\
+- /cut [剪下選取範圍到剪貼簿]\n\
+- /paste [在您的位置貼上剪貼簿內容]\n\
+- /stack [朝您面向的方向將選取範圍堆疊 X 次]\n\
+- /replace [將一種材質替換為另一種材質]\n\
+- /hollow [掏空形狀，留下空心的中心]\n\
+- /flip [朝您面向的方向鏡像翻轉方塊]\n\
+- /rotate [旋轉選取範圍]\n\
+- /expand [朝您面向的方向擴展選取範圍]\n\
+- /contract [縮小選取範圍指定距離]\n\
+- /deselect [清除選擇框]
+builderTools.legend.SelectionTool.Page3.SeeHelpMenu = 請參閱 '/help' 選單，查看更多可在選擇範圍上執行的指令！
+
+builderTools.legend.RulerTool.Page1.Title = 基礎測量
+builderTools.legend.RulerTool.Page1.Description = 測量尺工具允許您測量 3D 空間中多個點之間的距離，並支援多條測量線。
+builderTools.legend.RulerTool.Page1.PlacePoint = 在您的目標位置放置一個測量點
+builderTools.legend.RulerTool.Page1.EndCurrentLine = 結束目前的測量線並開始一條新線
+builderTools.legend.RulerTool.Page1.SnapToAngles = 按住以啟用吸附至 45° 角進行精確測量
+builderTools.legend.RulerTool.Page1.DistanceMeasurement = 距離測量結果顯示在每個點及每條線段上。線條以顏色區分：紅色（X 軸）、綠色（Y 軸）、藍色（Z 軸）、白色（對角線）
+
+builderTools.legend.RulerTool.Page2.Title = 編輯點與線
+builderTools.legend.RulerTool.Page2.PointEditing = 編輯現有的點：
+builderTools.legend.RulerTool.Page2.MovePoint = 在現有的點上按右鍵將其拾起並移動
+builderTools.legend.RulerTool.Page2.DropPoint = 再次按右鍵將點放置在新位置
+builderTools.legend.RulerTool.Page2.DeletePoint = 刪除懸停的點
+builderTools.legend.RulerTool.Page2.ClearCurrentLine = 清除目前線條上的所有點
+builderTools.legend.RulerTool.Page2.ClearAllLines = 清除所有線條並重設工具
+
+builderTools.legend.RulerTool.Page3.Title = 多重測量線
+builderTools.legend.RulerTool.Page3.Description = 測量尺工具支援建立及管理多條獨立的測量線。每條線皆獨立追蹤並可單獨編輯。
+builderTools.legend.RulerTool.Page3.NextLine = 切換到下一條測量線
+builderTools.legend.RulerTool.Page3.PreviousLine = 切換到上一條測量線
+builderTools.legend.RulerTool.Page3.SwitchToLine = 在另一條線的點上按左鍵以切換到該條線
+builderTools.legend.RulerTool.Page3.WorkflowTip = 提示：在一條線上放置點後，按左鍵結束它並自動開始一條新線。未處於活動狀態的線條會以較低的不透明度顯示。
+
+builderTools.legend.SelectPrefabTool.Page1.Title = 預製物件選擇器
+builderTools.legend.SelectPrefabTool.Page1.Description = 預製物件編輯器會建立一個臨時環境來編輯並重新儲存預製物件。如果您在沒有儲存的情況下離開預製物件編輯器，您的更改將會遺失。
+builderTools.legend.SelectPrefabTool.Page1.SelectingPrefabs = 選擇預製物件：
+builderTools.legend.SelectPrefabTool.Page1.SelectPrefab = 點擊錨點以選擇一個預製物件
+builderTools.legend.SelectPrefabTool.Page1.UnselectPrefab = 取消選擇目前選定的預製物件
+builderTools.legend.SelectPrefabTool.Page1.EditingPrefabs = 編輯預製物件：
+builderTools.legend.SelectPrefabTool.Page1.OpenSaveUI = 開啟儲存/設定 UI
+builderTools.legend.SelectPrefabTool.Page1.UpdateBoundingBox = 將所選預製物件的邊界框更新為您目前的選擇範圍
+builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = 開啟傳送至預製物件 UI
+builderTools.legend.SelectPrefabTool.Page1.QuickAccess = 快速存取：
+builderTools.legend.SelectPrefabTool.Page1.SwitchWorlds = 回到上一個世界
+builderTools.legend.SelectPrefabTool.Page1.SetAnchor = 在您注視的位置設定錨點
+builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = 實用指令：
+builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - 移除所選預製物件中的所有實體\n\
+/pedit exit - 退出預製物件編輯器而不儲存更改
+
+builderTools.tools.Paste.args.Origin.name = 原點
+builderTools.tools.Paste.args.Origin.values.Anchor = 錨點
+builderTools.tools.Paste.args.Origin.values.Bottom = 底部
+builderTools.tools.Paste.args.Origin.values.Center = 中心
+builderTools.tools.Paste.args.Origin.values.Top = 頂部
+
+builderTools.legend.EntityTool.Page1.Title = 實體工具 (Entity Tool)
+builderTools.legend.EntityTool.Page1.Description = 生成 NPC 以及物品、方塊和生物的模型。在您的世界中選擇、移動、旋轉及縮放實體。
+builderTools.legend.EntityTool.Page1.SelectingEntities = 選擇實體：
+builderTools.legend.EntityTool.Page1.SelectEntity = 選擇/抓取實體
+builderTools.legend.EntityTool.Page1.FreeMove = 自由移動實體（按住並拖曳）
+builderTools.legend.EntityTool.Page1.CancelMovement = 取消移動並還原位置
+builderTools.legend.EntityTool.Page1.AdjustDistance = 調整實體距離
+
+builderTools.legend.EntityTool.Page2.Title = 變形模式
+builderTools.legend.EntityTool.Page2.TransformModes = 變形模式：
+builderTools.legend.EntityTool.Page2.TranslateMode = 進入移動模式
+builderTools.legend.EntityTool.Page2.RotateMode = 進入旋轉模式
+builderTools.legend.EntityTool.Page2.RotateHeadMode = 進入頭部旋轉模式
+builderTools.legend.EntityTool.Page2.FreeMoveMode = 附著於游標
+builderTools.legend.EntityTool.Page2.Scale = 縮放所選實體
+
+builderTools.legend.EntityTool.Page3.Title = 動作
+builderTools.legend.EntityTool.Page3.EntityActions = 實體動作：
+builderTools.legend.EntityTool.Page3.Clone = 複製所選實體
+builderTools.legend.EntityTool.Page3.Remove = 移除所選實體
+builderTools.legend.EntityTool.Page3.Freeze = 切換實體凍結
+builderTools.legend.EntityTool.Page3.MovementOptions = 移動選項：
+builderTools.legend.EntityTool.Page3.SurfaceLock = 切換表面鎖定模式
+builderTools.legend.EntityTool.Page3.SpawnUI = 生成 UI：
+builderTools.legend.EntityTool.Page3.OpenSpawnUI = 開啟實體生成 UI
+
+builderTools.panel.selectedEntity = 所選實體
+builderTools.panel.entitySettings = 實體工具設定
+builderTools.panel.noSelection = 未選擇實體
+builderTools.panel.entityType = 類型
+builderTools.panel.entityModel = 模型
+builderTools.panel.entityName = 名稱
+builderTools.panel.entityPosition = 位置
+builderTools.panel.entityRotation = 旋轉
+builderTools.panel.entityScale = 縮放
+builderTools.panel.entityAllowPickup = 允許拾取
+builderTools.panel.entityCollision = 碰撞
+builderTools.panel.collisionType.none = 無
+builderTools.panel.collisionType.soft = 軟性 (Soft)
+builderTools.panel.collisionType.hard = 硬性 (Hard)
+builderTools.panel.entityClone = 複製
+builderTools.panel.entityRemove = 移除
+builderTools.panel.entityPin = 釘選實體
+builderTools.panel.entityUnpin = 取消釘選實體
+builderTools.panel.surfaceLock = 鎖定至表面
+builderTools.panel.gridSnap = 網格吸附
+builderTools.panel.gridSize = 網格大小
+
+builderTools.commands.log.argValueChanged = {argKey} 已更改為 {argValue}
+builderTools.commands.mode = 模式
+builderTools.commands.keepEmptyBlocks = 保留「編輯器空 (Editor Empty)」方塊
+builderTools.commands.executeCommand = 執行指令
+builderTools.commands.material = 材質
+builderTools.commands.weight = 權重
+builderTools.commands.removeMaterial = 移除材質
+builderTools.commands.pitch = 俯仰角 (Pitch)
+builderTools.commands.addMaterial = 新增材質
+builderTools.commands.direction = 方向
+builderTools.commands.includeEmpty = 包含空方塊
+builderTools.commands.includeEntities = 包含實體
+builderTools.commands.wall.thickness = 厚度
+builderTools.commands.wall.roof = 屋頂
+builderTools.commands.wall.floor = 地板
+builderTools.commands.stack.count = 數量
+builderTools.commands.stack.spacing = 間距
+builderTools.commands.move.distance = 距離
+builderTools.commands.clear.description = 清除目前選取範圍內的所有方塊。
+builderTools.commands.clearEntities.description = 移除目前選取範圍內的所有實體。
+builderTools.commands.selection.set = 填滿方塊 (SET)
+builderTools.commands.selection.wall = 建立牆壁 (WALL)
+builderTools.commands.selection.fill = 填滿 (FILL)
+builderTools.commands.selection.replace = 替換 (REPLACE)
+builderTools.commands.selection.clear = 清除 (CLEAR)
+builderTools.commands.selection.clear_entities = 清除實體 (CLEAR ENTITIES)
+builderTools.commands.selection.stack = 堆疊 (STACK)
+builderTools.commands.selection.move = 移動 (MOVE)
+builderTools.commands.direction.forward = 向前
+builderTools.commands.direction.backward = 向後
+builderTools.commands.direction.left = 向左
+builderTools.commands.direction.right = 向右
+builderTools.commands.direction.up = 向上
+builderTools.commands.direction.down = 向下
+
+builderTools.entityType.npc = NPC
+builderTools.entityType.item = 物品
+builderTools.entityType.model = 模型
+builderTools.entityType.block = 方塊
+builderTools.entityType.unknown = 未知
+builderTools.entityModel.fallback.npc = NPC #{id}
+builderTools.entityModel.fallback.item = 物品 #{id}
+builderTools.entityModel.fallback.model = 模型 #{id}
+builderTools.entityModel.fallback.block = 方塊 #{id}
+builderTools.entityModel.fallback.unknown = #{id}
+
+builderTools.panel.entityLightEnabled = 啟用光照
+builderTools.panel.entityLightColor = 燈光顏色
+builderTools.panel.entityLightRadius = 發光半徑
+builderTools.panel.npcDebug = NPC 除錯
+builderTools.panel.npcState = 狀態
+builderTools.panel.npcHealth = 生命值
+builderTools.panel.npcStamina = 體力
+builderTools.panel.npcSpeed = 速度
+builderTools.panel.npcTarget = 目標
+builderTools.panel.npcTarget.none = 無
+
+# Builder Tools Chat Log
+builderTools.brush.log.setPaintMode = 將彩繪筆刷的繪製模式設為：{value}
+builderTools.brush.log.setBrushOrigin = 將筆刷原點設為：{origin}
+builderTools.brush.log.setBrushShape = 將筆刷形狀設為：{shape}
+builderTools.brush.log.removedFavoriteMaterial = 已從收藏材質中移除：{block}
+builderTools.brush.log.addedFavoriteMaterial = 已加入至收藏材質：{block}
+builderTools.log.brushMaterialChanged = 筆刷材質已更改為：{value}
+builderTools.log.brushKeyChanged = 筆刷鍵值已更改為：{value}
+builderTools.log.argChanged = {key} 已更改為：{value}
+builderTools.log.invalidBlockType = '{block}' 不是有效的方塊類型
+
+# === confirmQuitOverlay ===
+confirmQuitOverlay.title = 退出遊戲
+confirmQuitOverlay.text = 您確定要退出嗎？
+
+confirmQuitOverlay.buttons.returnToGame = 返回遊戲
+confirmQuitOverlay.buttons.quitToDesktop = 退出至桌面
+# === contentCreation ===
+contentCreation.pageTitle = 創造工具
+
+contentCreation.introText = 這是您可以用來存取多種有助於在 Hytale 中創作內容的工具與編輯器的中樞。\n\
+\n\
+只需從上方選單中選擇一個工具即可開始。
+
+contentCreation.notification.noBlockTargeted = 您需要瞄準一個方塊才能在資源編輯器中開啟它。
+
+# Blockbench Modals
+contentCreation.modal.blockbench.installRequired.title = 需要安裝 Blockbench
+contentCreation.modal.blockbench.installRequired.text = 我們使用 Blockbench 進行 3D 模型編輯。您似乎尚未安裝 Blockbench。\n\n必須透過安裝程式安裝 Blockbench 才能從 Hytale 啟動它。\n\n您現在想從他們的網站安裝嗎？
+contentCreation.modal.blockbench.installRequired.confirm = 安裝 Blockbench
+contentCreation.modal.blockbench.pluginRequired.title = 需要 Hytale 外掛程式
+contentCreation.modal.blockbench.pluginRequired.text = 您似乎已安裝 Blockbench，但缺少 Hytale 外掛程式。\n\n請安裝 Hytale 外掛程式。您可以在 Blockbench 網站上找到相關說明。
+contentCreation.modal.blockbench.pluginRequired.confirm = 顯示安裝說明
+contentCreation.modal.blockbench.launchFailed.title = 啟動 Blockbench 失敗
+contentCreation.modal.blockbench.launchFailed.text = 在您的系統上找到了 Blockbench，但我們無法啟動它。\n\n請嘗試手動啟動 Blockbench。
+
+contentCreation.navigation.assets = 資源
+
+contentCreation.navigation.assetEditor = 資源編輯器
+contentCreation.navigation.assetEditor.tooltipTitle = 啟動資源編輯器應用程式
+contentCreation.navigation.assetEditor.tooltipDesc = 這將啟動一個外部程式，允許您即時編輯遊戲設定資源。您可以使用快捷鍵 ALT+B 快速啟動它，或使用 SHIFT+H 針對特定懸停的物品/方塊開啟它。
+contentCreation.navigation.blockbench = 模型編輯器
+contentCreation.navigation.blockbench.tooltipTitle = 啟動 Blockbench 應用程式 (模型編輯器)
+contentCreation.navigation.blockbench.tooltipDesc = 為 Hytale 建立您自己的模型與動畫。
+contentCreation.navigation.nodeeditor = 資源節點編輯器
+contentCreation.navigation.nodeeditor.tooltipTitle = 啟動資源節點編輯器應用程式
+contentCreation.navigation.nodeeditor.tooltipDesc = 使用視覺化腳本節點編輯器來編輯資源。
+contentCreation.navigation.machinima = Machinima
+contentCreation.navigation.machinima.tooltipTitle = 開啟 Machinima 編輯器
+contentCreation.navigation.machinima.tooltipDesc = 使用 Machinima 編輯器在 Hytale 內創作您自己的電影。
+contentCreation.navigation.buildertools = 建築工具
+contentCreation.navigation.buildertools.tooltipTitle = 開啟建築工具
+contentCreation.navigation.buildertools.tooltipDesc = 方塊編輯工具（選擇、筆刷、雕刻等）\n\
+\n\
+使用創造模式物品欄中工具分頁裡的方塊編輯工具來修改世界中的方塊。
+
+contentCreation.modal.nodeeditor.nonsupported.title = 不支援的平台
+contentCreation.modal.nodeeditor.nonsupported.text = 節點編輯器目前不支援您的平台。\n\n目前我們僅支援 Windows，並正努力將此功能帶到所有 PC 平台。
+
+contentCreation.navigation.worldtools = 世界
+contentCreation.navigation.worldtools.prefabEditor = 預製物件編輯器
+contentCreation.navigation.worldtools.prefabEditor.tooltipTitle = 在獨立的空間中建立或編輯預製物件。
+contentCreation.navigation.worldtools.prefabList = 預製物件清單
+contentCreation.navigation.worldtools.prefabList.tooltipTitle = 列出所有使用者建立的預製物件；點擊其中一個將其載入至貼上工具中。
+contentCreation.navigation.worldtools.spawnEntity = 生成實體
+contentCreation.navigation.worldtools.spawnParticle = 生成粒子
+contentCreation.navigation.worldtools.changeModel = 更改玩家模型
+contentCreation.navigation.worldtools.tintChunk = 區塊上色
+contentCreation.navigation.worldtools.instances = 實例
+contentCreation.navigation.worldtools.playSound = 播放音效
+contentCreation.navigation.worldtools.playSound.tooltipTitle = 瀏覽並播放音效事件。
+contentCreation.navigation.worldtools.importObj = 匯入 OBJ
+contentCreation.navigation.worldtools.importObj.tooltipTitle = 將 3D OBJ 模型轉換為體素並複製到剪貼簿。
+contentCreation.navigation.worldtools.importImage = 匯入圖片
+
+contentCreation.navigation.help = 說明
+contentCreation.navigation.help.commands = 指令
+contentCreation.navigation.help.clientLogs = 用戶端日誌
+contentCreation.navigation.help.serverLogs = 伺服器日誌
+# === controls ===
+# Timeline Control
+controls.timeline.tooltip.muteTrack = 靜音音軌
+controls.timeline.tooltip.playPause = 播放/暫停
+controls.timeline.tooltip.stop = 停止
+controls.timeline.tooltip.addTrack = 新增音軌
+controls.timeline.button.autoRestart = 自動重新啟動
+controls.timeline.tooltip.toggleLoop = 切換循環
+controls.timeline.label.time = 時間：{time}秒
+controls.timeline.label.frame = 影格：{frame}
+controls.timeline.label.duration = 長度：{duration}
+controls.timeline.label.fps = 播放速度：
+controls.timeline.tooltip.keyframe = 影格：{time}
+# === devTools ===
+devTools.tabs.Console = 控制台
+devTools.tabs.GameInfo = 遊戲資訊
+
+devTools.options = 選項
+
+devTools.popupMenu.copyGameInfo = 複製遊戲資訊至剪貼簿
+
+devTools.gameStats.popupMenu.editInAssetEditor = 在資源編輯器中編輯
+devTools.gameStats.popupMenu.copyValue = 複製數值
+
+devTools.logEntry.popupMenu.copyMessage = 複製訊息
+
+devTools.gameInfo.sections.Build = 建置版本
+devTools.gameInfo.sections.Hardware = 硬體
+devTools.gameInfo.sections.World = 世界
+devTools.gameInfo.sections.Chunks = 區塊
+devTools.gameInfo.sections.AtlasSizes = 圖集大小
+devTools.gameInfo.sections.Assets = 資源
+devTools.gameInfo.sections.UI = 使用者介面
+devTools.gameInfo.sections.Particles = 粒子
+devTools.gameInfo.sections.Network = 網路
+
+devTools.gameInfo.keys.Branch = 分支
+devTools.gameInfo.keys.Revision = 修訂版本
+devTools.gameInfo.keys.FrameworkVersion = .Net 版本
+
+devTools.gameInfo.keys.GPUVendor = GPU
+devTools.gameInfo.keys.GPURenderer = GPU 渲染器
+devTools.gameInfo.keys.GPUVersion = GPU 版本
+devTools.gameInfo.keys.WindowSize = 視窗大小
+devTools.gameInfo.keys.ViewportSize = 視圖大小
+devTools.gameInfo.keys.SceneSize = 場景大小
+
+devTools.gameInfo.keys.Biome = 生態系
+devTools.gameInfo.keys.Zone = 區域
+devTools.gameInfo.keys.Environment = 環境
+devTools.gameInfo.keys.Weather = 天氣
+devTools.gameInfo.keys.Entities = 實體
+devTools.gameInfo.keys.AudioEvents = 音訊事件
+devTools.gameInfo.keys.SoundEffect = 音效
+devTools.gameInfo.keys.ViewDistance = 視野距離
+devTools.gameInfo.keys.Heightmap = 高度圖
+devTools.gameInfo.keys.Tint = 色調
+devTools.gameInfo.keys.Light = 光照
+devTools.gameInfo.keys.Music = 音樂
+devTools.gameInfo.keys.TargetBlock = 目標方塊
+devTools.gameInfo.keys.HitBox = 碰撞箱
+devTools.gameInfo.keys.Orientation = 方向
+devTools.gameInfo.keys.FeetPosition = 腳部位置
+devTools.gameInfo.keys.ChunkPosition = 區塊位置
+
+devTools.gameInfo.keys.MapAtlasSize = 地圖
+devTools.gameInfo.keys.EntityAtlasSize = 實體
+devTools.gameInfo.keys.IconAtlasSize = 圖示
+devTools.gameInfo.keys.UIAtlasSize = UI
+devTools.gameInfo.keys.CustomUIAtlasSize = 自訂 UI
+
+devTools.gameInfo.keys.ChunksLoaded = 已載入
+devTools.gameInfo.keys.ChunksDrawable = 可繪製
+devTools.gameInfo.keys.ChunksMax = 最大值
+devTools.gameInfo.keys.ChunksQueued = 已排隊
+devTools.gameInfo.keys.ChunksRebuilding = 正在重建
+devTools.gameInfo.keys.ChunksUploadReady = 準備上傳
+devTools.gameInfo.keys.ChunksToUpdate = 待更新
+devTools.gameInfo.keys.ChunksUpToDate = 已是最新
+
+devTools.gameInfo.keys.ActivelyReferencedAssets = 活動參照中
+devTools.gameInfo.keys.BuiltInAssets = 內建
+devTools.gameInfo.keys.CachedAssets = 已快取
+
+devTools.gameInfo.keys.UIScale = 縮放比例
+
+devTools.gameInfo.keys.ParticleSystems = 系統
+devTools.gameInfo.keys.ParticleProxies = 代理
+devTools.gameInfo.keys.ParticleBlend = 混合
+devTools.gameInfo.keys.ParticleDistortion = 失真
+devTools.gameInfo.keys.ParticleErosion = 侵蝕
+
+devTools.gameInfo.keys.NetworkSent = 已傳送
+devTools.gameInfo.keys.NetworkReceived = 已接收
+devTools.gameInfo.keys.QuicStreams = QUIC 串流
+devTools.gameInfo.keys.QuicGameStream = 遊戲串流
+devTools.gameInfo.keys.QuicVoiceStream = 語音串流
+# === disconnection ===
+disconnection.title.disconnected = 已從伺服器中斷連線
+disconnection.title.failedToConnect = 無法連線至伺服器
+
+disconnection.button.quitToMainMenu = 退出至主選單
+disconnection.button.reconnect = 重新連線
+disconnection.button.reconnect.inProgress = 正在重新連線...
+
+disconnection.button.tryAgain = 重試
+disconnection.button.tryAgain.inProgress = 正在連線...
+disconnection.button.manageMods = 管理 Mods
+
+disconnection.autoConnectingIn = 將於 {seconds} 秒後連線
+
+disconnection.error.unexpectedError = 發生了非預期的錯誤
+disconnection.error.noConnectectionEstablished = 無法建立連線
+disconnection.error.rateLimited = 您已被限制連線頻率。請稍後再試。
+disconnection.error.authFailed = 驗證失敗。請重新啟動遊戲並再試一次。
+disconnection.error.notAuthenticated = 您必須登入才能連線至多人遊戲伺服器。
+disconnection.error.timeout = 連線逾時。請檢查您的網際網路連線並再試一次。
+disconnection.error.versionMismatch = 由於用戶端與伺服器版本不符，無法連線。
+disconnection.error.clientOutdated = 您的遊戲用戶端已過期。請更新以連線至此伺服器。
+disconnection.error.serverOutdated = 該伺服器執行的是舊版本，無法接受您的連線。
+disconnection.error.serverFailedToBoot = 伺服器啟動失敗。
+disconnection.shutdownReason.validateError.launcherAssets = 由於啟動器資源，未生成架構 (schema)。
+disconnection.shutdownReason.validateError.detail = 資源驗證失敗：\n{detail}
+disconnection.shutdownReason.crash.schemaGenerationFailed = 架構 (schema) 生成失敗。
+disconnection.shutdownReason.crash.startFailed = 啟動伺服器失敗！{detail}
+disconnection.shutdownReason.shutdown.schemaGenerated = 架構 (schema) 已生成。
+disconnection.shutdownReason.shutdown.devToolsRequest = 開發者工具 (DevTools) 要求關閉。
+disconnection.shutdownReason.shutdown.stressTestFinished = 壓力測試完成！
+disconnection.shutdownReason.missingAssets.failedToLoad = 無法載入任何資源包。
+disconnection.shutdownReason.pluginError.detail = 以下 {count, plural, one {個外掛程式} other {個外掛程式}} 載入失敗：\n{detail}
+disconnection.shutdownReason.pluginDuplicate = 嘗試載入重複的外掛程式：{plugin}
+disconnection.shutdownReason.missingRequiredPlugin.detail = 啟動伺服器失敗！缺少 Mods：\n{detail}
+disconnection.shutdownReason.authFailed.detail = 驗證失敗：\n{detail}
+disconnection.shutdownReason.worldGen.detail = 世界生成失敗：\n{detail}
+# === gameLoadingView ===
+gameLoadingView.hints.constructionThanks = 感謝您在我們建置期間遊玩！
+gameLoadingView.hints.futureTipsAndTricks = 此畫面將向您顯示提示與技巧，以協助您的冒險。
+
+gameLoadingView.status.waitingForShutdown = 正在等待伺服器完成關閉...
+gameLoadingView.status.connecting = 正在連線...
+gameLoadingView.status.connectingP2P = 正在連線至 {host} 的 '{name}'... ({current}/{total})
+gameLoadingView.status.bootingServer = 正在啟動伺服器...
+gameLoadingView.status.enterPassword = 輸入伺服器密碼
+gameLoadingView.status.wrongPassword = 密碼錯誤。還剩 {attempts, plural, one {{attempts} 次} other {{attempts} 次}} 嘗試機會。
+gameLoadingView.status.waitingForChunks = 正在等待區塊...
+gameLoadingView.status.bootingServerWithMessage = 正在啟動伺服器... ({message})
+gameLoadingView.status.savingWorld = 正在儲存世界 "{name}"
+gameLoadingView.status.closingWorld = 正在關閉世界 "{name}"
+gameLoadingView.status.migratingChunks = 正在為 "{name}" 遷移區塊
+gameLoadingView.status.verifiedChunks = 已為世界 "{name}" 驗證 {done}/{total} 個區塊
+gameLoadingView.status.recoveringChunks = 正在為世界 "{name}" 復原 {done}/{total} 個區塊
+gameLoadingView.status.serverFrozenDumping = 伺服器似乎已凍結。正在傾印日誌...
+
+gameLoadingView.password.title = 伺服器密碼
+gameLoadingView.password.submit = 登入
+# === gamePageNavigation ===
+gamePageNavigation.buttons.Inventory = 物品欄
+gamePageNavigation.buttons.Map = 地圖
+gamePageNavigation.buttons.ContentCreation = 創造工具
+gamePageNavigation.buttons.ContentCreation.disabledTooltip = 創造選單僅在創造模式下可用。
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = 創造模式
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = 在創造模式中，您可以存取強大的編輯工具。要切換到創造模式，請使用 '/op self'，然後使用 "{key}" 快捷鍵切換遊戲模式。
+gamePageNavigation.buttons.ContentCreation.disabledTooltipUnassigned.description = 在創造模式中，您可以存取強大的編輯工具。要切換到創造模式，請使用 '/op self'，然後輸入 '/gm c'。
+gamePageNavigation.earlyAccess = 搶先體驗
+# === general ===
+general.button.cancel = 取消
+general.button.confirm = 確認
+general.button.save = 儲存
+general.button.ok = 確定
+general.button.saveChanges = 儲存變更
+general.button.discardChanges = 捨棄變更
+general.button.resetDefaults = 恢復預設值
+general.button.close = 關閉
+general.button.back = 返回
+general.button.previous = 上一步
+general.button.next = 下一步
+general.button.add = 新增
+general.button.delete = 刪除
+general.button.remove = 移除
+general.button.edit = 編輯
+general.button.select = 選擇
+general.button.browse = 瀏覽
+
+general.label.loading = 載入中...
+
+general.searchField.placeholder = 搜尋
+general.filterField.placeholder = 篩選
+
+general.dialog.error.title = 錯誤
+
+general.checkbox.on = 開
+general.checkbox.off = 關
+
+general.gamemodes.adventure = 冒險
+general.gamemodes.creative = 創造
+
+general.relativeTime.now = 剛剛
+general.relativeTime.lessThanAMinute = 不到一分鐘前
+general.relativeTime.minute = 一分鐘前
+general.relativeTime.minutes = {minutes} 分鐘前
+general.relativeTime.hour = 一小時前
+general.relativeTime.hours = {hours} 小時前
+general.relativeTime.day = 一天前
+general.relativeTime.days = {days} 天前
+general.relativeTime.month = 一個月前
+general.relativeTime.months = {months} 個月前
+general.relativeTime.year = 一年前
+general.relativeTime.years = {years} 年前
+
+general.chatMessage.failedToSaveScreenshot = 儲存截圖失敗！
+general.chatMessage.requestCancelled = 請求已取消
+general.chatMessage.voiceChatEnabled = 語音聊天已啟用。
+general.chatMessage.voiceChatDisabled = 語音聊天已停用。
+general.chatMessage.voiceChatMuted = 語音聊天已靜音。
+general.chatMessage.voiceChatUnmuted = 語音聊天已解除靜音。
+general.chatMessage.voiceChatMutedByServerOperator = 語音聊天已被伺服器管理員靜音。
+general.chatMessage.voiceChatUnmutedByServerOperator = 語音聊天已被伺服器管理員解除靜音。
+
+general.worldLoad.loadingWorld = 正在載入世界...
+general.worldLoad.loadingAsset = 正在載入資源 {assetName}
+
+general.disconnect.accountAlreadyConnecting = 此帳號的連線已在進行中
+general.disconnect.alreadyLoggedIn = 您已經登入該帳號！
+general.disconnect.authError = 驗證錯誤
+general.disconnect.authGrantFailed = 無法從登入階段服務取得授權
+general.disconnect.banned.permanent = 您已被永久封鎖！
+general.disconnect.banned.permanent.withReason = 您已被永久封鎖！原因：{reason}
+general.disconnect.banned.timed = 您已被暫時封鎖 {days}天 {hours}小時 {mins}分鐘！
+general.disconnect.banned.timed.withReason = 您已被暫時封鎖 {days}天 {hours}小時 {mins}分鐘！原因：{reason}
+general.disconnect.editorNotSupported = 此伺服器不支援編輯器！
+general.disconnect.identityTokenMissingScope = 無效的身分權杖：缺少 {scope} 範圍
+general.disconnect.identityTokenUuidMismatch = 無效的身分權杖：UUID 不符
+general.disconnect.invalidAccessToken = 無效的存取權杖
+general.disconnect.invalidIdentityToken = 無效或已過期的身分權杖
+general.disconnect.invalidPasswordResponse = 無效的密碼回應
+general.disconnect.invalidSkin = 您的外觀包含此伺服器上無法使用的部分。\n這通常發生在資源未同步時。\n\n{details}
+general.disconnect.loginException = 嘗試登入時發生例外狀況！
+general.disconnect.missingUsername = 缺少使用者名稱
+general.disconnect.missingUuid = 缺少 UUID
+general.disconnect.mutualAuthRequired = 需要雙向驗證 - 請更新您的用戶端
+general.disconnect.notWhitelisted = 您不在白名單中！
+general.disconnect.noWorldAvailable = 沒有可加入的世界
+general.disconnect.offlineModeOwnerOnly = 此世界處於離線模式，只有擁有者可以連線。
+general.disconnect.offlineModeSingleplayerOnly = 離線模式僅適用於單人遊戲。
+general.disconnect.protocol.duplicateAuthToken = 協定錯誤：重複的 AuthToken 封包
+general.disconnect.protocol.unexpectedAuthToken = 協定錯誤：非預期的 AuthToken 封包
+general.disconnect.protocol.unexpectedPacket = 協定錯誤：非預期的封包 {packetId}
+general.disconnect.protocol.unexpectedPasswordResponse = 協定錯誤：非預期的 PasswordResponse
+general.disconnect.referralDataTooLarge = 轉介資料超過最大限制 {maxSize} 位元組
+general.disconnect.referralInvalidSource = 轉介來源位址無效
+general.disconnect.referralMissingSource = 轉介連線必須包含來源伺服器位址
+general.disconnect.serverAuthFailed = 伺服器驗證失敗 - 請稍後再試
+general.disconnect.setupCancelled = 您已從伺服器中斷連線！
+general.disconnect.serverAuthUnavailable = 伺服器驗證無法使用 - 請稍後再試
+general.disconnect.serverBooting = 伺服器正在啟動！請稍後再試。
+general.disconnect.serverConfigError = 伺服器設定錯誤
+general.disconnect.serverError = 伺服器錯誤
+general.disconnect.serverFull = 玩家人數過多！
+general.disconnect.serverRequiresAuthentication = 此伺服器需要驗證！
+general.disconnect.serverShuttingDown = 伺服器正在關閉！
+general.disconnect.stageTimeout = 可能是您登入花費的時間太長，或者是我們處理您的請求花費的時間太長！請稍後再試一次。
+general.disconnect.tcpAuthenticationNotSupported = TCP 連線僅支援不安全的驗證。請使用 QUIC 進行安全的驗證連線。
+general.disconnect.tokenMissingUsername = 無效的權杖宣告：缺少使用者名稱
+general.disconnect.tokenUsernameMismatch = 無效的權杖宣告：使用者名稱不符
+general.disconnect.tokenUuidMismatch = 無效的權杖宣告：UUID 不符
+general.disconnect.tooManyPasswordAttempts: 密碼錯誤嘗試次數過多
+general.disconnect.universeException = 加入宇宙時發生例外狀況！
+
+# === hud ===
+hud.playerList.onlinePlayers = 線上玩家
+hud.playerList.username = 使用者名稱
+hud.playerList.ping = 延遲 (Ping)
+
+hud.itemSlotSelector.noItem = 無物品
+hud.itemSlotSelector.empty = 空
+hud.itemSlotSelector.invalidItem = 無效物品
+
+hud.entityEffects.defaultBuffName = 增益效果 (Buff)
+hud.entityEffects.defaultDebuffName = 減益效果 (Debuff)
+
+hud.portalPanel.title = {name}
+hud.portalPanel.portalLabel = 奧比斯碎片
+hud.portalPanel.timeUntilBreach = 距離虛空突破的時間
+hud.portalPanel.timeUntilClose = 距離傳送門關閉的時間
+
+hud.inputBindings.inventory = 物品欄
+hud.inputBindings.creationTools = 創造工具
+hud.inputBindings.map = 地圖
+hud.inputBindings.rotateBlock = 旋轉
+hud.inputBindings.selectBlockVariant = 方塊變體
+
+hud.networkQuality.ping.good = 低延遲 (<50ms)
+hud.networkQuality.ping.okay = 中等延遲 (50-100ms) - 您可能會注意到輕微的延遲。
+hud.networkQuality.ping.poor = 高延遲 (100-200ms) - 您可能會經歷延遲。
+hud.networkQuality.ping.bad = 極高延遲 (>=200ms) - 遊戲可能會變慢或沒有反應。
+hud.networkQuality.jitter.good = 低抖動 (<5ms)
+hud.networkQuality.jitter.okay = 中等抖動 (5-15ms) - 您可能會注意到輕微的卡頓。
+hud.networkQuality.jitter.poor = 高抖動 (15-30ms) - 遊戲可能會感覺不順暢。
+hud.networkQuality.jitter.bad = 極高抖動 (>=30ms) - 可能會發生頻繁的延遲峰值或橡皮筋效應。
+hud.networkQuality.packetLoss.good = 低封包遺失 (<0.1%)
+hud.networkQuality.packetLoss.okay = 中等封包遺失 (0.1-1%) - 您可能會注意到偶爾的延遲或動作遺失。
+hud.networkQuality.packetLoss.poor = 高封包遺失 (1-3%) - 某些動作或更新可能無法成功註冊。
+hud.networkQuality.packetLoss.bad = 極高封包遺失 (>=3%) - 可能會發生嚴重的不同步或斷線。
+
+hud.networkQuality.worldSaving = 正在儲存世界
+hud.networkQuality.offlineMode = 離線模式 - 您的登入階段已過期。請重新啟動遊戲以返回線上模式。
+
+hud.sleep.awaiting = {asleep}/{total} 名玩家已入睡...
+hud.sleep.waitingOn = 正在等待 {who}
+
+hud.creative.speedMultiplier = 速度倍率：{value}
+hud.creative.collisionDisabled = 碰撞已停用
+hud.creative.collisionEnabled = 碰撞已啟用
+
+hud.debug.wireframeEnabled = 線框模式：全部開啟
+hud.debug.wireframeDisabled = 線框模式：關閉
+hud.debug.shadersReloaded = 著色器已重新載入。
+hud.debug.shaderTexturesReloaded = 著色器紋理已重新載入。
+hud.debug.mapTransparency = 偵錯地圖透明度：{current} / {max}
+hud.debug.textureArrayLayer = 偵錯紋理陣列圖層：{current} / {max}
+hud.debug.drawMapLevel = 繪製地圖等級：{current} / {max}
+
+openLinkModal.title = 開啟外部網站？
+openLinkModal.text = 您即將在網頁瀏覽器中開啟網站 "{url}"。\n\
+\n\
+造訪其他玩家提供的連結時請多加小心，特別是當他們要求個人資訊時。\n\
+\n\
+您確定要繼續嗎？
+openLinkModal.confirm = 開啟網站
+# === inventory ===
+inventory.chest.title = 箱子
+inventory.chest.tooltip.takeAll = 全部取出 - 將容器內所有物品移至物品欄。({keybind})
+inventory.chest.tooltip.takeAllUnassigned = 全部取出 - 將容器內所有物品移至物品欄。(未指派)
+inventory.chest.tooltip.putAll = 全部放入 - 將物品欄內所有物品移至容器。({keybind})
+inventory.chest.tooltip.putAllUnassigned = 全部放入 - 將物品欄內所有物品移至容器。(未指派)
+inventory.chest.tooltip.quickStack = 快速堆疊 - 將物品欄內已有同類物品移至容器內。({keybind})
+inventory.chest.tooltip.quickStackUnassigned = 快速堆疊 - 將物品欄內已有同類物品移至容器內。(未指派)
+
+inventory.inventory.title = 物品欄
+inventory.itemQuantityPopup.title = 拆分堆疊：
+
+inventory.itemLibrary.title = 物品庫
+inventory.itemLibrary.options.title = 選項
+inventory.itemLibrary.options.showVariants = 顯示變體
+
+inventory.itemPreview.title = 物品預覽
+
+inventory.character.tooltip.togglePocketCrafting = 切換口袋製作
+inventory.character.tooltip.toggleBackpack = 切換背包
+inventory.character.tooltip.lockedBackpack = 透過製作背包升級來解鎖。
+inventory.character.tooltip.toggleMemories = 切換收集的記憶
+inventory.character.tooltip.disabledMemories = 在此情況下記憶已停用。
+inventory.character.tooltip.disabledBackpack = 在此情況下背包已停用。
+inventory.character.tooltip.lockedMemories = 尋找被遺忘的神廟以了解更多。
+inventory.character.tooltip.pocketCraftingDisabled = 在此情況下口袋製作已停用。
+inventory.character.tooltip.toggleHelmVisibility = 切換頭部盔甲可見度
+inventory.character.tooltip.toggleCuirassVisibility = 切換胸部盔甲可見度
+inventory.character.tooltip.toggleGauntletsVisibility = 切換手部盔甲可見度
+inventory.character.tooltip.togglePantsVisibility = 切換腿部盔甲可見度
+
+inventory.character.stats.mana = 魔力
+inventory.character.stats.health = 生命值
+inventory.character.stats.stamina = 體力
+inventory.character.stats.defense = 防禦力
+inventory.character.stats.stats = 屬性
+
+inventory.crafting.title = 製作
+inventory.crafting.button.craft = 製作
+inventory.crafting.button.craft1 = 製作
+inventory.crafting.button.craft10 = x10
+inventory.crafting.button.craft10.tooltip = 製作 x10
+inventory.crafting.button.craftAll = 全部
+inventory.crafting.button.craftAll.tooltip = 全部製作
+inventory.crafting.button.craftX = x{count}
+inventory.crafting.button.crafting = 製作中...
+inventory.crafting.unknownItem = 未知物品
+
+inventory.crafting.unknownItem.knowledgeRequired = 配方尚未發現
+inventory.crafting.unknownItem.memoriesCountRequired = 尋找<color is="#f1ba50">被遺忘的神廟</color>並恢復 {memories} 個記憶以解鎖此配方！
+inventory.crafting.lockedItem.benchTierLevelRequired = 需要 {benchname} 等級 {level}
+
+inventory.bench.tierLevelX = 等級 {level}
+inventory.bench.tierLevelX.requirements = 等級 {level} 需求
+inventory.bench.tierLevelX.upgrade = 升級至等級 {level}
+inventory.bench.tier.button.upgrade = 升級
+inventory.bench.tier.max = 已達最高等級
+inventory.bench.chestInfo = 工作台可存取半徑 {horizontalRadius, plural, one {1 個方塊} other {{horizontalRadius, number} 個方塊}} 內，以及上下 {verticalRadius, plural, one {1 個方塊} other {{verticalRadius, number} 個方塊}} 內的儲存箱子。一個工作台最多可連結 {maxChests, plural, one {1 個箱子} other {{maxChests, number} 個箱子}}。
+inventory.bench.chestLimitReached = 此工作台已達到其最大連結箱子數量上限。
+
+inventory.crafting.ingredient.tooltip.pullingFromChests = 您的物品欄內沒有足夠的材料。正在使用附近箱子內的物品。
+
+inventory.crafting.options.hideUnknownRecipes = 隱藏未知的配方
+
+inventory.processing.button.turnOn = 開啟
+inventory.processing.button.turnOff = 關閉
+inventory.processing.panel.fuel.title = 燃料
+inventory.processing.panel.output.title = 產出
+inventory.processing.tooltip.timeStopped = 處理已暫停，因為此區域的時間已停止。
+
+inventory.panel.input.title = 輸入
+
+inventory.itemInfo.title = 物品資訊
+inventory.itemInfo.hoverInfo = 將游標懸停在物品上即可在此查看更多資訊。
+inventory.itemInfo.itemSet = 物品套裝
+
+inventory.recipesButton = 配方
+
+inventory.recipeCataloguePopup.title = 配方目錄
+
+inventory.fieldcraft.title = 口袋製作
+
+inventory.storage.filterTooltips.weapons = 僅顯示武器
+inventory.storage.filterTooltips.armor = 僅顯示盔甲
+inventory.storage.filterTooltips.blocks = 僅顯示建築材料
+
+inventory.button.autoSort.tooltip = 依類型排序物品 ({keybind})
+inventory.button.autoSort.unassignedTooltip = 依類型排序物品 (未指派)
+inventory.dropdown.autoSortBy = 自動排序方式：
+inventory.dropdown.autoSort.types.Type = 類型
+
+inventory.memories.title = 收集的記憶
+
+inventory.action.toggleBuilderTools = 切換建築工具
+inventory.action.pickHalf = 取出一半
+inventory.action.pickOne = 取出一個
+inventory.action.smartMove = 轉移
+inventory.action.resize = 調整大小
+inventory.action.placeOne = 放置一個
+inventory.action.resizeMod = 調整大小 x5
+# === itemTooltip ===
+itemTooltip.resourceType.name = 資源：{name}
+itemTooltip.id = ID：
+itemTooltip.utility = 實用
+itemTooltip.consumable = 消耗品
+
+itemTooltip.cursed.label = 詛咒
+itemTooltip.cursed.help = 在碎片世界中生存以淨化
+
+itemTooltip.stats.Health = 生命值
+itemTooltip.stats.Stamina = 體力
+itemTooltip.stats.Mana = 魔力
+itemTooltip.stats.Oxygen = 氧氣
+itemTooltip.stats.Defense = 防禦力
+itemTooltip.stats.FireResistance = 火焰抗性
+itemTooltip.stats.WaterResistance = 流水抗性
+itemTooltip.stats.EarthResistance = 大地抗性
+itemTooltip.stats.AirResistance = 狂風抗性
+itemTooltip.stats.SignatureEnergy = 絕技充能
+itemTooltip.stats.Ammo = 彈藥
+itemTooltip.stats.SignatureCharges = 絕技次數
+
+itemTooltip.oneHanded = 單手
+itemTooltip.twoHanded = 雙手
+
+itemTooltip.damageCauseResistance.projectile = 投射物抗性：{value}
+itemTooltip.damageCauseResistance.physical = 物理抗性：{value}
+itemTooltip.damageCauseResistance.fire = 火焰抗性：{value}
+itemTooltip.damageCauseResistance.poison = 毒素抗性：{value}
+itemTooltip.damageCauseResistance.fall = 跌落抗性：{value}
+
+itemTooltip.damageEnhancementCause.increase.projectile = 提升投射物傷害：{value}
+itemTooltip.damageEnhancementCause.decrease.projectile = 降低投射物傷害：{value}
+itemTooltip.damageEnhancementCause.modify.projectile = 修改投射物傷害：{value}
+
+itemTooltip.damageEnhancementCause.increase.physical = 提升物理傷害：{value}
+itemTooltip.damageEnhancementCause.decrease.physical = 降低物理傷害：{value}
+itemTooltip.damageEnhancementCause.modify.physical = 修改物理傷害：{value}
+
+itemTooltip.damageClassEnhancement.increase.light = 提升輕攻擊傷害：{value}
+itemTooltip.damageClassEnhancement.decrease.light = 降低輕攻擊傷害：{value}
+itemTooltip.damageClassEnhancement.modify.light = 修改輕攻擊傷害：{value}
+
+itemTooltip.damageClassEnhancement.increase.charged = 提升蓄力攻擊傷害：{value}
+itemTooltip.damageClassEnhancement.decrease.charged = 降低蓄力攻擊傷害：{value}
+itemTooltip.damageClassEnhancement.modify.charged = 修改蓄力攻擊傷害：{value}
+
+itemTooltip.damageClassEnhancement.increase.signature = 提升絕技攻擊傷害：{value}
+itemTooltip.damageClassEnhancement.decrease.signature = 降低絕技攻擊傷害：{value}
+itemTooltip.damageClassEnhancement.modify.signature = 修改絕技攻擊傷害：{value}
+
+# Header
+machinima.header.placeholder.selectScene = 選擇一個場景
+machinima.header.button.create = 建立
+machinima.header.button.delete = 刪除
+machinima.header.button.save = 儲存
+machinima.header.button.settings = 設定
+machinima.header.button.help = 說明
+
+# Modal Titles
+machinima.modal.title.inputBindings = 輸入綁定
+machinima.modal.title.editScene = 編輯場景
+machinima.modal.title.createScene = 建立新場景
+machinima.modal.title.createActor = 建立新演員
+machinima.modal.title.editActor = 編輯演員
+machinima.modal.title.editKeyframeEvent = 編輯關鍵影格事件
+machinima.modal.title.addKeyframeSetting = 新增關鍵影格設定
+machinima.modal.title.addKeyframeEvent = 新增關鍵影格事件
+machinima.modal.title.deleteEvent = 刪除事件
+machinima.modal.title.deleteScene = 刪除場景
+
+# Modal Buttons
+machinima.modal.button.close = 關閉
+machinima.modal.button.saveChanges = 儲存變更
+machinima.modal.button.createScene = 建立場景
+machinima.modal.button.createActor = 建立演員
+machinima.modal.button.addSetting = 新增設定
+machinima.modal.button.addEvent = 新增事件
+machinima.modal.button.delete = 刪除
+
+# Modal Messages
+machinima.modal.message.deleteEvent = 您要刪除事件 '{name}' 嗎？
+machinima.modal.message.deleteScene = 您要刪除場景 '{name}' 嗎？
+
+# Modal Labels
+machinima.modal.label.name = 名稱
+machinima.modal.label.type = 類型
+machinima.modal.label.animationSlot = 動畫槽位
+machinima.modal.label.animationId = 動畫 ID
+machinima.modal.label.command = 指令
+machinima.modal.label.particleSystem = 粒子系統
+machinima.modal.label.targetActor = 目標演員
+machinima.modal.label.actorType = 演員類型
+machinima.modal.label.item = 物品
+machinima.modal.label.scale = 縮放
+machinima.modal.label.model = 模型
+machinima.modal.label.fieldOfView = 視野 (FOV)
+machinima.modal.label.lighting = 發光
+machinima.modal.label.light = 燈光顏色
+
+# Modal Checkboxes
+machinima.modal.checkbox.activateCamera = 啟用攝影機
+
+# Modal Placeholders
+machinima.modal.placeholder.actorName = 演員名稱
+machinima.modal.placeholder.selectActorType = 選擇演員類型
+machinima.modal.placeholder.selectEvent = 選擇事件
+machinima.modal.placeholder.selectItem = 選擇物品
+
+# Default names
+machinima.modal.default.sceneName = 新場景
+
+# Errors
+machinima.modal.new.scene.empty = 場景名稱不能為空
+machinima.modal.new.scene.invalid = 場景名稱包含無效字元
+machinima.modal.new.scene.alreadyExisting = 此場景名稱已存在
+machinima.playbackSpeed.invalidNumber = 播放速度必須是有效的數字
+machinima.playbackSpeed.outOfRange = 播放速度必須介於 {min} 與 {max} 之間
+
+# Keyframe Editor
+machinima.keyframe.tab.settings = 設定
+machinima.keyframe.tab.events = 事件
+machinima.keyframe.button.addSetting = 新增設定
+machinima.keyframe.button.addEvent = 新增事件
+machinima.keyframe.button.edit = 編輯
+machinima.keyframe.button.delete = 刪除
+machinima.keyframe.tooltip.deleteEvent = 刪除事件
+
+# Machinima Chat Log
+machinima.log.subCommandList = Mach 子指令：
+machinima.log.enterSubCommand = 請輸入 mach 子指令。
+machinima.log.unknownSubCommand = 未知的 mach 子指令！'{command}'
+machinima.log.noActiveSceneFound = 找不到活動場景。
+machinima.log.noActiveSceneSpecify = 找不到活動場景，請指定場景名稱，或設定一個活動場景。
+machinima.log.unableToFindScene = 找不到場景 '{name}'。
+machinima.log.sceneSavedToClipboard = '{name}' 場景已成功儲存至剪貼簿！
+machinima.log.loadedScene = 已載入場景 '{name}'。
+machinima.log.sceneModelsUpdated = 場景模型已更新。
+machinima.log.activeSceneSetTo = 活動場景已設為 '{name}'。
+machinima.log.selectEntityToCopy = 請選擇要從其複製模型的實體。
+machinima.log.unableToFindEntity = 在此位置找不到實體，正在中止...
+machinima.log.entitySelected = 實體已選擇！
+machinima.log.selectEntityActorToApply = 現在請選擇要套用該模型的演員。
+machinima.log.unableToFindEntityInLocation = 在該位置找不到實體，正在中止...
+machinima.log.unableToFindActorForEntity = 找不到該實體的演員，正在中止...
+machinima.log.modelAppliedToActor = 模型已成功套用至演員 '{name}'。
+machinima.log.invalidActorTypeFound = 發現無效的演員類型，正在中止...
+machinima.log.selectKeyframeToMove = 請選擇要移動的演員關鍵影格。
+machinima.log.selectKeyframeToCopy = 請選擇要複製的演員關鍵影格。
+machinima.log.unableToFindKeyframe = 在此位置找不到關鍵影格，正在中止...
+machinima.log.selectPositionToMove = 現在選擇要移動到的偏移位置。
+machinima.log.selectPositionToAdd = 現在選擇要新增的偏移位置。
+machinima.log.moveCancelled = 移動已取消。
+machinima.log.cloneStopped = 複製已停止。
+machinima.log.invalidPosition = 無效位置，正在中止...
+machinima.log.actorOffsetComplete = 演員偏移完成。
+machinima.log.cloneFinished = 複製完成！
+machinima.log.continueCloning = 左鍵點擊繼續複製，或右鍵點擊以完成。
+machinima.log.selectKeyframeToRotate = 請左鍵點擊演員關鍵影格以圍繞其旋轉，或右鍵點擊以取消。
+machinima.log.rotateStopped = 旋轉已停止。
+machinima.log.noActiveActorSelectOne = 找不到活動演員，請選擇一個然後再試。
+machinima.log.noActiveActorFound = 找不到活動演員！
+machinima.log.entityModelUpdated = 實體模型已更新。
+machinima.log.unableToUpdateModelNotEntity = 無法更新模型，演員不是實體。
+machinima.log.actorAlreadyExists = 名為 '{actor}' 的演員已存在於場景 '{scene}'。
+machinima.log.invalidActorType = 無效的演員類型 '{type}'，可接受的類型為 player、entity 和 camera。
+machinima.log.errorAddingActor = 將 '{actor}' 加入場景 '{scene}' 時發生錯誤。
+machinima.log.actorAdded = 新演員 '{actor}' 已加入場景 '{scene}'。
+machinima.log.unableToFindActor = 找不到演員：{name}。
+machinima.log.removedActor = 已移除演員：{name}。
+machinima.log.actorScaleSet = 演員縮放設為 {scale}。
+machinima.log.unableToParseFloat = 無法從 `{value}` 解析浮點數值。
+machinima.log.actorMustBeEntity = 活動演員必須是實體類型才能使用此功能。
+machinima.log.noActiveActorInScene = 在場景中找不到活動演員。
+machinima.log.invalidEventType = 無效的事件類型 '{type}'。
+machinima.log.eventAddedToKeyframe = 新事件已加入影格 {frame} 的關鍵影格。
+machinima.log.duplicateKeyframeEvent = 一個關鍵影格只能加入一個該事件實例，正在中止...
+machinima.log.selectKeyframeForEvent = 請選擇要將事件加入的關鍵影格。
+machinima.log.selectKeyframeOfTarget = 請選擇目標演員的關鍵影格。
+machinima.log.enterEventIdToRemove = 請輸入要移除的關鍵影格事件 ID #。
+machinima.log.unableToParseKeyframeId = 無法從 '{value}' 解析關鍵影格 ID。
+machinima.log.unableToFindEvent = 找不到 ID 為 '{id}' 的事件。
+machinima.log.eventRemovedFromKeyframe = 事件已成功從關鍵影格移除。
+machinima.log.pathDisplayEnabled = 路徑顯示已啟用。
+machinima.log.pathDisplayDisabled = 路徑顯示已停用。
+machinima.log.playbackRestarted = 播放已重新啟動。
+machinima.log.autoRestartEnabled = 自動重新啟動已啟用。
+machinima.log.autoRestartDisabled = 自動重新啟動已停用。
+machinima.log.playbackStarted = 播放已在影格 {frame} 開始。
+machinima.log.playbackPaused = 已在影格 {frame} 暫停。
+machinima.log.noActiveActorSelectKeyframe = 找不到活動演員，請選擇一個關鍵影格來設定。
+machinima.log.unableToParseNumberDefault = 無法從 {input} 解析數字，使用預設值 {default}。
+machinima.log.addedKeyAtFrame = 已在影格 {frame} 新增關鍵影格。
+machinima.log.scenesSaved = {count} 個場景已儲存至檔案。
+machinima.log.scenesLoaded = 已從檔案載入 {count} 個場景。
+machinima.log.selectKeyframeToChangeFrame = 請選擇要更改影格的關鍵影格。
+machinima.log.selectKeyframeToEdit = 請選擇要編輯的關鍵影格。
+machinima.log.keyframeUpdated = 關鍵影格已更新。
+machinima.log.keyframeAlreadyAtFrame = 無法更改關鍵影格，影格 #{frame} 已設定了一個。
+machinima.log.adjustPositionAndRotation = 調整您的位置與旋轉，然後左鍵點擊設定，或右鍵點擊取消。
+machinima.log.keyframeEditCancelled = 關鍵影格編輯已取消。
+machinima.log.unableToParseNumber = 無法從 {input} 解析數字。
+machinima.log.speedStats = 速度平均: {avg}, 最小: {min}, 最大: {max}
+machinima.log.bezierPathUpdated = 貝茲曲線路徑已更新。
+machinima.log.actorsWithMissingModels = 發現 {count} 位缺少模型的演員。
+machinima.log.invalidDemoSceneNumber = 無效的展示場景整數號碼：{value}。
+machinima.log.unableToFindDemoScene = 找不到展示場景 #{number}。
+machinima.log.demoSceneLoaded = 展示場景 #{number} 已載入。
+machinima.log.invalidOffsetAmount = 發現無效的偏移量數值 {value}！
+machinima.log.invalidInsertFrame = 發現無效的插入影格數值 {value}！
+machinima.log.offsetKeyframes = 演員關鍵影格已偏移！
+machinima.log.keyframeLookFixed = 關鍵影格視角設定已修正！
+machinima.log.noCamerasInScene = 在目前場景中找不到任何攝影機。
+machinima.log.unableToParseBool = 無法解析布林值：'{value}'
+machinima.log.sceneCompressionEnabled = 場景檔案壓縮已啟用。
+machinima.log.sceneCompressionDisabled = 場景檔案壓縮已停用。
+machinima.log.autosaveDelay = 自動儲存延遲：{delay} 秒
+machinima.log.unableToParseInt = 無法解析整數值：'{value}'
+machinima.log.delayRange = 延遲必須介於 {min} 與 {max} 之間。
+machinima.log.autosaveDelaySet = 自動儲存延遲設為：{delay} 秒。
+
+# === mainMenu ===
+# Navigation
+
+mainMenu.navigation.quit = 退出遊戲
+mainMenu.navigation.settings = 設定
+mainMenu.navigation.worlds = 世界
+mainMenu.navigation.minigames = 小遊戲
+mainMenu.navigation.servers = 伺服器
+mainMenu.navigation.avatar = 我的虛擬化身
+mainMenu.navigation.shop = 商店
+
+mainMenu.discord.button.label = 加入 Discord
+mainMenu.discord.button.tooltip = 在外部瀏覽器中開啟我們的 Discord
+
+mainMenu.feedback.button.label = 提供意見回饋
+
+# Minigames
+
+mainMenu.minigames.title = 小遊戲
+mainMenu.minigames.title.appendix = 敬請期待！
+
+mainMenu.minigames.wip.title = 開發中
+mainMenu.minigames.wip.text = 此遊戲模式將在未來推出
+
+# Shop
+
+mainMenu.shop.title = 可用版本
+mainMenu.shop.owned = 已擁有
+mainMenu.shop.upgrade = 升級
+
+# Multiplayer
+
+mainMenu.servers.title = 伺服器
+
+mainMenu.servers.groups.recent = 最近
+mainMenu.servers.groups.favorite = 收藏
+mainMenu.servers.groups.friends = 好友
+mainMenu.servers.groups.all = 所有伺服器
+mainMenu.servers.groups.lan = 區域網路
+
+mainMenu.servers.groups.join = 加入伺服器
+mainMenu.servers.groups.homepage = 檢視完整伺服器頁面
+
+mainMenu.servers.lookingForLan = 正在尋找區域網路伺服器...
+mainMenu.servers.connectingToServer = 正在連線至 {name}...
+mainMenu.servers.connect = 連線
+mainMenu.servers.connectionAddress = 連線位址
+mainMenu.servers.connectDirectly = 直接連線
+mainMenu.servers.joinViaCode = 透過代碼加入
+mainMenu.servers.inviteCode = 邀請碼
+mainMenu.servers.inviteCodePlaceholder = 在此貼上邀請碼...
+mainMenu.servers.join = 加入
+mainMenu.servers.joinViaCode.error.empty = 請輸入邀請碼
+mainMenu.servers.joinViaCode.error.invalidCode = 無效的邀請碼格式
+mainMenu.servers.joinViaCode.error.expired = 此邀請碼已過期
+mainMenu.servers.joinViaCode.error.failedToConnect = 無法連線至任何可用的位址
+mainMenu.servers.joinViaCode.status.connecting = 正在嘗試連線候選位址...
+
+mainMenu.servers.noFavoriteServers.title = 未加入任何伺服器
+mainMenu.servers.noFavoriteServers.text = 您可以點擊下方的「新增伺服器」將伺服器加入至清單中。
+mainMenu.servers.noLanServers.title = 找不到伺服器
+mainMenu.servers.noLanServers.text = 在同一個區域網路內可被發現的伺服器將顯示於此。
+
+# Online Play Settings
+mainMenu.onlinePlay.title = 線上遊玩
+mainMenu.onlinePlay.shareCode = 分享碼
+mainMenu.onlinePlay.shareCode.hintActive = 與朋友分享此代碼，他們就可以在伺服器選單中使用「透過代碼加入」來加入您的世界。
+mainMenu.onlinePlay.shareCode.hintInactive = 啟用「允許其他玩家加入」並按下儲存即可獲得您的分享碼。
+mainMenu.onlinePlay.shareCode.ipWarning = 警告：此分享碼包含您的 IP 位址。請僅與您信任的人分享。
+mainMenu.onlinePlay.shareCode.placeholder = 尚未產生分享碼
+mainMenu.onlinePlay.shareCode.copy = 複製至剪貼簿
+mainMenu.onlinePlay.setting.allowPlayers = 允許其他玩家加入
+mainMenu.onlinePlay.setting.password = 密碼
+mainMenu.onlinePlay.setting.password.placeholder = 無密碼
+mainMenu.onlinePlay.setting.includePasswordInCode = 在分享碼中包含密碼
+mainMenu.onlinePlay.status.copiedToClipboard = 已複製至剪貼簿！
+mainMenu.onlinePlay.status.connecting = 正在建立連線... 這可能需要幾秒鐘的時間。
+mainMenu.onlinePlay.status.connectedVia = 透過 {method} 連線
+mainMenu.onlinePlay.status.failed = 無法建立連線。請重試或檢查防火牆設定。
+mainMenu.onlinePlay.natType = NAT 類型：{type}
+mainMenu.onlinePlay.natType.Unknown = 未知
+mainMenu.onlinePlay.natType.None = 無 NAT (直接連線)
+mainMenu.onlinePlay.natType.NatWithUpnp = 標準 (UPnP)
+mainMenu.onlinePlay.natType.NatWithoutUpnp = 受限 (無 UPnP)
+mainMenu.onlinePlay.natType.DoubleNat = 雙重 NAT
+mainMenu.onlinePlay.natType.CarrierGradeNat = 電信級 NAT (CGNAT)
+mainMenu.onlinePlay.connectionWarning = 警告：您的網路設定可能會導致其他玩家無法連線。
+mainMenu.onlinePlay.wipWarning = 這是一項實驗性功能，非常依賴您的網路環境。如果無法運作，請參閱支援文章：<u><a href="joining-friends">{url}</a></u>。
+
+mainMenu.servers.button.joinServer = 加入伺服器
+mainMenu.servers.button.editServer = 編輯伺服器
+mainMenu.servers.button.addServer = 新增伺服器
+
+mainMenu.servers.editPopup.addServer = 新增伺服器
+mainMenu.servers.editPopup.editServer = 編輯伺服器
+mainMenu.servers.editPopup.name = 名稱
+mainMenu.servers.editPopup.error.invalidAddress = 請為伺服器輸入有效的位址
+mainMenu.servers.editPopup.error.invalidName = 請為伺服器輸入有效的名稱
+mainMenu.servers.editPopup.addServer.name.placeholder = 伺服器名稱
+
+mainMenu.servers.name = 名稱
+mainMenu.servers.description = 描述
+mainMenu.servers.online = 在線人數
+mainMenu.servers.tags = 標籤
+mainMenu.servers.rating = 評分
+mainMenu.servers.ping = 延遲
+
+mainMenu.servers.failedToFetch = 無法取得伺服器清單
+
+mainMenu.servers.details.host = 主機：{host}
+mainMenu.servers.details.languages = 支援語言：{languages}
+mainMenu.servers.details.uuid = UUID：{uuid}
+mainMenu.servers.details.online = 上線：{online}
+mainMenu.servers.details.branch = 分支：{name}
+mainMenu.servers.details.favoriteYes = 收藏：是
+mainMenu.servers.details.favoriteNo = 收藏：否
+
+mainMenu.servers.offline.title = 無法使用多人遊戲
+mainMenu.servers.offline.description.offline = 您處於離線模式。\n\
+    若要遊玩多人遊戲，請以線上模式重新啟動遊戲。
+mainMenu.servers.offline.description.connecting = 正在連線至 Hytale 的伺服器，請稍後再試...
+mainMenu.servers.offline.description.unavailable = 多人遊戲目前無法使用，因為我們在連線至 Hytale 伺服器時發生問題。請稍後再試或重新啟動遊戲。
+
+# Worlds
+
+mainMenu.worldType = {worldType} 世界
+mainMenu.worldTypes.adventure = 冒險
+mainMenu.worldTypes.creative = 創造
+mainMenu.worldTypes.exploration = 探索
+
+mainMenu.worldCreation.creative.mainDescription = 釋放您虛擬化身的潛力，並使用強大的創造工具發展您的領域。
+mainMenu.worlds.creativeModeDescription = 釋放您虛擬化身的潛力，並使用強大的創造工具發展您的領域。
+mainMenu.worlds.selectWorld = 選擇世界
+mainMenu.worlds.selectWorldAppendix = 選擇已儲存的世界或建立新世界
+mainMenu.worlds.editWorld = 編輯世界
+mainMenu.worlds.failedToDeleteWorld = 無法刪除世界
+mainMenu.worlds.settings = 設定
+mainMenu.worlds.worldName = 世界名稱
+mainMenu.worlds.gamemode = 遊戲模式
+mainMenu.worlds.flatWorld = 平坦世界
+mainMenu.worlds.randomWorld = 隨機世界
+mainMenu.worlds.creativeMode = 創造模式
+mainMenu.worlds.creativeModeStandard = 標準
+mainMenu.worlds.creativeModeHub = 十字路口
+mainMenu.worlds.creativeModeGenerated = 生成的世界
+mainMenu.worlds.npcSpawning = NPC
+mainMenu.worlds.noNpcSpawning = 無 NPC
+mainMenu.worlds.deleteWorld = 刪除世界
+mainMenu.worlds.deleteWorldConfirmation = 您確定要刪除世界 "{name}" 嗎？
+mainMenu.worlds.openFolder = 開啟資料夾
+mainMenu.worlds.createWorld = 建立世界
+mainMenu.worlds.saveWorldSettings = 儲存世界設定
+mainMenu.worlds.newWorld = 新世界
+mainMenu.worlds.worldOptions = 世界選項
+mainMenu.worlds.defaultWorldName = 新世界
+mainMenu.worlds.defaultSettings = 預設設定
+mainMenu.worlds.customSettings = 自訂設定
+mainMenu.worlds.settings.pvp = PvP
+mainMenu.worlds.settings.enabled = 已啟用
+mainMenu.worlds.settings.disabled = 已停用
+mainMenu.worlds.settings.fallDamage = 跌落傷害
+mainMenu.worlds.settings.pauseTime = 暫停時間
+mainMenu.worlds.settings.dayNightCycle = 日夜循環
+mainMenu.worlds.settings.dayDuration = 白天持續時間 (秒)
+mainMenu.worlds.settings.nightDuration = 夜晚持續時間 (秒)
+mainMenu.worlds.settings.customTime = 自訂時間
+mainMenu.worlds.settings.storageType = 儲存類型
+mainMenu.worlds.settings.storageType.tooltip = 選擇此世界的後端儲存格式。變更此設定會將現有的世界遷移到所選的格式。\n\
+<b><color is="#f1ba50">預設 (Default)</color></b>：使用伺服器選擇的預設設定。\n\
+<b><color is="#f1ba50">RocksDB</color></b> <color is="#b32626">(實驗性)</color>：使用 RocksDB 作為後端儲存格式，可能提供更高的可靠性。
+mainMenu.worlds.settings.storageType.default = 預設
+mainMenu.worlds.settings.storageType.rocksdb = RocksDB
+mainMenu.worlds.settings.applyWorldSettings = 套用設定
+mainMenu.worlds.settings.restoreSettings = 恢復預設
+mainMenu.worlds.settings.deathPenalty = 死亡物品欄懲罰
+mainMenu.worlds.settings.deathPenalty.tooltip = 定義玩家死亡時物品欄的懲罰方式。\n\
+<b><color is="#f1ba50">無 (None)</color></b>：玩家死亡時不會掉落物品。\n\
+<b><color is="#f1ba50">全部掉落 (Drop All)</color></b>：玩家死亡時會掉落物品欄內的所有物品。\n\
+<b><color is="#f1ba50">部分掉落 (Partial Drop)</color></b>：玩家只會掉落設定為死亡掉落的特定數量物品。
+mainMenu.worlds.settings.resourceLoss = 死亡時資源損失 %
+mainMenu.worlds.settings.durabilityLoss = 死亡時耐久度損失 %
+mainMenu.worlds.settings.deathPenaltyNone = 無
+mainMenu.worlds.settings.deathPenaltyDropAll = 全部掉落
+mainMenu.worlds.settings.deathPenaltyPartial = 部分掉落
+mainMenu.worlds.advancedSettings = 進階設定
+
+mainMenu.worlds.settings.backups = 備份
+mainMenu.worlds.settings.backups.enabled = 啟用自動備份
+mainMenu.worlds.settings.backups.enabled.tooltip = 啟用後，您的世界將會在指定的時間間隔自動備份。備份可用於在資料損毀或意外變更時復原您的世界。
+mainMenu.worlds.settings.backups.frequency = 備份頻率 (分鐘)
+mainMenu.worlds.settings.backups.maxCount = 保留的近期備份數量
+mainMenu.worlds.settings.backups.maxCount.tooltip = 要保留的近期備份最大數量。超過此限制時，較舊的備份將會移至封存或刪除。
+mainMenu.worlds.settings.backups.archiveMaxCount = 保留的封存備份數量
+mainMenu.worlds.settings.backups.archiveMaxCount.tooltip = 要保留的封存備份最大數量。封存備份是為了長期復原而保留的較舊備份。超過此限制時，最舊的封存將會被刪除。
+
+mainMenu.worlds.settings.tab.settings = 設定
+mainMenu.worlds.settings.tab.backupManagement = 備份
+
+mainMenu.worlds.backupManagement.title = 備份管理
+mainMenu.worlds.backupManagement.validate = 驗證世界
+mainMenu.worlds.backupManagement.recover = 復原世界
+mainMenu.worlds.backupManagement.backupList = 世界備份
+mainMenu.worlds.backupManagement.noBackups = 找不到備份
+mainMenu.worlds.backupManagement.archived = 已封存
+mainMenu.worlds.backupManagement.restore = 還原
+mainMenu.worlds.backupManagement.backupDate = {backupDate, date} {backupTime, time}
+mainMenu.worlds.backupManagement.restoreConfirm.title = 還原備份
+mainMenu.worlds.backupManagement.restoreConfirm.text = 您確定要還原此備份嗎？目前的世界資料將會被取代。
+mainMenu.worlds.backupManagement.verifyConfirm.title = 驗證世界
+mainMenu.worlds.backupManagement.verifyProgress.title = 正在驗證世界
+mainMenu.worlds.backupManagement.verifyConfirm.text = 這將檢查此世界中所有已儲存的區塊是否損毀。\n\
+    這目前只會檢查載入失敗的區塊，而不會檢查錯置的區塊。\n\
+    對於大型世界，這可能需要一些時間。
+mainMenu.worlds.backupManagement.verifySuccess = 所有區塊驗證成功。未偵測到損毀。
+mainMenu.worlds.backupManagement.verifyCorrupted.title = 世界已損毀
+mainMenu.worlds.backupManagement.verifyCorrupted = 建議復原世界或從備份還原。
+mainMenu.worlds.backupManagement.recoverConfirm.title = 復原世界
+mainMenu.worlds.backupManagement.recoverConfirm.text = 選擇要如何復原此世界中損壞的區塊。\n\
+    伺服器將會短暫啟動以掃描和修復世界資料。
+mainMenu.worlds.backupManagement.recoverConfirm.backupsThenRegenerate = 從備份
+mainMenu.worlds.backupManagement.recoverConfirm.regenerate = 重新生成
+mainMenu.worlds.backupManagement.recoverProgress.title = 正在復原世界
+mainMenu.worlds.backupManagement.recoverSuccess = 世界復原成功完成。
+mainMenu.worlds.backupManagement.recoverFailed.title = 復原不完整
+mainMenu.worlds.backupManagement.restoreSuccess = 備份還原成功。
+mainMenu.worlds.backupManagement.deleteConfirm.title = 刪除備份
+mainMenu.worlds.backupManagement.deleteConfirm.text = 您確定要永久刪除此備份嗎？此動作無法復原。
+mainMenu.worlds.backupManagement.validate.description = 檢查所有已儲存區塊的資料是否損毀。
+mainMenu.worlds.backupManagement.recover.description = 從備份中或透過重新生成來修復損壞的區塊。
+mainMenu.worlds.backupManagement.backupCount = {count} {count, plural, one {個備份} other {個備份}}
+
+mainMenu.worlds.corrupted = 已損毀
+mainMenu.worlds.corruptedTooltip = 無法載入此世界的設定。
+mainMenu.worlds.corruptedWarning.title = 世界設定已損毀
+mainMenu.worlds.corruptedWarning.text = 無法載入此世界的設定。
+mainMenu.worlds.corruptedWarning.openAnyway = 仍要開啟
+mainMenu.worlds.corruptedWarning.viewBackups = 檢視備份
+mainMenu.worlds.corruptedWarning.fixManually = 手動修復
+
+mainMenu.worlds.lockedTooltip = 此世界已在另一個實例中開啟。
+mainMenu.worlds.moddedTooltip = 此世界包含模組 (Mod)。
+mainMenu.worlds.lockWarning.title = 世界已經開啟
+mainMenu.worlds.lockWarning.text = 此世界似乎已在另一個實例中開啟。\n\n在多個實例中開啟同一個存檔可能會損毀您的存檔資料。
+mainMenu.worlds.lockWarning.openAnyway = 仍要開啟
+
+mainMenu.worlds.adventureMode.wip.text = [在搶先體驗期間無法使用]
+mainMenu.worlds.exploartionMode.wip.text = [搶先體驗開發預覽]
+mainMenu.worlds.explorationModeDescription = 探索奧比斯的迴音。建造、製作、生存，並找到恢復失去事物的方法。
+mainMenu.worlds.worldDoesntExist.title = 未知世界
+mainMenu.worlds.worldDoesntExist.message = 您嘗試開啟的世界不存在。
+mainMenu.worlds.noModsFound = 沒有可用的模組 (Mods)
+mainMenu.worlds.mods = 模組 (Mods)
+mainMenu.worlds.modType.pack = 資源包 (Pack)
+mainMenu.worlds.modType.plugin = 外掛程式 (Plugin)
+mainMenu.worlds.settings.tab.modManagement = 模組 (Mods)
+mainMenu.worlds.modVersionMismatch = 此模組的目標版本為 {modVersion}，但目前的遊戲版本為 {currentVersion}。它可能無法正常運作。
+mainMenu.worlds.modVersionMissing = 此模組未指定目標版本。它可能不相容。
+mainMenu.worlds.modVersionWarning = 部分模組可能與目前的遊戲版本不相容
+mainMenu.worlds.modColumn.name = 名稱
+mainMenu.worlds.modColumn.description = 描述
+mainMenu.worlds.modColumn.targetVersion = 目標版本
+mainMenu.worlds.modColumn.enabled = 已啟用
+mainMenu.worlds.modAuthors = 作者：{authors}
+mainMenu.worlds.modGroup.world = 世界模組 (World Mods)
+mainMenu.worlds.modGroup.world.tooltip = 安裝在此世界存檔資料夾中的模組。它們僅套用於此世界。
+mainMenu.worlds.modGroup.global = 全域模組 (Global Mods)
+mainMenu.worlds.modGroup.global.tooltip = 安裝在您全域 Mods 資料夾中的模組。它們可用於所有世界。
+
+mainMenu.assetEditor.errorModal.missingDirectory.title = 選擇一個目錄
+mainMenu.assetEditor.errorModal.missingDirectory.text = 在使用資源編輯器之前，您需要設定資源路徑
+mainMenu.assetEditor.errorModal.invalidDirectory.title = 無效的目錄
+mainMenu.assetEditor.errorModal.invalidDirectory.text = 選擇用於資源編輯器的目錄似乎不是有效的資源目錄。必須包含 Common 和 Server 資料夾
+mainMenu.assetEditor.errorModal.openSettingsButton = 開啟設定
+
+# Early Access Panel
+mainMenu.earlyAccessPanel.title = 搶先體驗\n免責聲明
+mainMenu.earlyAccessPanel.text = 這是 Hytale 的搶先體驗；遊戲仍在積極開發中。在我們朝向完整發行的過程中，請預期會有錯誤與變更發生。\n\n感謝您的支持！
+
+mainMenu.outdatedModWarning.title = 偵測到過期的 {count, plural, one {個模組} other {個模組}}
+mainMenu.outdatedModWarning.text = 以下 {count, plural, one {個模組} other {個模組}} 尚未針對目前版本進行更新，可能無法正常運作：\n\n{modList}\n\
+    請更新或停用 {count, plural, one {此模組} other {這些模組}}。
+mainMenu.outdatedModWarning.continue = 仍要繼續
+
+mainMenu.missingModWarning.title = 偵測到遺失的 {count, plural, one {個模組} other {個模組}}
+mainMenu.missingModWarning.text = 以下 {count, plural, one {個模組} other {個模組}} 先前曾在此世界中使用過，但目前 {count, plural, one {已} other {已}} 遺失：\n\n{modList}\n\
+    請重新安裝或停用 {count, plural, one {此模組} other {這些模組}}。
+mainMenu.missingModWarning.continue = 停用並繼續
+
+# === map ===
+map.title = 世界地圖
+
+map.contextMenu.teleport = 傳送
+map.contextMenu.selectLocation = 選擇位置
+map.contextMenu.deselectLocation = 取消選擇位置
+map.contextMenu.removeMarker = 移除標記
+map.contextMenu.createMapMarker = 建立地圖標記
+map.contextMenu.coordsTitle = X: {x}, Z: {z}
+map.contextMenu.markerTitle = X: {x}, Z: {z}
+
+map.createMapMarker.title = 建立地圖標記
+map.createMapMarker.nameLabel = 名稱
+map.createMapMarker.nameOptional = 選填
+map.createMapMarker.sharedLabel = 與其他玩家分享
+map.createMapMarker.submit = 建立標記
+
+map.disabled = 未知位置
+
+map.actions.placeMarker = 選擇位置
+map.actions.zoom = 放大/縮小
+map.actions.playerList = 玩家清單
+
+map.playerList.playerCount = ({players, number})
+map.playerList.playerCountWithMax = ({players, number}/{maxPlayers, number})
+map.playerList.worldOnly = 僅限世界
+map.playerList.titleWorld = 世界玩家
+map.playerList.titleServer = 伺服器玩家
+map.playerList.inWorld = 此玩家在您的世界中
+
+map.playerListEntry.tooltip.compass = 在指南針上追蹤
+map.playerListEntry.tooltip.map = 在地圖上顯示
+map.playerListEntry.tooltip.mute = 將玩家靜音
+
+map.marker.localPlayer = 您
+map.marker.targetLocation = 目標位置
+map.returnToCrossroads = 返回十字路口
+
+# === menuOverlay ===
+menuOverlay.buttons.returnToGame = 返回遊戲
+menuOverlay.buttons.quitToDesktop = 退出至桌面
+menuOverlay.buttons.quitToMainMenu = 退出至主選單
+menuOverlay.buttons.settings = 設定
+menuOverlay.buttons.feedback = 提交錯誤或意見回饋
+menuOverlay.buttons.onlinePlay = 線上遊玩
+
+# === myAvatar ===
+myAvatar.button.resetOptions = 重設虛擬化身
+myAvatar.button.resetClothing = 重設服裝
+myAvatar.button.randomize = 隨機選項
+myAvatar.button.undo = 復原上一次變更
+myAvatar.button.redo = 重做上一次變更
+myAvatar.button.playEmote = 播放動畫
+
+myAvatar.playEmotePopup.title = 播放動畫
+
+myAvatar.title = 自訂虛擬化身
+
+myAvatar.lockProperty = 點擊以停止此屬性在使用「隨機選項」按鈕時發生變更
+myAvatar.unlockProperty = 點擊以允許此屬性在使用「隨機選項」按鈕時發生變更
+
+myAvatar.synchronizeHairColor.enable = 點擊以確保頭髮顏色會自動相符
+myAvatar.synchronizeHairColor.disable = 點擊以停止自動相符頭髮顏色
+
+myAvatar.tabs.General = 一般
+myAvatar.tabs.Head = 頭部
+myAvatar.tabs.BodyCharacteristic = 身體特徵
+myAvatar.tabs.Underwear = 內衣
+myAvatar.tabs.Torso = 軀幹
+myAvatar.tabs.Capes = 披風
+myAvatar.tabs.Legs = 腿部
+myAvatar.tabs.FacialHair = 臉部毛髮
+myAvatar.tabs.Eyebrows = 眉毛
+myAvatar.tabs.Face = 臉部
+myAvatar.tabs.Ears = 耳朵
+myAvatar.tabs.Mouth = 嘴巴
+myAvatar.tabs.Eyes = 眼睛
+myAvatar.tabs.Haircut = 髮型
+myAvatar.tabs.Pants = 褲子
+myAvatar.tabs.Overpants = 腿部穿著
+myAvatar.tabs.Undertop = 內衣上裝
+myAvatar.tabs.Overtop = 外套上裝
+myAvatar.tabs.Shoes = 鞋子
+myAvatar.tabs.SkinFeature = 皮膚特徵
+myAvatar.tabs.HeadAccessory = 頭部配件
+myAvatar.tabs.FaceAccessory = 臉部配件
+myAvatar.tabs.EarAccessory = 耳部配件
+myAvatar.tabs.Gloves = 手套
+myAvatar.tabs.Cape = 披風
+myAvatar.tabs.Emotes = 表情動作
+
+myAvatar.baseProperties.bodyType = 體型
+myAvatar.baseProperties.skinTone = 膚色
+myAvatar.baseProperties.options = 選項
+
+myAvatar.baseProperties.bodyTypes.masculine = 男性化
+myAvatar.baseProperties.bodyTypes.feminine = 女性化
+
+myAvatar.color = 顏色
+
+myAvatar.variant = 選項
+
+myAvatar.dropdown.filterBy = 篩選依據：
+
+myAvatar.lockedCosmetics = 未解鎖的外觀
+myAvatar.lockedCosmetic = 未解鎖的外觀
+
+myAvatar.unsavedChangesDialog.title = 未儲存的變更
+myAvatar.unsavedChangesDialog.text = 您已對虛擬化身進行了尚未儲存的變更。
+
+myAvatar.lockedCosmeticDialog.title = 已選擇未解鎖的外觀
+myAvatar.lockedCosmeticDialog.text = 您選擇了一個需要特別版本的外觀。\n\n您可以復原該選擇至上一個有效的選擇，或是\n編輯您的選擇以挑選不同的外觀。
+myAvatar.lockedCosmeticDialog.undoButton = 復原選擇
+myAvatar.lockedCosmeticDialog.editButton = 編輯選擇
+
+myAvatar.failedToSaveDialog.title = 儲存虛擬化身失敗！
+myAvatar.failedToSaveDialog.text = 我們目前在嘗試儲存您的虛擬化身時遇到了一些問題。\n\n請稍後再試。
+myAvatar.failedToSaveDialog.button.tryAgain = 立即重試
+myAvatar.failedToSaveDialog.button.ok = 確定
+
+myAvatar.failedToAddSkinDialog.title = 無法新增虛擬化身外觀！
+myAvatar.failedToAddSkinDialog.text = 我們目前無法新增您的虛擬化身外觀；請稍後再試。如果問題仍然存在，請聯絡支援團隊。
+
+myAvatar.playerSkinsOperationFailedDialog.select.title = 選擇虛擬化身外觀動作失敗！
+myAvatar.playerSkinsOperationFailedDialog.delete.title = 刪除虛擬化身外觀動作失敗！
+myAvatar.playerSkinsOperationFailedDialog.text = 請再試一次。如果問題仍然存在，請聯絡支援團隊。
+
+myAvatar.entitlement.gameFounder.titleSuffix = Cursebreaker 版本專屬
+myAvatar.entitlement.gameFounder.lockedMessage = 要使用此外觀，您需要 Cursebreaker 版本。
+myAvatar.entitlement.gameFounder.description = 這是 Hytale Cursebreaker 版本的專屬配件。在 Hytale 商店升級您目前的版本即可解鎖。
+
+myAvatar.entitlement.gameDeluxe.titleSuffix = Supporter 版本專屬
+myAvatar.entitlement.gameDeluxe.lockedMessage = 要使用此外觀，您需要 Supporter 版本。
+myAvatar.entitlement.gameDeluxe.description = 這是 Hytale Supporter 版本的專屬配件。在 Hytale 商店升級您目前的版本即可解鎖。
+
+myAvatar.entitlement.gameStandard.titleSuffix = 搶先體驗標準版專屬
+myAvatar.entitlement.gameStandard.lockedMessage = 要使用此外觀，您需要搶先體驗標準版。
+myAvatar.entitlement.gameStandard.description = 這是 Hytale 搶先體驗標準版的專屬配件。在 Hytale 商店升級您目前的版本即可解鎖。
+
+myAvatar.entitlement.default.lockedMessage = 您無法使用此外觀，因為它尚未解鎖。
+
+myAvatar.offline.title = 虛擬化身建立器無法使用
+myAvatar.offline.description.offline = 您目前處於離線模式。\n要使用虛擬化身建立器，請以線上模式重新啟動遊戲。
+myAvatar.offline.description.connecting = 正在連線至 Hytale 伺服器，請稍後再試...
+myAvatar.offline.description.unavailable = 虛擬化身建立器目前無法使用，因為我們在連線至 Hytale 伺服器時發生問題。請稍後再試或重新啟動遊戲。
+
+myAvatar.presets.defaultName = 預設虛擬化身
+myAvatar.presets.deleteModal.title = 刪除虛擬化身預設
+myAvatar.presets.deleteModal.text = 您確定要刪除 "{presetName}" 嗎？
+myAvatar.presets.panel.addPresetButton = 新增預設 ({currentPresetCount, number, integer}/{maxPresets, number, integer})
+myAvatar.presets.addModal.title = 新增預設
+myAvatar.presets.editModal.title = 編輯預設
+myAvatar.presets.nameInput.label = 預設名稱
+myAvatar.presets.nameInput.placeholder = 我的虛擬化身預設
+
+# === settings ===
+settings.title = 設定
+
+settings.tabs.general = 一般
+settings.tabs.video = 視訊
+settings.tabs.audio = 音訊
+settings.tabs.mouse = 滑鼠
+settings.tabs.controls = 控制
+settings.tabs.gameplay = 遊戲玩法
+settings.tabs.prototype = 原型
+
+settings.groups.mouse = 滑鼠
+settings.groups.audioOutput = 輸出
+settings.groups.general = 一般
+settings.groups.gameplay = 遊戲玩法
+settings.groups.rendering = 渲染
+settings.groups.advancedRendering = 進階渲染
+settings.groups.ui = 使用者介面
+settings.groups.development = 開發
+settings.groups.language = 語言
+settings.groups.options = 選項
+settings.groups.controls.movement = 移動
+settings.groups.controls.actions = 動作
+settings.groups.controls.creative = 創造
+settings.groups.controls.menus = 選單
+settings.groups.controls.blockPlacement = 方塊放置
+settings.groups.controls.builderTools = 建築工具
+settings.groups.controls.voice = 語音
+settings.groups.controls.misc = 雜項
+settings.groups.controls.debug = 偵錯
+settings.groups.controls.inventory = 物品欄
+settings.groups.builderTools = 建築工具
+settings.prototype.groups.movement = 移動
+settings.prototype.groups.mantling = 攀爬
+settings.groups.camera = 攝影機
+settings.prototype.groups.sprint = 衝刺力道
+settings.prototype.groups.slide = 滑行力道
+settings.prototype.groups.stamina = 體力
+settings.prototype.groups.weaponPullback = 武器拉回
+settings.prototype.groups.entityui = 實體 UI
+settings.prototype.groups.playselect = 遊玩選擇工具
+settings.prototype.groups.paint = 繪製
+settings.prototype.groups.debug = 偵錯
+settings.prototype.groups.mounts = 坐騎
+settings.groups.creativeMode = 創造模式
+settings.groups.pickupLocations = 偏好拾取位置
+settings.groups.accessibility = 輔助功能
+
+settings.groups.voiceChat = 語音
+settings.voiceUnavailable = 伺服器上無法使用語音聊天。若要啟用，請在聊天室中輸入 "/voice enabled true"。
+settings.voiceUnavailableManaged = 兒童帳號目前無法使用語音聊天。未來家長或監護人將可透過家長控制來啟用此功能。
+settings.voiceUnavailableSingleplayer = 單人遊戲中已停用語音聊天。如果有其他玩家加入，它將會自動啟用。
+settings.voiceChatEnabled = 語音聊天
+settings.voiceChatVolume = 音量
+settings.voiceInputEnabled = 語音輸入
+settings.voiceInputDevice = 輸入裝置
+settings.voiceInputLevel = 輸入音量
+settings.voiceInputMode = 輸入模式
+settings.voiceInputMode.voiceActivity = 語音感應
+settings.voiceInputMode.pushToTalk = 按下發話
+settings.voiceInputMode.pushToTalkToggle = 按下發話 (切換)
+settings.noiseSuppression = 噪音抑制
+settings.voiceSensitivity = 麥克風靈敏度
+settings.voiceChat.silenced = 已靜音 (死亡)
+
+settings.tabs.social = 社交
+settings.groups.discord = Discord
+settings.discordEnabled = Discord 整合
+settings.discordEnabled.description = 啟用 Discord 狀態分享與社交功能。
+settings.discord.connectedAs = 已連線為 {username}
+settings.discord.disableConfirm.title = 停用 Discord 整合
+settings.discord.disableConfirm.text = 這將會中斷 Discord 與 Hytale 社交功能的連線。使用 Discord 登入不會受到影響。
+
+settings.prototype.percentagePlayGizmoLength = 操控小工具渲染的百分比寬度
+settings.prototype.minPlaySelectGizmoSize = 最小操控小工具大小
+settings.prototype.maxPlaySelectGizmoSize = 最大操控小工具大小
+
+settings.prototype.paintOperationIgnoreHistoryLength = 遊玩繪製忽略歷史記錄長度
+
+# Quick Settings Categories
+settings.category.movementFlight = 移動與飛行
+settings.category.placementSettings = 放置設定
+settings.category.toolSettings = 工具設定
+settings.category.brushSettings = 筆刷設定
+settings.category.soundSettings = 音訊設定
+settings.category.selectionSettings = 選擇設定
+settings.category.uiVisibility = UI 可見度
+settings.category.displayNotifications = 顯示與通知
+settings.category.environment = 環境
+
+# Quick Settings Labels
+settings.noClip = 無碰撞 (穿牆)
+settings.flightMode = 飛行模式
+settings.flightMode.hover = 懸停
+settings.flightMode.directional = 定向
+settings.flightInertia = 飛行慣性
+settings.flightSpeedMultiplier = 移動速度
+settings.airPlacement = 空氣放置
+settings.quickReplace = 快速替換
+settings.allowNPCDetection = 對 NPC 可見
+settings.respondToHit = 回應擊打
+settings.toolReachDistance = 觸及距離
+settings.toolDelayMin = 延遲
+settings.undoGroupSize = 復原/重做數量
+settings.brushOpacity = 筆刷不透明度
+settings.brushSoundVolume = 筆刷音效音量
+settings.selectionOpacity = 選擇框不透明度
+settings.selectionPanelOpacity = 選擇面板不透明度
+settings.displayLegend = 顯示圖例
+settings.showToolNotifications = 顯示工具通知
+settings.fullbright = 全亮模式
+settings.timeOfDay = 每日時間
+settings.weather = 天氣
+settings.weather.serverDefault = 伺服器預設
+settings.pauseTime = 暫停時間
+settings.environment.reset = 重設環境
+settings.environment.reset.tooltip = 將時間與天氣重設為伺服器數值
+
+# Quick Settings UI
+settings.dragToReorder = 拖曳以重新排序
+settings.resetToDefaults = 恢復預設值
+settings.resetToDefaults.tooltip = 將所有快速設定恢復為預設值
+
+settings.resetOptions = 重設選項
+settings.useSystemLanguage = 使用系統語言
+settings.language = 語言
+settings.language.description = 設定遊戲顯示的語言。\n\n<b><color is="#b32626">此設定需要您返回主選單才能完全生效！</color></b>
+settings.fullscreen = 全螢幕
+settings.noAuthName = 無驗證名稱
+settings.windowSize = 視窗大小
+settings.maximized = 最大化
+settings.windowResize = 選擇以調整大小
+settings.customResolution = 自訂 ({size})
+settings.graphicsPreset = 圖形預設
+settings.graphicsPreset.low = 低
+settings.graphicsPreset.low.description = 優先考慮效能而非畫質。
+settings.graphicsPreset.medium = 中
+settings.graphicsPreset.medium.description = 畫質與效能的平衡。
+settings.graphicsPreset.high = 高
+settings.graphicsPreset.high.description = 優先考慮畫質而非效能。
+settings.graphicsPreset.epic = 史詩
+settings.graphicsPreset.epic.description = 畫質至上。
+settings.graphicsPreset.custom = 自訂
+settings.vsync = 垂直同步 (V-Sync)
+settings.vsync.description = 啟用垂直同步會將每秒幀數限制為您顯示器的更新率。
+settings.fpsLimit = 最大 FPS
+settings.unlimitedFps = 無限制 FPS
+settings.viewDistance = 視野距離
+settings.viewDistance.description = 視野距離決定了您可以看多遠。
+settings.viewDistance.performanceWarning = 建議配備：64GB RAM 與 16GB VRAM。
+settings.fieldOfView = 視野 (FOV)
+settings.sprintFovEffect = 衝刺視野效果
+settings.sprintFovIntensity = 衝刺視野強度
+settings.viewBobbingEffect = 視角搖晃效果
+settings.viewBobbingIntensity = 視角搖晃強度
+settings.cameraShakeEffect = 相機震動效果
+settings.firstPersonCameraShakeIntensity = 第一人稱相機震動強度
+settings.thirdPersonCameraShakeIntensity = 第三人稱相機震動強度
+settings.creativeInteractionDistance = 創造模式互動距離
+settings.prototype.adventureInteractionDistance = 一般互動距離
+settings.gizmoScaleMultiplier = 操控小工具大小
+settings.prototype.useBlockSubfaces = 使用方塊子表面
+settings.prototype.displayBlockSubfaces = 顯示方塊子表面
+settings.prototype.displayBlockBoundaries = 顯示方塊邊界
+settings.placeBlocksAtRange = 在遠處放置方塊
+settings.prototype.placeBlocksAtRangeInAdventureMode = ---> 在創造模式之外
+settings.prototype.blockPlacementSupportValidation = 方塊放置支撐驗證
+settings.prototype.blockPlacementFluidity = 創造模式方塊放置流暢度
+settings.prototype.resetMouseSensitivityDuration = 恢復完整滑鼠靈敏度的時間
+settings.automaticRenderScale = 自動渲染比例
+settings.automaticRenderScale.description = 決定是否根據您的 GPU 自動設定渲染比例。
+settings.renderScale = 渲染比例
+settings.renderScale.description = 渲染遊戲畫面的螢幕解析度百分比。
+settings.placementPreview = 方塊放置預覽
+settings.placementPreview.description = 定義哪些方塊類型將會顯示放置預覽（當手中拿著方塊時）。\n\
+<b><color is="#f1ba50">無 (None)</color></b>：永遠不顯示預覽。\n\
+<b><color is="#f1ba50">全部 (All)</color></b>：所有方塊皆顯示預覽。\n\
+<b><color is="#f1ba50">多部件 (Multipart)</color></b>：僅針對大於單一方塊的方塊顯示預覽。
+settings.placementPreview.none = 無
+settings.placementPreview.all = 全部
+settings.placementPreview.multipart = 多部件
+settings.displayCombatText = 顯示傷害數字
+settings.displayCombatText.description = 當伺服器啟用時，是否顯示傷害數字等元素。如果伺服器停用此功能，無論此設定為何，都不會顯示戰鬥文字。
+settings.displayEntityStatBars = 顯示實體血條
+settings.displayEntityStatBars.description = 當伺服器啟用時，是否在實體上方顯示狀態列 UI（即生命值）。如果伺服器停用此功能，無論此設定為何，都不會顯示血條。
+settings.displayNetworkQualityWarnings = 顯示網路品質警告
+settings.displayNetworkQualityWarnings.description = 是否在 HUD 中顯示網路品質警告圖示。
+settings.displayInputBindingsOnHud = 在 HUD 顯示輸入綁定
+settings.displayInputBindingsOnHud.description = 是否在 HUD 中顯示上下文相關的按鍵綁定。
+settings.hideHud = 隱藏 HUD
+settings.hideHud.description = 隱藏所有 HUD 元素。
+settings.hideHotbar = 隱藏快捷列
+settings.hideHotbar.description = 隱藏快捷列及其相關元素。
+settings.hideCompass = 隱藏指南針
+settings.hideCompass.description = 隱藏指南針。
+settings.hideNotifications = 隱藏通知
+settings.hideNotifications.description = 隱藏彈出式通知。
+settings.hideChat = 隱藏聊天
+settings.hideChat.description = 隱藏聊天視窗 (不影響接收訊息)。
+settings.hideHeldItem = 隱藏手持物品
+settings.hideHeldItem.description = 隱藏您手中拿著的物品 (第一人稱視角)。
+settings.showFpsOverlay = FPS 覆疊顯示
+settings.showFpsOverlay.description = 隨時在螢幕右上角顯示每秒幀數計數器。
+settings.showFpsOverlay.off = 關閉
+settings.showFpsOverlay.colorCoded = 開啟 (顏色標碼)
+settings.showFpsOverlay.monochrome = 開啟 (單色)
+settings.maxChatMessages = 最大聊天訊息數
+settings.maxChatMessages.description = 決定保留在聊天列表中的最大訊息數量。
+settings.cameraBasedFlying = 相機相對飛行
+settings.cameraBasedFlying.description = 定義飛行的行為方式。\n\
+<b><color is="#f1ba50">開 (On)</color></b>：您將根據您視線的方向移動。\n\
+<b><color is="#f1ba50">關 (Off)</color></b>：無論您看向哪裡，都將以相同的方式移動。
+settings.showToolNotifications = 顯示工具通知
+settings.cameraShoulder = 相機視角肩膀
+settings.cameraShoulder.left = 左
+settings.cameraShoulder.right = 右
+settings.cameraShoulder.description = 設定第三人稱下從哪個肩膀看出去。
+
+settings.lod = 世界細節 (LOD)
+settings.lod.lowest = 最低
+settings.lod.low = 低
+settings.lod.medium = 中
+settings.lod.high = 高
+settings.lod.maximum = 最高
+settings.lod.description = 控制世界中的細節級別。較高的預設會改善遠處物件的渲染，但會嚴重消耗效能。
+settings.antialiasing = 抗鋸齒
+settings.antialiasing.description = 平滑幾何圖形的邊緣以提升影像品質。當使用較低的渲染比例時，建議使用高品質的抗鋸齒。
+settings.antialiasing.off = 關閉
+settings.antialiasing.fxaa = 低 (FXAA)
+settings.antialiasing.taa = 高 (TAA)
+settings.shaderQuality = 著色品質
+settings.shaderQuality.low = 低
+settings.shaderQuality.medium = 中
+settings.shaderQuality.high = 高
+settings.shaderQuality.description = 用於光照與著色效果的解析度。
+settings.bloomQuality = 泛光 (Bloom)
+settings.bloomQuality.off = 關閉
+settings.bloomQuality.low = 低
+settings.bloomQuality.medium = 中
+settings.bloomQuality.high = 高
+settings.bloomQuality.description = 泛光會在強烈光源周圍加入發光效果。較高的預設會提升效果的品質，但不會改變強度。
+settings.dofQuality = 景深 (DOF)
+settings.dofQuality.off = 關閉
+settings.dofQuality.low = 低
+settings.dofQuality.medium = 中
+settings.dofQuality.high = 高
+settings.dofQuality.description = 模糊遠處未對焦的物件
+settings.useSunshaft = 太陽光束 (Sun Shafts)
+settings.useSunshaft.description = 顯示穿透樹葉的太陽光芒。
+settings.useFoliageFading = 樹葉淡化
+settings.useFoliageFading.description = 啟用遠處樹葉的淡化效果，以提升效能並減少閃爍。
+settings.shadowQuality = 陰影品質
+settings.shadowQuality.low = 低
+settings.shadowQuality.medium = 中
+settings.shadowQuality.high = 高
+settings.shadowQuality.description = 控制即時陰影的品質以及它們更新的頻率。
+settings.particleQuality = 粒子品質
+settings.particleQuality.medium = 中
+settings.particleQuality.high = 高
+settings.particleQuality.description = 控制粒子效果的品質與密度。
+settings.depthBuffer = 深度緩衝精確度
+settings.depthBuffer.low = 低
+settings.depthBuffer.high = 高
+settings.depthBuffer.description = 控制渲染影像的深度精確度。使用較高精確度的深度緩衝有助於減少遠處物件的閃爍。
+
+settings.joinCameraPref = 相機偏好 (生成時)
+settings.joinCameraPref.description = 加入世界時偏好的相機視角。\n\
+伺服器可能會覆寫此設定！
+settings.joinCameraPref.first = 第一人稱
+settings.joinCameraPref.third = 第三人稱
+settings.joinCameraPref.lastUsed = 記住上次使用
+
+settings.diagnosticMode = 診斷模式
+settings.diagnosticMode.description = 如果您打算進行內容創作，建議啟用診斷模式。診斷模式將會印出更多關於設定錯誤內容的錯誤訊息。
+
+settings.quiche = 使用替代網路堆疊
+settings.quiche.description = 啟用替代網路堆疊，這在某些情況下可能會改善連線品質。必須在加入多人世界前切換。
+
+settings.quiche.log = 啟用網路日誌記錄
+settings.quiche.log.description = 為替代網路堆疊啟用詳細的日誌記錄。對偵錯連線問題很有用。
+
+settings.useBlockyModelShaderWorkaround = 方塊模型變通方案
+settings.useBlockyModelShaderWorkaround.description = 在某些配備 NVIDIA 硬體的 Mac 上，如果不使用此變通方案，模型渲染會非常慢。需要重新啟動遊戲才能使變更生效。
+
+settings.mouseRawInputMode = 原始輸入模式 (Raw Input)
+settings.mouseInverted = 反轉滑鼠
+settings.mouseXSpeed = 上/下速度
+settings.mouseYSpeed = 左/右速度
+settings.invertMouseWheelScrollDirection = 反轉滑鼠滾輪捲動方向
+settings.invertMouseWheelScrollDirection.description = 反轉滑鼠滾輪捲動方向（主要用於切換快捷列插槽時）。
+settings.outputDevice = 輸出裝置
+settings.masterVolume = 主音量
+settings.musicVolume = 音樂音量
+settings.sfxVolume = 音效音量
+settings.ambientVolume = 環境音量
+settings.uiVolume = UI 音量
+settings.outputMode = 輸出模式
+settings.outputMode.description = 控制音訊輸出聲道設定。\n\
+<b><color is="#f1ba50">預設 (Default)</color></b>：嘗試為您的輸出裝置自動選擇最佳選項。\n\
+<b><color is="#f1ba50">揚聲器 (立體聲)</color></b>：適用於揚聲器配置的標準立體聲輸出。\n\
+<b><color is="#f1ba50">耳機 (立體聲)</color></b>：適用於耳機的標準立體聲輸出。\n\
+<b><color is="#f1ba50">耳機 (3D 音訊)</color></b>：使用 HRTF 技術的耳機 3D 空間音訊 (實驗性)。\n\
+<b><color is="#f1ba50">單聲道 (Mono)</color></b>：單聲道輸出。
+settings.outputMode.default = 預設
+settings.outputMode.speakersStereo = 揚聲器 (立體聲)
+settings.outputMode.headphonesStereo = 耳機 (立體聲)
+settings.outputMode.headphones3DAudio = 耳機 (3D 音訊)
+settings.outputMode.mono = 單聲道
+settings.dynamicUiScaling = 動態 UI 縮放
+settings.uiScale = UI 縮放比例
+
+settings.defaultAudioDevice = 預設
+
+settings.bindingPopup.bind = 綁定 "{binding}"
+settings.bindingPopup.pressKey = 按下任意鍵，或按 Esc 鍵取消
+settings.bindings.clear = 移除目前的按鍵綁定。
+
+settings.bindings.input.unbound = 未綁定
+settings.bindings.input.ctrl = Ctrl
+settings.bindings.input.shift = Shift
+settings.bindings.input.alt = Alt
+settings.bindings.input.leftMouse = 滑鼠左鍵
+settings.bindings.input.rightMouse = 滑鼠右鍵
+settings.bindings.input.middleMouse = 滑鼠中鍵
+settings.bindings.input.mouseButton = 滑鼠鍵 {button}
+settings.bindings.input.return = Enter
+settings.bindings.input.escape = Esc
+settings.bindings.input.backspace = Backspace
+settings.bindings.input.tab = Tab
+settings.bindings.input.space = 空白鍵
+settings.bindings.input.printscreen = Print Screen
+settings.bindings.input.scrolllock = Scroll Lock
+settings.bindings.input.pause = Pause
+settings.bindings.input.insert = Insert
+settings.bindings.input.home = Home
+settings.bindings.input.pageup = Page Up
+settings.bindings.input.end = End
+settings.bindings.input.pagedown = Page Down
+settings.bindings.input.right = 右方向鍵
+settings.bindings.input.left = 左方向鍵
+settings.bindings.input.down = 下方向鍵
+settings.bindings.input.up = 上方向鍵
+settings.bindings.input.delete = Delete
+settings.bindings.input.capslock = Caps Lock
+settings.bindings.input.lctrl = 左 Ctrl
+settings.bindings.input.lshift = 左 Shift
+settings.bindings.input.lalt = 左 Alt
+settings.bindings.input.rctrl = 右 Ctrl
+settings.bindings.input.rshift = 右 Shift
+settings.bindings.input.ralt = 右 Alt
+
+settings.bindings.MoveForwards = 向前移動
+settings.bindings.MoveBackwards = 向後移動
+settings.bindings.StrafeLeft = 向左移動
+settings.bindings.StrafeRight = 向右移動
+settings.bindings.Jump = 跳躍
+settings.bindings.Crouch = 蹲下/滑行/翻滾
+settings.bindings.Crouch.description = <b>滑行</b>：衝刺時按下此按鍵以滑行。\n<b>翻滾</b>：掉落時按下此按鍵以翻滾。
+settings.bindings.Sprint = 衝刺
+settings.bindings.FlyUp = 向上飛
+settings.bindings.FlyDown = 向下飛
+settings.bindings.Walk = 步行
+settings.bindings.Chat = 切換聊天室
+settings.bindings.ShowPlayerList = 顯示玩家清單
+settings.bindings.OpenInventory = 開啟物品欄
+settings.bindings.OpenMap = 開啟地圖
+settings.bindings.OpenDevTools = 開啟開發者工具
+settings.bindings.DropItem = 丟棄物品
+settings.bindings.ShowUtilitySlotSelector = 顯示實用工具槽選擇器
+settings.bindings.ShowEmoteSelector = 顯示表情動作選擇器
+settings.bindings.ToggleBuilderToolsLegend = 切換建築工具圖例
+settings.bindings.OpenToolsSettings = 開啟創造工具
+
+settings.bindings.PushToTalk = 按下發話
+settings.bindings.ToggleVoiceChat = 切換語音聊天
+
+settings.bindings.SwitchCameraMode = 切換相機模式
+settings.bindings.ActivateCameraRotation = 啟用相機旋轉
+settings.bindings.ToggleProfiling = 切換效能分析
+settings.bindings.SwitchHudVisibility = 切換 HUD 可見度
+settings.bindings.ToggleFullscreen = 切換全螢幕
+settings.bindings.Command = 指令
+settings.bindings.Command.description = 按下開啟聊天視窗，並預先輸入 '/' 以便輸入伺服器指令。輸入 /help 即可查看伺服器指令清單。
+settings.bindings.TakeScreenshot = 截圖
+settings.bindings.IncreaseSpeedMultiplier = 增加速度倍率
+settings.bindings.DecreaseSpeedMultiplier = 減少速度倍率
+settings.bindings.ToggleCreativeCollision = 切換創造模式碰撞
+settings.bindings.ToggleFlyCamera = 切換飛行相機
+settings.bindings.ToggleDebugScreens = 切換偵錯畫面
+
+settings.bindings.BlockInteractAction = 與方塊互動
+settings.bindings.RotateBlock = 旋轉方塊
+settings.bindings.PrimaryItemAction = 主要動作
+settings.bindings.SecondaryItemAction = 次要動作
+settings.bindings.TertiaryItemAction = 第三動作
+settings.bindings.PickBlock = 挑選方塊 (Pick Block)
+settings.bindings.SwitchGameMode = 切換遊戲模式
+settings.bindings.ToggleBlockPreview = 切換方塊預覽
+settings.bindings.OpenMachinimaEditor = 開啟 Machinima 編輯器
+settings.bindings.OpenBuilderToolsUI = 開啟建築工具 UI
+settings.bindings.HotbarSlot1 = 快捷列插槽 1
+settings.bindings.HotbarSlot2 = 快捷列插槽 2
+settings.bindings.HotbarSlot3 = 快捷列插槽 3
+settings.bindings.HotbarSlot4 = 快捷列插槽 4
+settings.bindings.HotbarSlot5 = 快捷列插槽 5
+settings.bindings.HotbarSlot6 = 快捷列插槽 6
+settings.bindings.HotbarSlot7 = 快捷列插槽 7
+settings.bindings.HotbarSlot8 = 快捷列插槽 8
+settings.bindings.HotbarSlot9 = 快捷列插槽 9
+settings.bindings.Ability1ItemAction = 使用能力 1
+settings.bindings.Ability2ItemAction = 使用能力 2
+settings.bindings.Ability3ItemAction = 使用能力 3
+settings.bindings.UndoItemAction = 復原
+settings.bindings.RedoItemAction = 重做
+settings.bindings.AddRemoveFavoriteMaterialItemAction = 加入/移除收藏材質
+settings.bindings.DismountAction = 卸下/下坐騎
+settings.bindings.AlternatePlaySculptBrushModeModifier = 變更雕刻筆刷輔助鍵
+settings.bindings.UsePaintModeForBrush = 使用筆刷彩繪模式
+settings.bindings.SelectBlockFromSet = 從組合中選擇方塊
+settings.bindings.PastePreview = 貼上預覽
+settings.bindings.ToggleFlyCameraControlTarget = 切換飛行相機控制目標
+settings.bindings.ToggleFlyCameraControlTarget.description = 切換由飛行相機控制的目標，可能是相機本身或玩家。
+settings.bindings.PreviousBuilderToolsLegendPage = 圖例 - 上一頁
+settings.bindings.NextBuilderToolsLegendPage = 圖例 - 下一頁
+
+settings.bindings.ContainerTakeAll = 容器 - 全部取出
+settings.bindings.ContainerPutAll = 容器 - 全部放入
+settings.bindings.ContainerQuickStack = 容器 - 快速堆疊
+settings.bindings.ContainerSort = 容器 - 排序物品
+settings.bindings.SelectionShiftUp = 選擇範圍 - 向上平移
+settings.bindings.SelectionShiftDown = 選擇範圍 - 向下平移
+settings.bindings.SelectionCopy = 選擇範圍 - 複製
+settings.bindings.SelectionClear = 選擇範圍 - 清除
+settings.bindings.SelectionTranslateMode = 選擇範圍 - 平移模式
+settings.bindings.SelectionGizmoMode = 選擇範圍 - 操控小工具模式
+settings.bindings.SelectionRotateMode = 選擇範圍 - 旋轉模式
+settings.bindings.SelectionCancelTransform = 選擇範圍 - 取消變形
+settings.bindings.SelectionNextSet = 選擇範圍 - 下一個集合
+settings.bindings.SelectionPreviousSet = 選擇範圍 - 上一個集合
+settings.bindings.SelectionClipboard = 選擇範圍 - 剪貼簿
+
+settings.bindings.PasteShiftLeft = 貼上 - 向左平移
+settings.bindings.PasteShiftRight = 貼上 - 向右平移
+settings.bindings.PasteShiftForward = 貼上 - 向前平移
+settings.bindings.PasteShiftBackward = 貼上 - 向後平移
+settings.bindings.PasteShiftUp = 貼上 - 向上平移
+settings.bindings.PasteShiftDown = 貼上 - 向下平移
+settings.bindings.PasteShiftReset = 貼上 - 重設平移
+settings.bindings.PasteRotateY = [TMP] 貼上 - 繞 Y 軸旋轉
+settings.bindings.PasteRotateX = [TMP] 貼上 - 繞 X 軸旋轉
+settings.bindings.PasteRotateZ = [TMP] 貼上 - 繞 Z 軸旋轉
+settings.bindings.PasteOpenPrefabList = 貼上 - 開啟預製物件清單
+settings.bindings.PasteCycleOrigin = 貼上 - 循環原點
+settings.bindings.PasteRotationReset = 貼上 - 重設旋轉
+
+settings.bindings.BrushIncreaseWidth = 筆刷 - 增加寬度
+settings.bindings.BrushDecreaseWidth = 筆刷 - 減少寬度
+settings.bindings.BrushIncreaseHeight = 筆刷 - 增加高度
+settings.bindings.BrushDecreaseHeight = 筆刷 - 減少高度
+settings.bindings.BrushNextShapeOrigin = 筆刷 - 下一個形狀原點
+settings.bindings.BrushPreviousShapeOrigin = 筆刷 - 上一個形狀原點
+settings.bindings.BrushAxisLockTranslate = 筆刷 - 軸鎖定平移
+settings.bindings.BrushAxisLockRotate = 筆刷 - 軸鎖定旋轉
+settings.bindings.BrushAxisLockExit = 筆刷 - 退出軸鎖定
+settings.bindings.BrushPaste = 筆刷 - 貼上
+settings.bindings.BrushNextRotationFace = 筆刷 - 下一個旋轉面
+settings.bindings.BrushNextRotationFace.logOutput = 將筆刷旋轉面設為：{rotationFace}
+
+settings.bindings.EntityClone = 實體 - 複製
+settings.bindings.EntityRemove = 實體 - 移除
+settings.bindings.EntityToggleFreeze = 實體 - 切換凍結
+settings.bindings.EntityToggleSurface = 實體 - 切換表面鎖定
+settings.bindings.EntityOpenSpawnUI = 實體 - 開啟生成 UI
+settings.bindings.EntityTranslateMode = 實體 - 平移模式
+settings.bindings.EntityRotateMode = 實體 - 旋轉模式
+settings.bindings.EntityRotateModeHead = [TMP] 實體 - 旋轉頭部模式
+settings.bindings.EntityFreeMoveMode = 實體 - 自由移動模式
+
+settings.bindings.MachinimaTogglePause = Machinima - 切換暫停
+settings.bindings.MachinimaToggleDisplay = Machinima - 切換顯示
+settings.bindings.MachinimaToggleCamera = Machinima - 切換攝影機
+settings.bindings.MachinimaRestartScene = Machinima - 重新啟動場景
+settings.bindings.MachinimaFrameDecrement = Machinima - 減少影格
+settings.bindings.MachinimaFrameIncrement = Machinima - 增加影格
+settings.bindings.MachinimaKeyframeDecrement = Machinima - 減少關鍵影格
+settings.bindings.MachinimaKeyframeIncrement = Machinima - 增加關鍵影格
+settings.bindings.MachinimaFrameTimeDecrease = Machinima - 減少影格時間
+settings.bindings.MachinimaFrameTimeIncrease = Machinima - 增加影格時間
+settings.bindings.MachinimaAddKeyframe = Machinima - 新增關鍵影格
+settings.bindings.MachinimaRemoveKeyframe = Machinima - 移除關鍵影格
+settings.bindings.MachinimaOriginAction = Machinima - 更新場景原點
+settings.bindings.MachinimaEditKeyframe = Machinima - 編輯關鍵影格
+settings.bindings.MachinimaCycleSelectionMode = Machinima - 循環選擇模式
+
+settings.bindings.RulerDeletePoint = 測量尺 - 刪除點
+settings.bindings.RulerClearLine = 測量尺 - 清除線段
+settings.bindings.RulerReset = 測量尺 - 重設工具
+settings.bindings.RulerNextLine = 測量尺 - 下一條線
+settings.bindings.RulerPreviousLine = 測量尺 - 上一條線
+
+settings.bindings.SelectPrefabRemove = 選擇預製物件 - 移除
+settings.bindings.SelectPrefabOpenSaveUI = 選擇預製物件 - 開啟儲存 UI
+settings.bindings.SelectPrefabUpdateBounds = 選擇預製物件 - 更新邊界
+settings.bindings.SelectPrefabTeleport = 選擇預製物件 - 傳送
+settings.bindings.SelectPrefabBack = 選擇預製物件 - 返回
+settings.bindings.SetPrefabAnchor = 選擇預製物件 - 設定錨點
+
+settings.bindings.HitboxInsert = 碰撞箱 - 插入
+settings.bindings.HitboxDelete = 碰撞箱 - 刪除
+settings.bindings.ContainerTakeAll = 容器 - 全部取出
+settings.bindings.ContainerPutAll = 容器 - 全部放入
+settings.bindings.ContainerQuickStack = 容器 - 快速堆疊
+settings.bindings.ContainerSort = 容器 - 排序物品
+
+settings.autoJumpObstacle = 自動走上階梯
+settings.autoJumpObstacle.description = 啟用此設定後，您將自動走上最大高度為 1 單位的方塊。
+settings.autoCrouchDownObstacle = 蹲下自動走下階梯
+settings.autoCrouchDownObstacle.description = 啟用此設定後，當蹲下時，您將自動走下最大高度為 1 單位的方塊。
+settings.enableUtilityQuickSwap = 啟用實用工具快速切換
+settings.enableUtilityQuickSwap.description = 啟用後，輕觸按鍵綁定將會立即切換到實用工具輪盤中的下一個物品。
+settings.enableArachnophobiaMode = 啟用蜘蛛恐懼症模式
+settings.enableArachnophobiaMode.description = 啟用後，蜘蛛將被替換為另一個模型 (預設為螃蟹)。\n\n<b><color is="#b32626">此設定需要您返回主選單才能生效！</color></b>
+settings.enableOphidiophobiaMode = 啟用蛇類恐懼症模式
+settings.enableOphidiophobiaMode.description = 啟用後，蛇將被替換為另一個模型 (預設為幼蟲)。\n\n<b><color is="#b32626">此設定需要您返回主選單才能生效！</color></b>
+settings.prototype.builderMode = 建築者模式
+settings.prototype.builderMode.tooltip = 當在創造模式下啟用時，會停用某些功能（如跌落效果、視角搖晃等）
+
+settings.prototype.mantling = 啟用/停用攀爬
+settings.prototype.minVelocityMantling = 攀爬的最小 Y 軸速度
+settings.prototype.maxVelocityMantling = 攀爬的最大 Y 軸速度
+settings.prototype.jumpForceSpeedMultiplierStep = 每個速度等級增加的跳躍力道
+settings.prototype.maxJumpForceSpeedMultiplier = 增加到跳躍力道的最大值
+settings.prototype.mantlingCameraOffsetY = 攀爬相機 Y 軸偏移
+settings.prototype.mantleBlockHeight = 攀爬方塊高度
+
+settings.prototype.sprintForce = 衝刺力道
+settings.prototype.sprintAccelerationDuration = 加速持續時間
+settings.prototype.sprintDecelerationDuration = 減速持續時間
+settings.prototype.sprintAccelerationEasingType = 加速緩動類型
+settings.prototype.sprintDecelerationEasingType = 減速緩動類型
+
+settings.prototype.slideDecelerationEasingType = 滑行減速緩動類型
+settings.prototype.slideDecelerationDuration = 滑行減速持續時間
+
+settings.prototype.staminaLowAlertPercent = 低體力警告百分比
+settings.prototype.staminaDebugInfo = 顯示體力偵錯資訊
+
+settings.prototype.weaponPullback = 武器拉回
+settings.prototype.itemAnimationsClipGeometry = 物品動畫穿模 (每個動畫)
+settings.prototype.itemsClipGeometry = 物品穿模 (每個物品)
+settings.prototype.overrideFirstPersonAnimations = 使用覆寫的第一人稱動畫
+
+settings.showEntityMarkers = 顯示實體標記
+
+settings.prototype.entityUIMaxEntities = 最大實體數量
+settings.prototype.entityUIMaxDistance = 最大距離
+settings.prototype.entityUIHideDelay = 隱藏延遲
+settings.prototype.entityUIFadeInDuration = 淡入持續時間
+settings.prototype.entityUIFadeOutDuration = 淡出持續時間
+
+settings.prototype.mountMinTurnRate = 最小轉向率
+settings.prototype.mountMinTurnRate.tooltip = 坐騎轉向的最小速率 (每秒度數)
+settings.prototype.mountMaxTurnRate = 最大轉向率
+settings.prototype.mountMaxTurnRate.tooltip = 坐騎轉向的最大速率 (每秒度數)
+settings.prototype.mountSpeedMinTurnRate = 觸發最小轉向率的速度
+settings.prototype.mountSpeedMinTurnRate.tooltip = 從此速度及以上，將套用最小轉向率 (速度越高 = 轉向越慢)
+settings.prototype.mountSpeedMaxTurnRate = 觸發最大轉向率的速度
+settings.prototype.mountSpeedMaxTurnRate.tooltip = 從此速度及以下，將套用最大轉向率 (速度越高 = 轉向越慢)
+settings.prototype.mountForwardsAccelerationEasingType = 向前加速緩動類型
+settings.prototype.mountForwardsAccelerationEasingType.tooltip = 用於向前加速的緩動曲線
+settings.prototype.mountForwardsDecelerationEasingType = 向前減速緩動類型
+settings.prototype.mountForwardsDecelerationEasingType.tooltip = 用於向前減速的緩動曲線
+settings.prototype.mountBackwardsAccelerationEasingType = 向後加速緩動類型
+settings.prototype.mountBackwardsAccelerationEasingType.tooltip = 用於向後加速的緩動曲線
+settings.prototype.mountBackwardsDecelerationEasingType = 向後減速緩動類型
+settings.prototype.mountBackwardsDecelerationEasingType.tooltip = 用於向後減速的緩動曲線
+settings.prototype.mountForwardsAccelerationDuration = 向前加速持續時間
+settings.prototype.mountForwardsAccelerationDuration.tooltip = 向前奔跑時達到最高速度所需的時間
+settings.prototype.mountForwardsDecelerationDuration = 向前減速持續時間
+settings.prototype.mountForwardsDecelerationDuration.tooltip = 向前奔跑後達到閒置狀態所需的時間
+settings.prototype.mountBackwardsAccelerationDuration = 向後加速持續時間
+settings.prototype.mountBackwardsAccelerationDuration.tooltip = 向後奔跑時達到最高速度所需的時間
+settings.prototype.mountBackwardsDecelerationDuration = 向後減速持續時間
+settings.prototype.mountBackwardsDecelerationDuration.tooltip = 向後奔跑後達到閒置狀態所需的時間
+settings.prototype.mountForcedAccelerationMultiplierSetting = 強制加速倍率
+settings.prototype.mountForcedAccelerationMultiplierSetting.tooltip = 用於減少奔跑時按下衝刺輸入加速持續時間的倍率
+settings.prototype.mountForcedDecelerationMultiplierSetting = 強制減速倍率
+settings.prototype.mountForcedDecelerationMultiplierSetting.tooltip = 用於減少按下與目前速度相反的移動輸入時減速持續時間的倍率
+settings.prototype.mountRequireNewInput = 強制減速後需要重新輸入
+settings.prototype.mountRequireNewInput.tooltip = 是否必須放開並重新按下移動輸入才能在強制減速後再次移動
+settings.prototype.displayTempPrefix = 在文字上顯示 [TMP] 標籤
+settings.prototype.forceManagedSession = 強制使用託管工作階段
+
+settings.armorItemsPickupLocation = 盔甲物品
+settings.weaponAndToolItemsPickupLocation = 武器與工具物品
+settings.usableItemsPickupLocation = 可用物品
+settings.solidBlockItemsPickupLocation = 實體方塊物品
+settings.miscItemsPickupLocation = 雜項物品
+settings.pickupLocation.description = 定義拾取物品時優先存放的位置。\n\
+<b><color is="#f1ba50">快捷列 (Hotbar)</color></b>：新物品將首先放入快捷列，滿了之後再放入物品欄。\n\
+<b><color is="#f1ba50">物品欄 (Inventory)</color></b>：新物品將首先放入物品欄，滿了之後再放入快捷列。
+
+settings.pickupLocation.hotbar = 快捷列
+settings.pickupLocation.storage = 物品欄
+
+settings.cameraBasedClimbing = 相機相對攀爬
+settings.cameraBasedClimbing.description = 定義攀爬時的行為方式。\n\
+<b><color is="#f1ba50">開 (On)</color></b>：按下前進時，您將根據您看向的位置移動。\n\
+<b><color is="#f1ba50">關 (Off)</color></b>：無論您看向哪裡，都將以相同的方式移動。
+
+settings.crouchBehavior = 蹲下行為
+settings.sprintBehavior = 衝刺行為
+settings.walkBehavior = 步行行為
+settings.inputMode.hold = 按住
+settings.inputMode.toggle = 切換
+
+settings.resetToDefaultsConfirmationModal.title = 重設設定
+settings.resetToDefaultsConfirmationModal.text = 您確定要將所有設定重設為預設值嗎？
+# === timeline ===
+timeline.frame = 影格
+timeline.currentFrame = 影格：{frame, number}
+
+timeline.tabs.properties = 屬性
+timeline.tabs.events = 事件
+
+timeline.toolbar.addActor = 新增演員
+timeline.toolbar.restart = 重新啟動 ({keybind})
+timeline.toolbar.togglePause = 切換暫停 ({keybind})
+timeline.toolbar.toggleLoop = 切換循環
+
+timeline.events.add = 新增事件
+
+# === Feedback Dialog ===
+feedback.title = 提交錯誤或意見回饋
+feedback.selectType = 您想提交什麼？
+
+feedback.feedback.title = 提交意見回饋
+feedback.feedback.description = 分享您的想法與建議，幫助我們改進 Hytale。
+feedback.feedback.button.label = 意見回饋
+feedback.feedback.button.tooltip = 提交意見回饋
+
+feedback.bugreport.title = 回報錯誤
+feedback.bugreport.description = 發現了無法運作的功能？請告訴我們以便我們修復它。
+feedback.bugreport.button.label = 回報錯誤
+feedback.bugreport.button.tooltip = 回報錯誤
+feedback.bugreport.includeLogFile = 包含目前的日誌檔案
+
+feedback.contactPermission = 允許我們就此回報與您聯絡
+
+feedback.type.feedback = 意見回饋
+feedback.type.bugreport = 錯誤回報
+
+feedback.warning.abuse = 濫用錯誤回報與意見回饋功能可能會導致帳號被停權。
+
+feedback.field.type = 類型
+feedback.field.category = 類別
+feedback.field.summary = 摘要
+feedback.field.summary.placeholder = 簡要說明您的意見回饋或錯誤
+feedback.field.description = 描述
+feedback.field.description.placeholder = 提供有關您的意見回饋或錯誤回報的詳細資訊
+feedback.field.attachments = 附件
+
+feedback.category.placeholder = 選擇一個類別
+feedback.category.website = 網站
+feedback.category.game = 遊戲
+feedback.category.launcher = 啟動器
+feedback.category.tools = 工具
+feedback.category.accounts = 帳號
+feedback.category.billing = 帳務
+
+feedback.attachments.addScreenshot = 新增截圖
+feedback.attachments.addLogFile = 新增額外的日誌檔案
+feedback.attachments.selectScreenshot = 選擇要附加的截圖
+feedback.attachments.selectLogFile = 選擇要附加的日誌檔案
+
+feedback.submit = 提交
+feedback.submitting = 正在提交...
+
+feedback.error.categoryRequired = 請選擇一個類別
+feedback.error.summaryRequired = 請輸入摘要
+feedback.error.descriptionRequired = 請輸入描述
+feedback.error.unknown = 發生錯誤。請再試一次。
+feedback.error.maxAttachments = 您最多只能附加 3 個檔案
+feedback.error.fileTooLarge = "{file}" 太大 ({size}MB)。最大檔案大小為 {maxSize}
+feedback.error.invalidFileType = "{file}" 不是支援的檔案類型。僅允許 .jpg、.jpeg、.png 與 .log 檔案
+feedback.error.fileNotFound = 找不到 "{file}"
+feedback.error.fileError = 無法讀取 "{file}"
+
+feedback.success.title = 謝謝您！
+feedback.success.feedback = 您的意見回饋已成功提交。感謝您的寶貴意見！
+feedback.success.bugreport = 您的錯誤回報已成功提交。我們會盡快調查！
+feedback.success.reportId = 回報 ID：{id}
+feedback.success.submitMore = 提交更多
+
+feedback.redirect.support = 若有帳號或帳務問題，請造訪 support.hytale.com。
+feedback.redirect.button = 開啟支援服務
+feedback.bugReportButton.tooltip = 回報錯誤或提供意見回饋
+
+# === patchline ===
+# 修補支線 (Patchlines) 允許提早釋出內容以幫助玩家測試新功能
+
+patchline.launchNotification.title = 發行前修補支線
+patchline.launchNotification.text = 您正在執行 Hytale 的發行前修補支線。\n\n\
+    此版本可能包含實驗性功能與錯誤。\n\n\
+    您的意見回饋有助於我們改進遊戲！
+
+patchline.worldWarning.title = 修補支線警告
+patchline.worldWarning.text = 您即將使用不同的修補支線開啟世界。\n\n\
+    開啟此世界可能會引入影響您存檔的變更。\n\n\
+    我們建議您在繼續之前建立備份拷貝。
+patchline.worldWarning.openAnyway = 仍要開啟
+patchline.worldWarning.duplicateWorld = 複製世界
+
+# === cosmetics ===
+
+# 頭髮漸層
+cosmetics.color.PitchBlack = 漆黑
+cosmetics.color.Black = 黑色
+cosmetics.color.BrownDarker = 極深棕色
+cosmetics.color.BrownDark = 深棕色
+cosmetics.color.BrownSemiDark = 中深棕色
+cosmetics.color.Brown = 棕色
+cosmetics.color.BrownSemiLight = 中淺棕色
+cosmetics.color.BrownLight = 淺棕色
+cosmetics.color.Blond = 金黃色
+cosmetics.color.BlondPlatinum = 白金色
+cosmetics.color.BlondSand = 沙金色
+cosmetics.color.BlondCaramel = 焦糖金色
+cosmetics.color.Copper = 銅色
+cosmetics.color.Red = 紅色
+cosmetics.color.RedDark = 深紅色
+cosmetics.color.Pink = 粉紅色
+cosmetics.color.PinkBerry = 莓果粉色
+cosmetics.color.Bubblegum = 泡泡糖色
+cosmetics.color.Purple = 紫色
+cosmetics.color.Lavender = 薰衣草色
+cosmetics.color.BlueDark = 深藍色
+cosmetics.color.Blue = 藍色
+cosmetics.color.BlueLight = 淺藍色
+cosmetics.color.Turquoise = 綠松石色
+cosmetics.color.Green = 綠色
+cosmetics.color.White = 白色
+cosmetics.color.GreyAsh = 亞麻灰
+cosmetics.color.Grey = 灰色
+cosmetics.color.GreyPurple = 紫灰色
+cosmetics.color.Blue_Anthracite = 碳藍色
+
+# 閃亮布料漸層
+cosmetics.color.Lime = 萊姆綠
+cosmetics.color.Orange = 橘色
+cosmetics.color.Yellow = 黃色
+cosmetics.color.Violet = 紫羅蘭色
+
+# 一般丹寧漸層
+cosmetics.color.BluePastel = 粉彩藍
+cosmetics.color.GreyDark = 深灰色
+cosmetics.color.GreyLight = 淺灰色
+cosmetics.color.GreyBlue = 藍灰色
+cosmetics.color.Marine_Blue = 海軍藍
+cosmetics.color.Maroon = 栗色
+cosmetics.color.Blue_Night = 夜藍色
+cosmetics.color.Turquoise_Dark = 深綠松石色
+
+# 褪色皮革漸層
+cosmetics.color.Orange_Tan = 橘褐色
+
+# 鮮豔合成材質漸層
+cosmetics.color.OrangePastel = 粉彩橘
+cosmetics.color.PinkPastel = 粉彩粉
+
+# 彩色棉質漸層
+cosmetics.color.Cream = 奶油色
+cosmetics.color.Charcoal = 炭灰色
+
+# 粉彩棉質漸層
+cosmetics.color.Carmin = 胭脂紅
+cosmetics.color.PurplePastel = 粉彩紫
+
+# 奇幻棉質漸層
+cosmetics.color.Beige = 米色
+
+# 眼睛漸層
+cosmetics.color.Honey = 蜜黃色
+cosmetics.color.GreenLight = 淺綠色
+
+# 裝飾金屬漸層
+cosmetics.color.Gold_Red = 金色
+cosmetics.color.Silver_Blue = 銀色
+cosmetics.color.Copper_Green = 銅色
+cosmetics.color.Brass_Purple = 黃銅色
+cosmetics.color.Iron_Black = 鋼色
+cosmetics.color.Black_Red = 鐵色
+
+# === social ===
+# 社交側邊欄右鍵選單
+ui.social.menu.viewProfile = 檢視個人檔案
+ui.social.menu.inviteToParty = 邀請加入隊伍
+ui.social.menu.removeFriend = 移除好友
+ui.social.menu.block = 封鎖
+# 社交側邊欄區塊標題
+ui.social.header.inYourWorld = 在您的世界中 - {count}
+ui.social.header.friendRequests = 好友邀請 - {count}
+ui.social.header.friends = 好友 - {count}
+ui.social.header.group = 群組 - {count}
+ui.social.header.partyInvites = 隊伍邀請 - {count}

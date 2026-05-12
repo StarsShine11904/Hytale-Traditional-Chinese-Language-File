@@ -5,8 +5,12 @@
 
 ## 如何套用?
 將zh-TW資料夾下載下來，並放到你的遊戲路徑<br>
-例如：<br>
+發布版(Release)<br>
+狀態：server.lang 翻譯進行中<br>
 `C:\Users\你的使用者名稱\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language`<br>
+預發布版(Pre-Release)<br>
+狀態：未翻譯<br>
+`C:\Users\你的使用者名稱\AppData\Roaming\Hytale\install\pre-release\package\game\latest\Client\Data\Shared\Language`<br>
 即可看到遊戲已成功被翻譯<br>
 
 請記得登入Github以及開啟通知以便追蹤更新進度

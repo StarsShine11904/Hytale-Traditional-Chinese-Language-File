@@ -1,58 +1,58 @@
-earSide = Ear Side
-earSide.left = Left
-earSide.right = Right
-earSide.both = Both
+earSide = 耳側
+earSide.left = 左
+earSide.right = 右
+earSide.both = 兩側
 
-pattern.skull = Skull Pattern
-pattern.star = Star Pattern
-pattern.gaia = Prismatic Tree Pattern
-pattern.cat = Cat Pattern
-pattern.bunny = Bunny Pattern
-pattern.unicorn = Unicorn Pattern
-pattern.cat = Cat Pattern
-pattern.play = Play Button Pattern
-pattern.play_inverted = Inverted Play Button Pattern
+pattern.skull = 骷髏圖案
+pattern.star = 星星圖案
+pattern.gaia = 稜鏡樹圖案
+pattern.cat = 貓咪圖案
+pattern.bunny = 兔子圖案
+pattern.unicorn = 獨角獸圖案
+pattern.cat = 貓咪圖案
+pattern.play = 播放鍵圖案
+pattern.play_inverted = 反轉播放鍵圖案
 
-pants.dungareesshorts = Dungaree Shorts
-pants.bracedshorts = Braced Shorts
-pants.dungarees = Dungarees
-pants.bracedpants = Braced Pants
-pants.hiddenbelt = Hidden Belt
+pants.dungareesshorts = 工裝短褲
+pants.bracedshorts = 吊帶短褲
+pants.dungarees = 工裝長褲
+pants.bracedpants = 吊帶長褲
+pants.hiddenbelt = 隱藏皮帶
 
-option.a = Option A
-option.b = Option B
-option.c = Option C
+option.a = 選項 A
+option.b = 選項 B
+option.c = 選項 C
 
-default = Default
+default = 預設
 
-overtops.Scavenger_Poncho = No Skull
+overtops.Scavenger_Poncho = 無骷髏
 
-capes.no_neck = No Neck
+capes.no_neck = 無領
 
-haircuts.Dreadlocks01.name = Dreadlocks 1
-haircuts.Dreadlocks02.name = Dreadlocks 2
-haircuts.Dreadlocks03.name = Dreadlocks 3
-haircuts.FrizzyBun01.name = Frizzy Buns 1
-haircuts.FrizzyBun02.name = Frizzy Buns 2
-haircuts.SlickbackCowlick.name = Cowlicked Slickback
-haircuts.Hairstrand.name = Hairstrand
-haircuts.GoldenBangles.name = Golden Bangles
+haircuts.Dreadlocks01.name = 髒辮 1
+haircuts.Dreadlocks02.name = 髒辮 2
+haircuts.Dreadlocks03.name = 髒辮 3
+haircuts.FrizzyBun01.name = 捲髮丸子頭 1
+haircuts.FrizzyBun02.name = 捲髮丸子頭 2
+haircuts.SlickbackCowlick.name = 翹毛大背頭
+haircuts.Hairstrand.name = 髮絲
+haircuts.GoldenBangles.name = 金色髮環
 
-haircuts.Messy.name = Messy
-haircuts.Braids.name = Braids
-haircuts.Locks.name = Locks
-haircuts.Wild.name = Wild
+haircuts.Messy.name = 凌亂
+haircuts.Braids.name = 辮子
+haircuts.Locks.name = 髮束
+haircuts.Wild.name = 狂野
 
-headaccessory.Logo_Cap_Movie.name = Movie Logo
-headaccessory.Logo_Cap_Heart.name = Heart Logo
-headaccessory.Logo_Cap_Hypixel.name = Hypixel Logo
+headaccessory.Logo_Cap_Movie.name = 電影標誌
+headaccessory.Logo_Cap_Heart.name = 愛心標誌
+headaccessory.Logo_Cap_Hypixel.name = Hypixel 標誌
 
-left_arm.name = Left Arm
-right_arm.name = Right Arm
+left_arm.name = 左臂
+right_arm.name = 右臂
 
-thin.name = Thin
-thick.name = Thick
-lefteye.name = Left Eye
-righteye.name = Right Eye
+thin.name = 細
+thick.name = 粗
+lefteye.name = 左眼
+righteye.name = 右眼
 
-faceaccessory.BanditMask_SideKnot.name = Side Knot
+faceaccessory.BanditMask_SideKnot.name = 側邊打結

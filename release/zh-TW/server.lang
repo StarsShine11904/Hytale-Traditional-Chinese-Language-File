@@ -2678,3 +2678,123 @@ commands.chunk.maxsendrate.sec.desc = 每秒最大區塊數。省略參數以設
 commands.chunk.maxsendrate.sec.set = 設定每秒最大區塊數：{value, number}
 commands.chunk.maxsendrate.tick.desc = 每 tick 最大區塊數。省略參數以設定為預設值。
 commands.chunk.maxsendrate.tick.set = 設定每 tick 最大區塊數：{value, number}
+commands.chunk.maxsendrate.summary = 最大區塊發送速率：\n\
+    \t每秒：{perSecond, number}\n\
+    \t每 tick：{perTick, number}
+commands.chunk.fixHeightMap.started = 正在修復高度圖...
+commands.chunk.fixHeightMap.done = 完成！
+commands.chunk.fixHeightMap.invalidatingLighting = 正在使光照無效...
+commands.chunk.fixHeightMap.waitingForLighting = 正在等待區塊 ({x, number}, {z, number}) 中的光照更新
+commands.chunk.fixHeightMap.lightingFinished = 區塊 ({x, number}, {z, number}) 的光照已完成
+commands.chunk.fixHeightMap.lightingError = 區塊 ({x, number}, {z, number}) 耗時過久，放棄！
+commands.help.command.desc = 顯示特定指令的說明
+commands.help.command.name.desc = 要取得說明的指令名稱
+commands.chunkinfo.chunk = 區塊 {chunkX}, {chunkZ}：\n\
+  \t標誌：\n\
+    \t\t開始初始化：{startInit}\n\
+    \t\t初始化：{init}\n\
+    \t\t新生成：{newlyGenerated}\n\
+    \t\t磁碟上：{onDisk}\n\
+    \t\tTicking：{ticking}\n\
+  \t保持載入：{keepLoaded}\n\
+  \t需要儲存：{saving}\n\
+  \t元資料：\n\
+  \t方塊區塊：\n\
+    \t\t需要儲存：{savingChunk}
+commands.chunkinfo.section = \t\t區塊段 {index}：\n
+commands.chunkinfo.dataType = \t\t\t資料類型：{data}\n
+commands.chunkinfo.sectionInfo = \t\t\t有 Ticking：{ticking}\n\
+      \t\t\t是固體空氣：{solidAir}\n\
+      \t\t\t方塊總數：{count}\n\
+      \t\t\t各方塊數量：{counts}
+commands.chunkinfo.blockStateChunk = \t方塊狀態區塊：\n\
+    \t\t需要儲存：{saving}\n\
+    \t\t方塊狀態：{countStates}\n\
+    \t\t未知方塊狀態：{countUnknown}\n\
+    \t\t可發送方塊狀態：{countSendable}\n\
+    \t\t可 Ticking 方塊狀態：{countTickable}\n\
+  \t實體區塊：\n\
+    \t\t需要儲存：{savingEntity}\n\
+    \t\t實體：{countEntities}
+commands.time.dilation.desc = 變更伺服器的時間膨脹縮放比例，也會使用更新後的值來修改任何線上用戶端
+commands.time.dilation.timeDilation.desc = 時間膨脹值 (必須 >0.01 且 <=4)
+commands.time.dilation.set.success = 已設定時間膨脹：{timeDilation, number}
+commands.ping.desc = 網路延遲 (ping) 資訊
+commands.ping.detail.desc = 顯示詳細的延遲資訊
+commands.ping.clear.desc = 清除延遲資訊歷史紀錄
+commands.ping.graph.desc = 將延遲資訊印出為圖表
+commands.ping.graph.width.desc = 圖表的寬度
+commands.ping.graph.width.default = 100
+commands.ping.graph.height.desc = 圖表的高度
+commands.ping.graph.height.default = 10
+commands.ping.graph.period = 延遲圖表 {time}：\n
+commands.ping.historyCleared = 已清除延遲歷史紀錄
+commands.player.stats.desc = 玩家屬性操作指令的前綴
+commands.player.stats.dump.desc = 將玩家的屬性值傾印到控制台和聊天室
+commands.player.stats.set.desc = 將玩家的指定屬性值設定為指定值
+commands.player.stats.set.statName.desc = 要設定的屬性名稱
+commands.player.stats.set.statValue.desc = 要將屬性設定為的值
+commands.player.stats.settomax.desc = 將屬性設定為其最大值
+commands.player.stats.settomax.statName.desc = 要設定為最大值的屬性名稱
+commands.player.stats.add.desc = 增加 (若為負數則減少) 玩家的指定屬性值
+commands.player.stats.add.statName.desc = 要增加值的屬性名稱
+commands.player.stats.add.statAmount.desc = 要加入屬性的量
+commands.player.stats.reset.desc = 將玩家的指定屬性值重設為其初始值
+commands.player.stats.reset.statName.desc = 要重設的屬性名稱
+commands.player.stats.get.desc = 取得玩家的指定屬性值
+commands.player.stats.get.statName.desc = 要取得的屬性名稱
+commands.entity.stats.dump.desc = 傾印實體的所有統計資料
+commands.entity.stats.get.desc = 取得實體的指定屬性值
+commands.entity.stats.get.statName.desc = 要取得的屬性名稱
+commands.entity.stats.add.desc = 增加 (若為負數則減少) 實體的指定屬性值
+commands.entity.stats.add.statName.desc = 要增加值的屬性名稱
+commands.entity.stats.add.statAmount.desc = 要加入屬性的量
+commands.entity.stats.set.desc = 將實體的指定屬性值設定為指定值
+commands.entity.stats.set.statName.desc = 要設定的屬性名稱
+commands.entity.stats.set.statValue.desc = 要將屬性設定為的值
+commands.entity.stats.settomax.desc = 將屬性設定為其最大值
+commands.entity.stats.settomax.statName.desc = 要設定為最大值的屬性名稱
+commands.entity.stats.reset.desc = 將實體的指定屬性值重設為其初始值
+commands.entity.stats.reset.statName.desc = 要重設的屬性名稱
+commands.entity.stats.desc = 實體屬性操作指令的前綴
+commands.entity.desc = 實體相關指令的前綴
+commands.entity.radius.desc = 可選半徑，如果未指定則會進行射線投射並選擇前方的實體
+commands.entity.entity.desc = 要設定目標的實體
+commands.entity.clone.desc = 複製指定的實體
+commands.entity.clone.entity.desc = 要複製的實體
+commands.entity.clone.count.desc = 要建立的複本數量
+commands.entity.clone.count.default = 1
+commands.entity.clone.cloned = 已複製實體
+commands.entity.clone.cloned.multiple = 已複製實體 {count} 次
+commands.entity.count.desc = 印出世界中的實體數量
+commands.entity.count.count = 實體數量：{count, number}
+commands.entity.remove.desc = 移除一個實體
+commands.entity.remove.entity.desc = 要移除的實體
+commands.entity.remove.others.desc = 移除所有其他實體，而不是指定的實體
+commands.entity.clean.desc = 移除所有實體
+commands.entity.dump.entity.desc = 要傾印的實體
+commands.entity.lod.desc = 設定實體 LOD (細節等級) 比例
+commands.entity.lod.ratio.desc = LOD 比例值
+commands.entity.lod.default.desc = 將實體 LOD 比例重設為預設值
+commands.entity.lod.ratioSet = 已將 LOD 比例設定為 {ratio, number}
+commands.entity.tracker.desc = 顯示玩家實體追蹤器資訊
+commands.entity.tracker.player.desc = 要檢查追蹤器資訊的玩家
+commands.entity.tracker.noViewerComponent = 玩家遺失 EntityViewer 元件
+commands.entity.resend.desc = 重新發送所有追蹤的實體給玩家
+commands.entity.resend.player.desc = 要重新發送實體給哪位玩家
+commands.entity.resend.noEntityViewerComponent = 玩家遺失 EntityView 元件
+commands.entity.nameplate.entity.desc = 要修改名牌的實體
+commands.entity.nameplate.text.desc = 要在名牌上設定的文字
+commands.entity.nameplate.remove.desc = 從實體移除名牌
+commands.entity.interactable.desc = 啟用或停用所選實體上的 Interactable (可互動) 元件
+commands.entity.interactable.disable.desc = 如果指定，將停用而不是啟用 Interactable 元件
+commands.entity.interactable.success.set = 成功在 {amount} 個實體上啟用 Interactable 元件
+commands.entity.interactable.success.unset = 成功在 {amount} 個實體上停用 Interactable 元件
+commands.entity.intangible.desc = 在所選實體上加入或移除 Intangible (無形) 元件
+commands.entity.intangible.remove.desc = 如果指定，將移除 Intangible 元件
+commands.entity.intangible.success.set = 成功將 Intangible 元件加入至 {amount} 個實體
+commands.entity.intangible.success.unset = 成功從 {amount} 個實體移除 Intangible 元件
+commands.entity.invulnerable.desc = 在所選實體上加入或移除 Invulnerable (無敵) 元件
+commands.entity.invulnerable.remove.desc = 如果指定，將移除 Invulnerable 元件
+commands.entity.invulnerable.success.set = 成功將 Invulnerable 元件加入至 {amount} 個實體
+commands.entity.invulnerable.success.unset = 成功從 {amount} 個實體移除 Invulnerable 元件

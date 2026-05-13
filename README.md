@@ -4,7 +4,7 @@
 那你來對地方了！
 
 ## 如何套用?
-將zh-TW資料夾下載下來，並放到你的遊戲路徑<br>
+將儲存庫下載下來，並將zh-TW資料夾放到你的遊戲路徑<br>
 發布版(Release)<br>
 狀態：server.lang 翻譯進行中<br>
 `C:\Users\你的使用者名稱\AppData\Roaming\Hytale\install\release\package\game\latest\Client\Data\Shared\Language`<br>

@@ -2798,3 +2798,103 @@ commands.entity.invulnerable.desc = 在所選實體上加入或移除 Invulnerab
 commands.entity.invulnerable.remove.desc = 如果指定，將移除 Invulnerable 元件
 commands.entity.invulnerable.success.set = 成功將 Invulnerable 元件加入至 {amount} 個實體
 commands.entity.invulnerable.success.unset = 成功從 {amount} 個實體移除 Invulnerable 元件
+commands.entity.hidefromadventureplayers.desc = 從冒險模式玩家中隱藏所選實體
+commands.entity.hidefromadventureplayers.remove.desc = 若指定，將使所選實體對冒險模式玩家可見
+commands.entity.hidefromadventureplayers.success.set = 已對冒險模式玩家隱藏 {amount} 個實體
+commands.entity.hidefromadventureplayers.success.unset = {amount} 個實體不再對冒險模式玩家隱藏
+commands.server.desc = 伺服器相關指令
+commands.server.stats.desc = 提供主機伺服器的統計資料
+commands.server.stats.fullInfoUnavailable = 無法提供完整資訊 (不支援的主機)
+commands.server.stats.cpu.desc = 提供 CPU 統計資料
+commands.server.stats.cpu.fullUsageInfo = 系統 CPU 負載：{systemLoad, number}\n\
+    程序 CPU 負載：{processLoad, number}
+commands.server.stats.cpu.usageInfo = 平均負載：{loadAverage, number}\n\
+    程序運行時間：{processUptime}
+commands.server.stats.gc.desc = 提供 GC (垃圾回收) 統計資料
+commands.server.stats.gc.usageInfo = 名稱：{name}\n\
+    記憶體池名稱：{poolNames}\n\
+    回收次數：{collectionCount, number}\n\
+    回收時間：{collectionTime}
+commands.server.stats.memory.desc = 提供記憶體使用統計資料
+commands.server.stats.memory.fullUsageInfo = 總實體記憶體：{totalPhysicalMemory}\n\
+    可用實體記憶體：{freePhysicalMemory}\n\
+    總交換記憶體：{totalSwapMemory}\n\
+    可用交換記憶體：{freeSwapMemory}
+commands.server.stats.memory.usageInfo = 堆積記憶體使用量：\n{heapMemoryUsage}\n\
+    非堆積記憶體使用量：\n{nonHeapMemoryUsage}\n\
+    等待最終化的物件數量：{objectsPendingFinalizationCount, number}
+commands.server.stats.memory.usage = \t初始：{init}\n\
+    \t已使用：{used}\n\
+    \t已提交：{committed}\n\
+    \t最大：{max}\n\
+    \t可用：{free}
+commands.server.gc.desc = 強制伺服器執行 GC (垃圾回收)
+commands.server.gc.forcedgc = 已強制 GC！釋放了：{bytes}
+commands.server.gc.forcedgc.increased = 已強制 GC！沒有釋放記憶體；反而增加了 {bytes}。伺服器可能正在執行它的工作！
+commands.server.dump.desc = 傾印伺服器狀態
+commands.server.dump.dumpingState = 正在傾印目前的伺服器狀態！
+commands.server.dump.finished = 傾印完成！檔案儲存至：{filepath}
+commands.server.dump.error = 寫入傾印失敗：{error}
+commands.server.dump.json.desc = 傾印為 JSON 格式
+commands.block.desc = 方塊相關指令
+commands.block.set.desc = 設定方塊
+commands.block.set.arg.coords = 方塊位置
+commands.block.set.arg.block = 要設定成什麼方塊
+commands.block.set.success = 位於 {x}, {y}, {z} 的方塊已設定為 {id}
+commands.block.get.desc = 取得方塊
+commands.block.get.info = 位於 ({x}, {y}, {z}) 的方塊為 {id} ({blockId}，支撐度={support})
+commands.block.getstate.desc = 取得方塊狀態
+commands.block.getstate.info = 位於 ({x}, {y}, {z}) 的方塊狀態為 {state}
+commands.block.find.desc = 在區塊中尋找方塊
+commands.block.find.blockFound = 找到方塊於：{x}, {y}, {z}
+commands.block.find.chunksTested = 已測試：{nb} 個區塊
+commands.block.find.timeout = 尋找方塊達到時間限制。已停止！
+commands.block.find.done = 完成！
+commands.block.find.chunkX.desc = 要從其搜尋的區塊 X 座標
+commands.block.find.chunkZ.desc = 要從其搜尋的區塊 Z 座標
+commands.block.find.block.desc = 要搜尋的方塊類型
+commands.block.find.count.desc = 要尋找的方塊最大數量
+commands.block.find.timeout.desc = 搜尋逾時 (秒)
+commands.block.find-here.desc = 在您周圍尋找方塊
+commands.block.find-here.print.desc = 在輸出中印出方塊名稱
+commands.block.find-here.block.desc = 要搜尋的方塊類型
+commands.block.find-here.radius.desc = 搜尋半徑 (區塊)
+commands.block.find-here.resultWithName = 在 {time} {time, plural, one {秒} other {秒}} 內找到了 {count} 個 {blockName} {count, plural, one {個方塊} other {個方塊}}！
+commands.block.find-here.result = 在 {time} {time, plural, one {秒} other {秒}} 內找到了 {count} {count, plural, one {個方塊} other {個方塊}}！
+commands.block.select.desc = 使用所選方塊設定建造者工具剪貼簿，以便輕鬆測試！
+commands.block.select.regex.desc = 用於依名稱篩選方塊的正則表達式模式
+commands.block.select.all.desc = 包含所有方塊類型 (包含狀態方塊)
+commands.block.select.sort.desc = 排序選項：鍵值、名稱、反向 (以逗號分隔)
+commands.block.select.fliptype.desc = 依翻轉類型篩選方塊
+commands.block.select.variantrotation.desc = 依變體旋轉篩選方塊
+commands.block.select.padding.desc = 方塊之間的間距大小 (預設：1)
+commands.block.select.ground.desc = 要使用的地面方塊類型
+commands.block.select.invalidSortType = 無效的排序類型：{sortType}
+commands.block.select.select = 已選擇 {count} 個方塊！
+commands.block.select.done = 完成設定方塊到剪貼簿！您現在可以使用貼上工具將其貼上。
+commands.block.select.noSelectionProvider = 沒有選擇方塊外掛程式！
+commands.block.bulk.desc = 可能會影響大量方塊的區塊指令
+commands.block.bulk.replace.desc = 大量取代玩家周圍的方塊。
+commands.block.bulk.replace.find.desc = 要尋找的方塊類型
+commands.block.bulk.replace.replaceWith.desc = 要用來取代的方塊類型
+commands.block.bulk.replace.radius.desc = 搜尋半徑 (區塊)
+commands.block.bulk.replace.result = 在 {time} {time, plural, one {秒} other {秒}} 內找到並取代了 {count} {count, plural, one {個方塊} other {個方塊}}！
+commands.block.row.desc = 在從您腳下朝您面向方向的線上，生成符合萬用字元的基礎方塊
+commands.block.row.arg.desc = 萬用字元方塊查詢，例如 "Furniture_*_Table"
+commands.block.row.nonefound = 找不到符合萬用字元 "{query}" 的方塊類型
+commands.block.row.fuzzymatches = 模糊比對作為靈感：{choices}
+commands.block.row.toomanymatches = 您無法使用此指令比對超過 {max} 個方塊！
+commands.block.row.spawning = 生成方塊
+commands.block.inspectphys.desc = 具有物理特性或裝飾方塊的除錯視圖
+commands.block.inspectphys.noblocks = 附近沒有物理方塊
+commands.block.inspectphys.all.desc = 顯示所有方塊，包含沒有物理特性的方塊
+commands.block.inspectphys.done = 已新增覆蓋層
+commands.block.inspectfiller.desc = 具有填充資料方塊的除錯視圖
+commands.block.inspectfiller.done = 已新增覆蓋層
+commands.block.inspectfiller.noblocks = 此區塊中沒有可檢查的方塊
+commands.block.inspectrotation.desc = 檢查目前區塊中的方塊旋轉資料
+commands.block.inspectrotation.done = 方塊旋轉檢查完成
+commands.block.inspectrotation.noblocks = 在這個區塊中找不到旋轉方塊
+commands.block.setticking.desc = 為指定位置的方塊啟用 ticking
+commands.block.setticking.success = 位於 ({x, number}, {y, number}, {z, number}) 的方塊現在正在 ticking
+commands.block.setstate.desc = 設定方塊的狀態
